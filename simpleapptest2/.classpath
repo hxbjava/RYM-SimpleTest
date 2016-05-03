@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/java-client-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/selenium-java-2.46.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/selenium-server-standalone-2.46.0.jar"/>
+	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/lib/log4j-1.2.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/jsonlib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/jsonlib/commons-collections-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/jsonlib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/jsonlib/commons-lang-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/jsonlib/commons-logging-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/自动化/jsonlib/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

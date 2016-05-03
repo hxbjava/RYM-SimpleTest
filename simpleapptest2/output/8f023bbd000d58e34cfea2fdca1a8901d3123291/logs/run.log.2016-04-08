@@ -1,0 +1,864 @@
+2016-04-08 13:47:36 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-08 13:47:40 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-08 13:47:44 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-08 13:47:53 dev_log : [INFO] 获取插件列表
+2016-04-08 13:47:57 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-08 13:47:57 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-08 13:47:57 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-08 13:47:57 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-08 13:47:57 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-08 13:47:57 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-08 13:47:57 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-08 13:47:57 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-08 13:47:57 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-08 13:47:57 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-08 13:47:57 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-08 13:47:57 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-08 13:47:57 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-08 13:47:57 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-08 13:47:57 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-08 13:47:57 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-08 13:47:57 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-08 13:47:57 dev_log : [INFO] 17
+2016-04-08 13:47:57 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_RYMGRZX
+2016-04-08 13:47:57 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_ZCCX
+2016-04-08 13:47:57 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-08 13:47:57 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-08 13:47:57 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-08 13:47:57 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-08 13:47:57 dev_log : [INFO] 6
+2016-04-08 13:48:07 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-08 13:48:08 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:48:30 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:48:36 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:48:42 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:48:51 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-08 13:48:52 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:48:57 dev_log : [INFO] 当前需要登录插件个数为：6
+2016-04-08 13:48:58 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 13:49:00 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 13:49:02 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-08 13:49:04 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：6
+2016-04-08 13:49:04 dev_log : [INFO] 循环对比完
+2016-04-08 13:49:06 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:49:11 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:49:17 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:49:26 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-08 13:49:27 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:49:38 dev_log : [INFO] 当前需要登录插件个数为：5
+2016-04-08 13:49:39 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 13:49:41 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 13:49:43 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-08 13:49:44 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：5
+2016-04-08 13:49:44 dev_log : [INFO] 循环对比完
+2016-04-08 13:49:46 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:49:51 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:49:57 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:50:06 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 13:50:07 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:50:12 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-08 13:50:13 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 13:50:15 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 13:50:17 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-08 13:50:18 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：4
+2016-04-08 13:50:18 dev_log : [INFO] 循环对比完
+2016-04-08 13:50:20 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:50:25 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:50:32 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:50:41 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 13:50:42 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:51:05 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:51:10 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:51:16 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:51:36 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 13:51:37 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:51:59 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:52:04 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:52:10 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:52:20 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 13:52:21 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:52:43 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:52:49 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:52:55 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:53:04 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 13:53:05 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:53:10 dev_log : [INFO] 当前需要登录插件个数为：3
+2016-04-08 13:53:11 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 13:53:13 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 13:53:16 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-08 13:53:17 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：3
+2016-04-08 13:53:17 dev_log : [INFO] 循环对比完
+2016-04-08 13:53:19 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:53:24 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:53:30 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:53:39 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 13:53:40 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:54:03 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:54:08 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:54:14 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:54:24 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-08 13:54:25 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:54:49 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:54:55 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:55:01 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:55:10 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 13:55:11 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:55:33 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:55:38 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:55:45 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:55:54 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 13:55:55 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:56:18 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:56:23 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:56:29 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:56:38 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 13:56:40 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:57:03 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:57:10 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:57:18 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:57:27 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 13:57:28 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:57:51 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:57:57 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:58:03 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:58:13 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 13:58:14 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:58:40 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:58:45 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:58:51 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 13:59:11 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 13:59:12 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 13:59:34 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 13:59:39 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 13:59:45 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:01:11 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-08 14:01:15 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-08 14:01:19 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-08 14:01:27 dev_log : [INFO] 获取插件列表
+2016-04-08 14:01:29 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-08 14:01:29 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-08 14:01:29 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-08 14:01:29 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-08 14:01:29 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-08 14:01:29 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-08 14:01:29 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-08 14:01:29 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-08 14:01:29 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-08 14:01:29 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-08 14:01:29 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-08 14:01:29 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-08 14:01:29 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-08 14:01:29 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-08 14:01:29 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-08 14:01:29 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-08 14:01:29 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-08 14:01:29 dev_log : [INFO] 17
+2016-04-08 14:01:29 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_RYMGRZX
+2016-04-08 14:01:29 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_ZCCX
+2016-04-08 14:01:29 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-08 14:01:29 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-08 14:01:29 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-08 14:01:29 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-08 14:01:29 dev_log : [INFO] 6
+2016-04-08 14:01:38 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-08 14:01:39 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:02:06 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:02:11 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:02:17 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:02:26 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-08 14:02:27 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:02:50 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:02:55 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:03:01 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:03:11 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-08 14:03:12 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:03:17 dev_log : [INFO] 当前需要登录插件个数为：6
+2016-04-08 14:03:18 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 14:03:20 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 14:03:22 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-08 14:03:23 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：6
+2016-04-08 14:03:23 dev_log : [INFO] 循环对比完
+2016-04-08 14:03:25 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:03:30 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:03:36 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:03:45 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-08 14:03:47 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:04:02 dev_log : [INFO] 当前需要登录插件个数为：5
+2016-04-08 14:04:02 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 14:04:05 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 14:04:07 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-08 14:04:08 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：5
+2016-04-08 14:04:08 dev_log : [INFO] 循环对比完
+2016-04-08 14:04:10 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:04:15 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:04:21 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:04:30 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 14:04:31 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:04:36 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-08 14:04:37 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 14:04:39 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 14:04:41 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-08 14:04:42 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：4
+2016-04-08 14:04:42 dev_log : [INFO] 循环对比完
+2016-04-08 14:04:44 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:04:49 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:04:56 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:05:15 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 14:05:17 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:05:39 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:05:44 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:05:50 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:06:00 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 14:06:01 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:06:23 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:06:28 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:06:34 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:06:44 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 14:06:45 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:06:50 dev_log : [INFO] 当前需要登录插件个数为：3
+2016-04-08 14:06:51 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 14:06:53 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 14:06:55 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-08 14:06:56 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：3
+2016-04-08 14:06:56 dev_log : [INFO] 循环对比完
+2016-04-08 14:06:58 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:07:03 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:07:09 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:07:19 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 14:07:20 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:07:43 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:07:48 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:07:55 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:08:04 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 14:08:05 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:08:28 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:08:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:08:39 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:08:49 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 14:08:50 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:09:12 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:09:17 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:09:23 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:09:32 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 14:09:34 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:09:56 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:10:01 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:10:08 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:10:17 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 14:10:18 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:10:23 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-08 14:10:24 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 14:10:26 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 14:10:27 dev_log : [INFO] 循环对比完
+2016-04-08 14:10:29 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:10:34 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:10:40 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:10:50 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 14:10:52 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:11:15 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:11:20 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:11:27 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:11:36 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 14:11:38 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:12:01 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:12:06 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:12:12 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:12:32 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 14:12:33 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:12:55 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:13:00 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:13:07 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:13:16 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 14:13:17 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:13:39 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:13:44 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:13:51 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:14:00 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 14:14:01 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:14:06 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-08 14:14:07 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 14:14:09 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 14:14:10 dev_log : [INFO] 循环对比完
+2016-04-08 14:14:12 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:14:17 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:14:23 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:14:33 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 14:14:34 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:14:57 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:15:02 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:15:09 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:15:18 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 14:15:19 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:15:42 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:15:47 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:15:53 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:16:03 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 14:16:04 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:16:26 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:16:31 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:16:37 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:16:47 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 14:16:48 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:17:10 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:17:16 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:17:22 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:17:31 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 14:17:32 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:17:37 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-08 14:17:38 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 14:17:40 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 14:17:41 dev_log : [INFO] 循环对比完
+2016-04-08 14:17:43 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:17:48 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:17:54 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:18:04 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 14:18:05 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:18:32 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:18:39 dev_log : [INFO] 进入点击htmlbackhome状态...
+2016-04-08 14:18:40 dev_log : [INFO] [点击 -> name: htmlbackhome]
+2016-04-08 14:18:44 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:18:50 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:19:04 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 14:19:06 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:19:30 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:19:35 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:19:41 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:20:01 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 14:20:02 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:20:24 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:20:29 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:20:35 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:20:45 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 14:20:46 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:21:08 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:21:14 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:21:20 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:21:29 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 14:21:30 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:21:35 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-08 14:21:36 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 14:21:38 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 14:21:39 dev_log : [INFO] 循环对比完
+2016-04-08 14:21:41 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:21:46 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:21:53 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:22:02 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 14:22:03 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:22:26 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:22:31 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:22:37 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:22:47 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 14:22:48 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:23:11 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:23:16 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:23:22 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:23:32 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 14:23:33 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:23:55 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:24:00 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:24:06 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:24:16 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 14:24:17 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:24:39 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:24:44 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:24:51 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:25:00 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 14:25:02 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:25:06 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-08 14:25:07 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA01100000000_02_RYMGRZX
+2016-04-08 14:25:09 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_ZCCX
+2016-04-08 14:25:10 dev_log : [INFO] 循环对比完
+2016-04-08 14:25:12 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:25:17 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:25:23 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:25:33 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 14:25:34 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:25:57 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:26:02 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:26:09 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:26:18 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 14:26:19 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:26:46 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:26:51 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:26:57 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:27:17 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 14:27:18 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:27:44 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:27:49 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:27:55 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:28:05 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 14:28:06 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:28:33 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:28:38 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:28:44 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:28:53 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 14:28:54 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:29:20 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:29:26 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:29:40 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 14:29:41 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:30:08 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:30:13 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:30:19 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:30:28 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 14:30:29 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:30:56 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:31:01 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:31:07 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:31:17 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 14:31:18 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:31:44 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:31:49 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:31:55 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:32:05 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 14:32:06 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:32:32 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:32:37 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:32:43 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:32:53 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 14:32:54 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:33:20 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:33:25 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:33:39 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 14:33:41 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:34:07 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:34:12 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:34:18 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:34:28 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 14:34:29 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:34:55 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:35:00 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:35:06 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:35:26 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 14:35:27 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:35:54 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:36:00 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:36:06 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:36:15 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 14:36:17 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:36:39 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:36:44 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:36:50 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:37:00 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 14:37:01 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:37:26 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:37:32 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:37:46 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 14:37:47 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:38:14 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:38:19 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:38:25 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:38:34 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 14:38:36 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:39:02 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:39:07 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:39:13 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:39:23 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 14:39:24 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:39:51 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:39:55 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:40:01 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:40:11 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 14:40:12 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:40:39 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:40:44 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:40:50 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:40:59 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 14:41:00 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:41:26 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:41:32 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:41:46 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 14:41:47 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:42:14 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:42:19 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:42:25 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:42:35 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 14:42:36 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:43:02 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:43:07 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:43:13 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:43:33 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 14:43:34 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:44:01 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:44:06 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:44:12 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:44:21 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 14:44:23 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:44:49 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:44:54 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:45:00 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:45:10 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 14:45:11 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:45:36 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:45:42 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:45:56 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 14:45:57 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:46:24 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:46:29 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:46:35 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:46:45 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 14:46:46 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:47:12 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:47:17 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:47:23 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:47:33 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 14:47:34 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:48:01 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:48:06 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:48:12 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:48:21 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 14:48:23 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:48:49 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:48:54 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:49:00 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:49:10 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 14:49:11 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:49:37 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:49:42 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:49:56 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 14:49:58 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:50:24 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:50:29 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 14:50:35 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 14:50:45 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 14:50:46 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 14:51:13 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 14:51:18 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:38:46 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-08 15:38:50 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-08 15:38:54 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-08 15:39:03 dev_log : [INFO] 获取插件列表
+2016-04-08 15:39:05 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-08 15:39:05 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-08 15:39:05 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-08 15:39:05 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-08 15:39:05 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-08 15:39:05 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-08 15:39:05 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-08 15:39:05 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-08 15:39:05 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-08 15:39:05 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-08 15:39:05 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-08 15:39:05 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-08 15:39:05 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-08 15:39:05 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-08 15:39:05 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-08 15:39:05 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-08 15:39:05 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-08 15:39:05 dev_log : [INFO] 17
+2016-04-08 15:39:05 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-08 15:39:05 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-08 15:39:05 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-08 15:39:05 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-08 15:39:05 dev_log : [INFO] 4
+2016-04-08 15:39:09 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-08 15:39:15 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-08 15:39:16 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:39:39 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:39:44 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:39:50 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:39:59 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-08 15:40:01 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:40:27 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:40:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:40:39 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:40:48 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-08 15:40:50 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:40:55 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-08 15:40:56 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-08 15:40:57 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：4
+2016-04-08 15:40:57 dev_log : [INFO] 循环对比完
+2016-04-08 15:40:59 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:41:04 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:41:10 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:41:19 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-08 15:41:21 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:41:25 dev_log : [INFO] 当前需要登录插件个数为：3
+2016-04-08 15:41:27 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-08 15:41:27 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：3
+2016-04-08 15:41:27 dev_log : [INFO] 循环对比完
+2016-04-08 15:41:29 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:41:34 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:41:40 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:41:49 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 15:41:50 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:41:55 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-08 15:41:56 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-08 15:41:57 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：2
+2016-04-08 15:41:57 dev_log : [INFO] 循环对比完
+2016-04-08 15:41:59 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:42:04 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:42:10 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:42:24 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-08 15:42:30 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 15:42:32 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:42:58 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:43:02 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:43:09 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:43:18 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 15:43:19 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:43:46 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:43:51 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:43:57 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:44:07 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 15:44:08 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:44:13 dev_log : [INFO] 当前需要登录插件个数为：1
+2016-04-08 15:44:14 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-08 15:44:15 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：1
+2016-04-08 15:44:15 dev_log : [INFO] 循环对比完
+2016-04-08 15:44:17 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:44:22 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:44:28 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:44:38 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 15:44:39 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:45:02 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:45:07 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:45:13 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:45:23 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 15:45:24 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:45:46 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:45:51 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:45:58 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:46:07 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 15:46:08 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:46:30 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:46:35 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:46:42 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:46:51 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 15:46:52 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:47:14 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:47:19 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:47:26 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:47:35 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 15:47:36 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:47:41 dev_log : [INFO] 当前需要登录插件个数为：0
+2016-04-08 15:47:41 dev_log : [INFO] 循环对比完
+2016-04-08 15:47:43 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:47:48 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:47:54 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:48:04 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 15:48:05 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:48:28 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:48:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:48:39 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:48:49 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 15:48:50 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:49:13 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:49:18 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:49:24 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:49:32 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-08 15:49:38 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 15:49:40 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:50:02 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:50:07 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:50:13 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:50:23 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 15:50:24 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:50:46 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:50:51 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:50:57 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:51:07 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 15:51:08 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:51:13 dev_log : [INFO] 当前需要登录插件个数为：0
+2016-04-08 15:51:13 dev_log : [INFO] 循环对比完
+2016-04-08 15:51:15 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:51:20 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:51:26 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:51:35 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 15:51:37 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:51:59 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:52:04 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:52:11 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:52:20 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 15:52:22 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:52:44 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:52:49 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:52:55 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:53:05 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 15:53:06 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:53:28 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:53:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:53:40 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:53:49 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 15:53:50 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:54:13 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:54:20 dev_log : [INFO] 进入点击htmlbackhome状态...
+2016-04-08 15:54:50 dev_log : [ERROR] An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'rymtestdeMac-mini.local', ip: '10.180.186.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/rymtest/Desktop/app_package/PAAnydoorSDK1130-1108.ipa, appPackage=, networkConnectionEnabled=false, warnings={}, appiumVersion=1.0, databaseEnabled=false, deviceName=娱乐 (2), platform=MAC, appActivity=, desired={app=/Users/rymtest/Desktop/app_package/PAAnydoorSDK1130-1108.ipa, appPackage=, appActivity=, appiumVersion=1.0, platformVersion=9.0, unicodeKeyboard=true, platformName=iOS, udid=8f023bbd000d58e34cfea2fdca1a8901d3123291, deviceName=娱乐 (2), resetKeyboard=true}, platformVersion=9.0, webStorageEnabled=false, locationContextEnabled=false, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=iOS, udid=8f023bbd000d58e34cfea2fdca1a8901d3123291, resetKeyboard=true}]
+Session ID: 99e7a733-7fbb-46dc-8530-2d3ce36f67d7
+*** Element info: {Using=name, value=htmlbackhome}
+2016-04-08 15:54:51 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:54:57 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:55:03 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:55:13 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 15:55:14 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:55:19 dev_log : [INFO] 当前需要登录插件个数为：0
+2016-04-08 15:55:19 dev_log : [INFO] 循环对比完
+2016-04-08 15:55:21 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:55:26 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:55:32 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:55:41 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 15:55:42 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:56:06 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:56:11 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:56:17 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:56:26 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 15:56:28 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:56:51 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:56:56 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:57:02 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:57:11 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-08 15:57:18 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 15:57:19 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:57:41 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:57:46 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:57:52 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:58:02 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 15:58:03 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:58:25 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:58:30 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:58:37 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:58:46 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 15:58:47 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:59:02 dev_log : [INFO] 当前需要登录插件个数为：0
+2016-04-08 15:59:02 dev_log : [INFO] 循环对比完
+2016-04-08 15:59:04 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:59:09 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 15:59:15 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 15:59:25 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 15:59:26 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 15:59:49 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 15:59:54 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:00:00 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:00:10 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 16:00:11 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:00:33 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:00:38 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:00:45 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:00:54 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 16:00:55 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:03:55 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-08 16:03:59 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-08 16:04:03 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-08 16:04:12 dev_log : [INFO] 获取插件列表
+2016-04-08 16:04:13 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-08 16:04:13 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-08 16:04:13 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-08 16:04:13 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-08 16:04:13 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-08 16:04:13 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-08 16:04:13 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-08 16:04:13 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-08 16:04:13 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-08 16:04:13 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-08 16:04:13 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-08 16:04:13 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-08 16:04:13 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-08 16:04:13 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-08 16:04:13 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-08 16:04:13 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-08 16:04:13 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-08 16:04:13 dev_log : [INFO] 17
+2016-04-08 16:04:13 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-08 16:04:13 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-08 16:04:13 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-08 16:04:13 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-08 16:04:13 dev_log : [INFO] 4
+2016-04-08 16:04:16 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-08 16:04:22 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-08 16:04:24 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:04:46 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:04:51 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:04:57 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:05:07 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-08 16:05:08 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:05:13 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-08 16:05:14 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-08 16:05:15 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：4
+2016-04-08 16:05:15 dev_log : [INFO] 循环对比完
+2016-04-08 16:05:17 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:05:22 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:05:28 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:05:37 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-08 16:05:39 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:05:54 dev_log : [INFO] 当前需要登录插件个数为：3
+2016-04-08 16:05:55 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-08 16:05:56 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：3
+2016-04-08 16:05:56 dev_log : [INFO] 循环对比完
+2016-04-08 16:05:58 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:06:03 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:06:09 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:06:18 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-08 16:06:19 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:06:24 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-08 16:06:25 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-08 16:06:26 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：2
+2016-04-08 16:06:26 dev_log : [INFO] 循环对比完
+2016-04-08 16:06:28 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:06:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:06:40 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:06:49 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 16:06:50 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:07:13 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:07:18 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:07:24 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:07:38 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-08 16:07:44 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-08 16:07:45 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:08:07 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:08:12 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:08:18 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:08:29 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-08 16:08:30 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:08:52 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:08:57 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:09:03 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:09:13 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-08 16:09:14 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:09:19 dev_log : [INFO] 当前需要登录插件个数为：1
+2016-04-08 16:09:20 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-08 16:09:21 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：1
+2016-04-08 16:09:21 dev_log : [INFO] 循环对比完
+2016-04-08 16:09:23 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:09:28 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:09:34 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:09:44 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-08 16:09:45 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:10:07 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:10:13 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:10:19 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:10:28 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-08 16:10:29 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:10:52 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:10:57 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:11:03 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:11:13 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-08 16:11:14 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:11:37 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:11:42 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:11:48 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:11:58 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-08 16:11:59 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:12:21 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:12:26 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:12:32 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:12:42 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-08 16:12:43 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:13:05 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:13:10 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:13:17 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:13:26 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-08 16:13:27 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:13:50 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:13:56 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:14:02 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-08 16:14:11 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-08 16:14:12 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-08 16:14:35 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-08 16:14:41 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-08 16:14:47 dev_log : [INFO] [点击 -> name: closeButton]

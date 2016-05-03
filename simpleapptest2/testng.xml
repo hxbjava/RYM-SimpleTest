@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="ipod-jianghongbo720">
+  <parameter name="appName" value="PAAnyDoorSDK2.ipa"/> 
+    <parameter name="filePath" value="/Users/rymtest/Desktop/app_package/"/>
+    <parameter name="platformName" value="ios"/>
+    <parameter name="platformVersion" value="7.1.2"/>
+    <parameter name="deviceName" value="firer"/> 
+    <parameter name="appPackage" value=""/>
+    <parameter name="appActivity" value=""/>
+    <parameter name="port" value="4723"/>
+    <parameter name="udid" value="2abb53d0f829972ba905cca44662d89f1fd4fcda"/>
+    <parameter name="timeout" value="60"/>
+    <parameter name="remote_url" value=""/>
+    <test name="IPHONE-5S" preserve-order="true">
+       	<groups>
+       	    <define name="p1">
+       	        <include name="p1"></include>
+       	    </define>
+       	    <define name="p2">
+       	        <include name="p2"></include>
+       	    </define>
+       	    <run>
+       	        <include name="p2"></include>
+       	    </run>
+       	</groups>
+        <classes>
+            <class name="com.rym.libarary.testsuits.Login_Test"></class>
+             <class name="com.rym.libarary.testsuits.OpenPlugin_Test"></class>
+        </classes>
+        <parameter name="PluginList_url" value="https://maam-dmzstg2.pingan.com.cn:9041/maam/getPluginList.do?sdkVersion=3.1.0.392&osVersion=9.0&deviceId=8f023bbd000d58e34cfea2fdca1a8901d3123291&appId=PA01100000000_01_SDK&appVersion=1.0&deviceType=ios"></parameter>
+    </test>
+    
+    
+    <parameter name="appID" value="任意门"/>
+    <parameter name="login_name" value="sjtest003"/>
+    <parameter name="login_password" value="qweqwe123"/>
+    <parameter name="login_classname" value="UIALink"/>
+
+</suite>

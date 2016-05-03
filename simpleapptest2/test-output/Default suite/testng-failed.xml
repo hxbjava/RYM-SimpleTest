@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="PluginList_url" value="https://maam-dmzstg2.pingan.com.cn:9041/maam/getPluginList.do?sdkVersion=3.1.0.392&amp;osVersion=9.0&amp;deviceId=8f023bbd000d58e34cfea2fdca1a8901d3123291&amp;appId=PA01100000000_01_SDK&amp;appVersion=1.0&amp;deviceType=ios"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.rym.libarary.testsuits.OpenPlugin_Test">
+        <methods>
+          <include name="clickPluginList"/>
+          <include name="afterSuite"/>
+          <include name="clickPluginList2"/>
+        </methods>
+      </class> <!-- com.rym.libarary.testsuits.OpenPlugin_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

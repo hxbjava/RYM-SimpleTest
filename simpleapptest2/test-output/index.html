@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ipod-jianghongbo720">
+              <span class="suite-name border-failed">ipod-jianghongbo720</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ipod-jianghongbo720">
+                    <span>testng-6.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ipod-jianghongbo720">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ipod-jianghongbo720">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ipod-jianghongbo720">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ipod-jianghongbo720">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ipod-jianghongbo720">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ipod-jianghongbo720">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 3 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ipod-jianghongbo720" class="hide-methods failed suite-ipod-jianghongbo720"> (hide)</a> <!-- hide-methods failed suite-ipod-jianghongbo720 -->
+                      <a href="#" panel-name="suite-ipod-jianghongbo720" class="show-methods failed suite-ipod-jianghongbo720"> (show)</a> <!-- show-methods failed suite-ipod-jianghongbo720 -->
+                    </span>
+                    <div class="method-list-content failed suite-ipod-jianghongbo720">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ipod-jianghongbo720" title="com.rym.libarary.testsuits.PersonalCenter_Test" hash-for-method="LoginPersonalCenterByH5(新个人中心, sjtest003, qweqwe123)">LoginPersonalCenterByH5(新个人中心, sjtest003, qweqwe123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ipod-jianghongbo720" title="com.rym.libarary.testsuits.PersonalCenter_Test" hash-for-method="LoginPersonalCenterByH5BeforNoYZT(新个人中心, sjtest003, qweqwe123, rymtest001)">LoginPersonalCenterByH5BeforNoYZT(新个人中心, sjtest003, qweqwe123, rymtest001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ipod-jianghongbo720" title="com.rym.libarary.testsuits.PersonalCenter_Test" hash-for-method="LoginYztTimeout(新个人中心, sjtest003, qweqwe123)">LoginYztTimeout(新个人中心, sjtest003, qweqwe123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ipod-jianghongbo720 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ipod-jianghongbo720" class="hide-methods passed suite-ipod-jianghongbo720"> (hide)</a> <!-- hide-methods passed suite-ipod-jianghongbo720 -->
+                      <a href="#" panel-name="suite-ipod-jianghongbo720" class="show-methods passed suite-ipod-jianghongbo720"> (show)</a> <!-- show-methods passed suite-ipod-jianghongbo720 -->
+                    </span>
+                    <div class="method-list-content passed suite-ipod-jianghongbo720">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ipod-jianghongbo720" title="com.rym.libarary.testsuits.PersonalCenter_Test" hash-for-method="ClickMsgCenter(消息中心)">ClickMsgCenter(消息中心)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ipod-jianghongbo720" title="com.rym.libarary.testsuits.PersonalCenter_Test" hash-for-method="LoginPersonalCenterByHost(新个人中心, rymtest001)">LoginPersonalCenterByHost(新个人中心, rymtest001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ipod-jianghongbo720" title="com.rym.libarary.testsuits.PersonalCenter_Test" hash-for-method="LoginPersonalCenterByHostYZT(测试, rymtest001)">LoginPersonalCenterByHostYZT(测试, rymtest001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ipod-jianghongbo720" title="com.rym.libarary.testsuits.PersonalCenter_Test" hash-for-method="LoginTimeout(新个人中心)">LoginTimeout(新个人中心)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ipod-jianghongbo720 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ipod-jianghongbo720" class="panel ipod-jianghongbo720">
+          <div class="suite-ipod-jianghongbo720-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.rym.libarary.testsuits.PersonalCenter_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPersonalCenterByH5(新个人中心, sjtest003, qweqwe123)">
+                  </a> <!-- LoginPersonalCenterByH5(新个人中心, sjtest003, qweqwe123) -->
+                  <span class="method-name">LoginPersonalCenterByH5</span>
+                  <span class="parameters">(新个人中心, sjtest003, qweqwe123)</span>
+                  <div class="stack-trace">java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.pagefactory.ElementInterceptor.intercept(ElementInterceptor.java:31)
+	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$55680413.sendKeys(&lt;generated&gt;)
+	at com.rym.libarary.base.operateFactory.AppOperate.sendKeys(AppOperate.java:180)
+	at com.rym.libarary.business.Login.loginyztByH5(Login.java:44)
+	at com.rym.libarary.testsuits.PersonalCenter_Test.LoginPersonalCenterByH5(PersonalCenter_Test.java:28)
+Caused by: org.openqa.selenium.WebDriverException: An error occurred while executing user supplied JavaScript. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.92 seconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:17:10&apos;
+System info: host: &apos;rymtestdeMac-mini.local&apos;, ip: &apos;10.180.186.64&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/rymtest/Desktop/app_package/PAAnydoorSDK1130-1108.ipa, appPackage=, networkConnectionEnabled=false, warnings={}, appiumVersion=1.0, databaseEnabled=false, deviceName=娱乐 (2), platform=MAC, appActivity=, desired={app=/Users/rymtest/Desktop/app_package/PAAnydoorSDK1130-1108.ipa, appPackage=, appActivity=, appiumVersion=1.0, platformVersion=9.0, unicodeKeyboard=true, platformName=iOS, udid=8f023bbd000d58e34cfea2fdca1a8901d3123291, deviceName=娱乐 (2), resetKeyboard=true, autoAcceptAlerts=true}, platformVersion=9.0, webStorageEnabled=false, locationContextEnabled=false, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=iOS, udid=8f023bbd000d58e34cfea2fdca1a8901d3123291, resetKeyboard=true, autoAcceptAlerts=true}]
+Session ID: c31dc8f1-fe22-4ef4-ba4d-1b99c8aee2a8
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:27)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:90)
+	... 33 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPersonalCenterByH5BeforNoYZT(新个人中心, sjtest003, qweqwe123, rymtest001)">
+                  </a> <!-- LoginPersonalCenterByH5BeforNoYZT(新个人中心, sjtest003, qweqwe123, rymtest001) -->
+                  <span class="method-name">LoginPersonalCenterByH5BeforNoYZT</span>
+                  <span class="parameters">(新个人中心, sjtest003, qweqwe123, rymtest001)</span>
+                  <div class="stack-trace">java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.pagefactory.ElementInterceptor.intercept(ElementInterceptor.java:31)
+	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$55680413.sendKeys(&lt;generated&gt;)
+	at com.rym.libarary.base.operateFactory.AppOperate.sendKeys(AppOperate.java:180)
+	at com.rym.libarary.business.Login.loginyztByLow(Login.java:133)
+	at com.rym.libarary.testsuits.PersonalCenter_Test.LoginPersonalCenterByH5BeforNoYZT(PersonalCenter_Test.java:82)
+Caused by: org.openqa.selenium.WebDriverException: An error occurred while executing user supplied JavaScript. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.72 seconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:17:10&apos;
+System info: host: &apos;rymtestdeMac-mini.local&apos;, ip: &apos;10.180.186.64&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/rymtest/Desktop/app_package/PAAnydoorSDK1130-1108.ipa, appPackage=, networkConnectionEnabled=false, warnings={}, appiumVersion=1.0, databaseEnabled=false, deviceName=娱乐 (2), platform=MAC, appActivity=, desired={app=/Users/rymtest/Desktop/app_package/PAAnydoorSDK1130-1108.ipa, appPackage=, appActivity=, appiumVersion=1.0, platformVersion=9.0, unicodeKeyboard=true, platformName=iOS, udid=8f023bbd000d58e34cfea2fdca1a8901d3123291, deviceName=娱乐 (2), resetKeyboard=true, autoAcceptAlerts=true}, platformVersion=9.0, webStorageEnabled=false, locationContextEnabled=false, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=iOS, udid=8f023bbd000d58e34cfea2fdca1a8901d3123291, resetKeyboard=true, autoAcceptAlerts=true}]
+Session ID: c31dc8f1-fe22-4ef4-ba4d-1b99c8aee2a8
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:27)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:90)
+	... 33 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginYztTimeout(新个人中心, sjtest003, qweqwe123)">
+                  </a> <!-- LoginYztTimeout(新个人中心, sjtest003, qweqwe123) -->
+                  <span class="method-name">LoginYztTimeout</span>
+                  <span class="parameters">(新个人中心, sjtest003, qweqwe123)</span>
+                  <div class="stack-trace">java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.pagefactory.ElementInterceptor.intercept(ElementInterceptor.java:31)
+	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$55680413.sendKeys(&lt;generated&gt;)
+	at com.rym.libarary.base.operateFactory.AppOperate.sendKeys(AppOperate.java:180)
+	at com.rym.libarary.business.Login.loginyztByH5(Login.java:44)
+	at com.rym.libarary.testsuits.PersonalCenter_Test.LoginYztTimeout(PersonalCenter_Test.java:122)
+Caused by: org.openqa.selenium.WebDriverException: An error occurred while executing user supplied JavaScript. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.97 seconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:17:10&apos;
+System info: host: &apos;rymtestdeMac-mini.local&apos;, ip: &apos;10.180.186.64&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/rymtest/Desktop/app_package/PAAnydoorSDK1130-1108.ipa, appPackage=, networkConnectionEnabled=false, warnings={}, appiumVersion=1.0, databaseEnabled=false, deviceName=娱乐 (2), platform=MAC, appActivity=, desired={app=/Users/rymtest/Desktop/app_package/PAAnydoorSDK1130-1108.ipa, appPackage=, appActivity=, appiumVersion=1.0, platformVersion=9.0, unicodeKeyboard=true, platformName=iOS, udid=8f023bbd000d58e34cfea2fdca1a8901d3123291, deviceName=娱乐 (2), resetKeyboard=true, autoAcceptAlerts=true}, platformVersion=9.0, webStorageEnabled=false, locationContextEnabled=false, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=iOS, udid=8f023bbd000d58e34cfea2fdca1a8901d3123291, resetKeyboard=true, autoAcceptAlerts=true}]
+Session ID: c31dc8f1-fe22-4ef4-ba4d-1b99c8aee2a8
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:27)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:90)
+	... 33 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ipod-jianghongbo720-class-failed -->
+          <div class="suite-ipod-jianghongbo720-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rym.libarary.testsuits.PersonalCenter_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickMsgCenter(消息中心)">
+                  </a> <!-- ClickMsgCenter(消息中心) -->
+                  <span class="method-name">ClickMsgCenter</span>
+                  <span class="parameters">(消息中心)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPersonalCenterByHost(新个人中心, rymtest001)">
+                  </a> <!-- LoginPersonalCenterByHost(新个人中心, rymtest001) -->
+                  <span class="method-name">LoginPersonalCenterByHost</span>
+                  <span class="parameters">(新个人中心, rymtest001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPersonalCenterByHostYZT(测试, rymtest001)">
+                  </a> <!-- LoginPersonalCenterByHostYZT(测试, rymtest001) -->
+                  <span class="method-name">LoginPersonalCenterByHostYZT</span>
+                  <span class="parameters">(测试, rymtest001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTimeout(新个人中心)">
+                  </a> <!-- LoginTimeout(新个人中心) -->
+                  <span class="method-name">LoginTimeout</span>
+                  <span class="parameters">(新个人中心)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ipod-jianghongbo720-class-passed -->
+        </div> <!-- panel ipod-jianghongbo720 -->
+        <div panel-name="test-xml-ipod-jianghongbo720" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rymtest/Desktop/adt/work/simpleapptest/testng-6.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ipod-jianghongbo720&quot;&gt;
+  &lt;parameter name=&quot;appPackage&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;remote_url&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;login_classname&quot; value=&quot;UIALink&quot;/&gt;
+  &lt;parameter name=&quot;LoginPersonalAferName&quot; value=&quot;测试&quot;/&gt;
+  &lt;parameter name=&quot;MsgCenter&quot; value=&quot;消息中心&quot;/&gt;
+  &lt;parameter name=&quot;login_HostName&quot; value=&quot;rymtest001&quot;/&gt;
+  &lt;parameter name=&quot;LoginPersonalCenterName&quot; value=&quot;新个人中心&quot;/&gt;
+  &lt;parameter name=&quot;PluginList_url&quot; value=&quot;https://maam-dmzstg2.pingan.com.cn:9041/maam/getPluginList.do?sdkVersion=3.3.0.1&amp;amp;osVersion=9.0&amp;amp;deviceId=8f023bbd000d58e34cfea2fdca1a8901d3123291&amp;amp;appId=PA00800000000_01_EQY&amp;amp;appVersion=1.0&amp;amp;deviceType=ios&quot;/&gt;
+  &lt;parameter name=&quot;appName&quot; value=&quot;PAAnydoorSDK1130-1108.ipa&quot;/&gt;
+  &lt;parameter name=&quot;filePath&quot; value=&quot;/Users/rymtest/Desktop/app_package/&quot;/&gt;
+  &lt;parameter name=&quot;deviceName&quot; value=&quot;娱乐 (2)&quot;/&gt;
+  &lt;parameter name=&quot;timeout&quot; value=&quot;60&quot;/&gt;
+  &lt;parameter name=&quot;appActivity&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;login_name&quot; value=&quot;sjtest003&quot;/&gt;
+  &lt;parameter name=&quot;login_password&quot; value=&quot;qweqwe123&quot;/&gt;
+  &lt;parameter name=&quot;port&quot; value=&quot;4723&quot;/&gt;
+  &lt;parameter name=&quot;LoginH5AferName&quot; value=&quot;黑米&quot;/&gt;
+  &lt;parameter name=&quot;platformVersion&quot; value=&quot;9.0&quot;/&gt;
+  &lt;parameter name=&quot;appID&quot; value=&quot;养老险E企赢&quot;/&gt;
+  &lt;parameter name=&quot;platformName&quot; value=&quot;ios&quot;/&gt;
+  &lt;parameter name=&quot;udid&quot; value=&quot;8f023bbd000d58e34cfea2fdca1a8901d3123291&quot;/&gt;
+  &lt;test name=&quot;IPHONE-5S&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;p1&quot;&gt;
+        &lt;include name=&quot;p1&quot;/&gt;
+      &lt;/define&gt; &lt;!-- p1 --&gt;
+      &lt;define name=&quot;p2&quot;&gt;
+        &lt;include name=&quot;p2&quot;/&gt;
+      &lt;/define&gt; &lt;!-- p2 --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;p1&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rym.libarary.testsuits.Login_Test&quot;/&gt;
+      &lt;class name=&quot;com.rym.libarary.testsuits.OpenPlugin_Test&quot;/&gt;
+      &lt;class name=&quot;com.rym.libarary.testsuits.PersonalCenter_Test&quot;/&gt;
+      &lt;class name=&quot;com.rym.libarary.testsuits.DownloadCenter_Test&quot;/&gt;
+      &lt;class name=&quot;com.rym.libarary.testsuits.MsgCenter_Test&quot;/&gt;
+      &lt;class name=&quot;com.rym.libarary.testsuits.Plugin_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IPHONE-5S --&gt;
+&lt;/suite&gt; &lt;!-- ipod-jianghongbo720 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ipod-jianghongbo720" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ipod-jianghongbo720</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">IPHONE-5S (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ipod-jianghongbo720" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ipod-jianghongbo720</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">p1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ClickMsgCenter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginPersonalCenterByH5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginPersonalCenterByH5BeforNoYZT</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginPersonalCenterByHost</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginPersonalCenterByHostYZT</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginTimeout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginYztTimeout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ipod-jianghongbo720" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ipod-jianghongbo720</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ipod-jianghongbo720');
+function tableData_ipod-jianghongbo720() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginTimeout')
+data.setCell(0, 2, 'com.rym.libarary.testsuits.PersonalCenter_Test')
+data.setCell(0, 3, 1089588);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginPersonalCenterByH5BeforNoYZT')
+data.setCell(1, 2, 'com.rym.libarary.testsuits.PersonalCenter_Test')
+data.setCell(1, 3, 125799);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginPersonalCenterByHost')
+data.setCell(2, 2, 'com.rym.libarary.testsuits.PersonalCenter_Test')
+data.setCell(2, 3, 89626);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginPersonalCenterByHostYZT')
+data.setCell(3, 2, 'com.rym.libarary.testsuits.PersonalCenter_Test')
+data.setCell(3, 3, 88316);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginYztTimeout')
+data.setCell(4, 2, 'com.rym.libarary.testsuits.PersonalCenter_Test')
+data.setCell(4, 3, 49211);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginPersonalCenterByH5')
+data.setCell(5, 2, 'com.rym.libarary.testsuits.PersonalCenter_Test')
+data.setCell(5, 3, 48579);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ClickMsgCenter')
+data.setCell(6, 2, 'com.rym.libarary.testsuits.PersonalCenter_Test')
+data.setCell(6, 3, 26054);
+window.suiteTableData['ipod-jianghongbo720']= { tableData: data, tableDiv: 'times-div-ipod-jianghongbo720'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 minutes</span>
+              <div id="times-div-ipod-jianghongbo720">
+              </div> <!-- times-div-ipod-jianghongbo720 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ipod-jianghongbo720" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ipod-jianghongbo720</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickMsgCenter(消息中心)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2016-04-15 16:46:00 : [STEP] 个人中心用例1-5 插件不配置强登， 例如消息中心 开始跑</span>
+                <span class="reporter-method-output">2016-04-15 16:46:00 : [INFO] 模拟向右滑动</span>
+                <span class="reporter-method-output">2016-04-15 16:46:05 : [INFO] [Wait For Text : [消息中心]] </span>
+                <span class="reporter-method-output">2016-04-15 16:46:14 : [INFO] [点击 -> name: 消息中心]</span>
+                <span class="reporter-method-output">2016-04-15 16:46:20 : [INFO] [Wait For Text : [重要]] </span>
+                <span class="reporter-method-output">2016-04-15 16:46:26 : [INFO] 个人中心用例1-5 插件不配置强登， 例如消息中心 测试通过</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPersonalCenterByHost(新个人中心, rymtest001)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2016-04-15 16:51:14 : [STEP] 个人中心用例1-1-1（插件为强登，用户未登陆），模拟宿主一账通登录 开始跑</span>
+                <span class="reporter-method-output">2016-04-15 16:51:14 : [INFO] [Wait For Text : [一账通]] </span>
+                <span class="reporter-method-output">2016-04-15 16:51:20 : [INFO] [点击 -> name: 一账通]</span>
+                <span class="reporter-method-output">2016-04-15 16:51:22 : [INFO] 模拟向右滑动</span>
+                <span class="reporter-method-output">2016-04-15 16:51:27 : [INFO] [Wait For Text : [新个人中心]] </span>
+                <span class="reporter-method-output">2016-04-15 16:51:36 : [INFO] [点击 -> name: 新个人中心]</span>
+                <span class="reporter-method-output">2016-04-15 16:51:42 : [INFO] [Wait For Text : [返回]] </span>
+                <span class="reporter-method-output">2016-04-15 16:51:53 : [INFO] [点击 -> name: 选择登陆用户]</span>
+                <span class="reporter-method-output">2016-04-15 16:52:02 : [INFO] [输入字符 -> xpath: //UIAPickerWheel]</span>
+                <span class="reporter-method-output">2016-04-15 16:52:05 : [INFO] [点击 -> name: 确认]</span>
+                <span class="reporter-method-output">2016-04-15 16:52:10 : [INFO] [点击 -> name: 登陆]</span>
+                <span class="reporter-method-output">2016-04-15 16:52:23 : [INFO] [Wait For Text : [选择]] </span>
+                <span class="reporter-method-output">2016-04-15 16:52:43 : [INFO] 个人中心用例1-1-1（插件为强登，用户未登陆），模拟宿主一账通登录 案例成功跑完</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPersonalCenterByHostYZT(测试, rymtest001)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2016-04-15 16:53:20 : [STEP]  个人中心用例1-3（插件为强登，用户一账通登陆），模拟宿主一账通登录 开始跑</span>
+                <span class="reporter-method-output">2016-04-15 16:53:20 : [INFO] [Wait For Text : [一账通]] </span>
+                <span class="reporter-method-output">2016-04-15 16:53:27 : [INFO] [点击 -> name: 一账通]</span>
+                <span class="reporter-method-output">2016-04-15 16:53:31 : [INFO] [点击 -> name: 宿主登陆]</span>
+                <span class="reporter-method-output">2016-04-15 16:53:33 : [INFO] [Wait For Text : [返回]] </span>
+                <span class="reporter-method-output">2016-04-15 16:53:42 : [INFO] [点击 -> name: 选择登陆用户]</span>
+                <span class="reporter-method-output">2016-04-15 16:53:48 : [INFO] [输入字符 -> xpath: //UIAPickerWheel]</span>
+                <span class="reporter-method-output">2016-04-15 16:53:50 : [INFO] [点击 -> name: 确认]</span>
+                <span class="reporter-method-output">2016-04-15 16:53:54 : [INFO] [点击 -> name: 登陆]</span>
+                <span class="reporter-method-output">2016-04-15 16:54:17 : [INFO] [Wait For Text : [rymtest001]] </span>
+                <span class="reporter-method-output">2016-04-15 16:54:23 : [INFO] 模拟向右滑动</span>
+                <span class="reporter-method-output">2016-04-15 16:54:28 : [INFO] [Wait For Text : [测试]] </span>
+                <span class="reporter-method-output">2016-04-15 16:54:37 : [INFO] [点击 -> name: 测试]</span>
+                <span class="reporter-method-output">2016-04-15 16:54:43 : [INFO] [Wait For Text : [我的订单]] </span>
+                <span class="reporter-method-output">2016-04-15 16:54:48 : [INFO] 个人中心用例1-3（插件为强登，用户一账通登陆），模拟宿主一账通登录 测试通过</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginTimeout(新个人中心)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2016-04-15 16:55:41 : [STEP]  个人中心用例1-4-2（插件为强登，用户未登陆），超时后点击 开始跑</span>
+                <span class="reporter-method-output">2016-04-15 16:55:43 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:55:58 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:56:13 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:56:28 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:56:43 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:56:58 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:57:14 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:57:29 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:57:44 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:57:59 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:58:15 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:58:30 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:58:45 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:59:00 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:59:15 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:59:30 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 16:59:46 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:00:01 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:00:16 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:00:31 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:00:47 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:01:02 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:01:17 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:01:32 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:01:47 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:02:03 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:02:18 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:02:33 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:02:48 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:03:03 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:03:18 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:03:34 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:03:49 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:04:04 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:04:19 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:04:35 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:04:50 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:05:05 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:05:20 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:05:35 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:05:51 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:06:06 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:06:21 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:06:36 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:06:51 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:07:07 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:07:22 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:07:37 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:07:52 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:08:07 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:08:22 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:08:38 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:08:53 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:09:08 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:09:23 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:09:39 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:09:54 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:10:09 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:10:24 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:10:39 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:10:54 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:11:10 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:11:25 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:11:40 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:11:55 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:12:10 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:12:26 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:12:41 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:12:56 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:13:11 : [INFO] ［向下滑动］</span>
+                <span class="reporter-method-output">2016-04-15 17:13:24 : [INFO] 模拟向右滑动</span>
+                <span class="reporter-method-output">2016-04-15 17:13:30 : [INFO] [Wait For Text : [新个人中心]] </span>
+                <span class="reporter-method-output">2016-04-15 17:13:39 : [INFO] [点击 -> name: 新个人中心]</span>
+                <span class="reporter-method-output">2016-04-15 17:13:45 : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] </span>
+                <span class="reporter-method-output">2016-04-15 17:13:50 : [INFO] 个人中心用例1-4-2（插件为强登，用户未登陆），超时后点击 测试通过</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPersonalCenterByH5(新个人中心, sjtest003, qweqwe123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2016-04-15 16:47:04 : [STEP] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 开始跑</span>
+                <span class="reporter-method-output">2016-04-15 16:47:04 : [INFO] 模拟向右滑动</span>
+                <span class="reporter-method-output">2016-04-15 16:47:09 : [INFO] [Wait For Text : [新个人中心]] </span>
+                <span class="reporter-method-output">2016-04-15 16:47:18 : [INFO] [点击 -> name: 新个人中心]</span>
+                <span class="reporter-method-output">2016-04-15 16:47:24 : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] </span>
+                <span class="reporter-method-output">2016-04-15 16:47:29 : [INFO] 已弹出登录</span>
+                <span class="reporter-method-output">2016-04-15 16:47:35 : [INFO] [点击 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]</span>
+                <span class="reporter-method-output">2016-04-15 16:47:47 : [INFO] [输入字符 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginYztTimeout(新个人中心, sjtest003, qweqwe123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2016-04-15 17:14:50 : [STEP]  个人中心用例1-4-1（插件为强登，用户已登陆），超时后点击 开始跑</span>
+                <span class="reporter-method-output">2016-04-15 17:14:50 : [INFO] 模拟向右滑动</span>
+                <span class="reporter-method-output">2016-04-15 17:14:56 : [INFO] [Wait For Text : [新个人中心]] </span>
+                <span class="reporter-method-output">2016-04-15 17:15:05 : [INFO] [点击 -> name: 新个人中心]</span>
+                <span class="reporter-method-output">2016-04-15 17:15:11 : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] </span>
+                <span class="reporter-method-output">2016-04-15 17:15:16 : [INFO] 已弹出登录</span>
+                <span class="reporter-method-output">2016-04-15 17:15:22 : [INFO] [点击 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]</span>
+                <span class="reporter-method-output">2016-04-15 17:15:34 : [INFO] [输入字符 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPersonalCenterByH5BeforNoYZT(新个人中心, sjtest003, qweqwe123, rymtest001)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2016-04-15 16:48:30 : [STEP] 个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 开始跑</span>
+                <span class="reporter-method-output">2016-04-15 16:48:30 : [INFO] [Wait For Text : [非一账通]] </span>
+                <span class="reporter-method-output">2016-04-15 16:48:37 : [INFO] [点击 -> name: 非一账通]</span>
+                <span class="reporter-method-output">2016-04-15 16:48:41 : [INFO] [点击 -> name: 宿主登陆]</span>
+                <span class="reporter-method-output">2016-04-15 16:48:43 : [INFO] [Wait For Text : [返回]] </span>
+                <span class="reporter-method-output">2016-04-15 16:48:52 : [INFO] [点击 -> name: 选择登陆用户]</span>
+                <span class="reporter-method-output">2016-04-15 16:48:59 : [INFO] [输入字符 -> xpath: //UIAPickerWheel]</span>
+                <span class="reporter-method-output">2016-04-15 16:49:01 : [INFO] [点击 -> name: 确认]</span>
+                <span class="reporter-method-output">2016-04-15 16:49:05 : [INFO] [点击 -> name: 登陆]</span>
+                <span class="reporter-method-output">2016-04-15 16:49:28 : [INFO] [Wait For Text : [rymtest001]] </span>
+                <span class="reporter-method-output">2016-04-15 16:49:33 : [INFO] 没有返回按钮</span>
+                <span class="reporter-method-output">2016-04-15 16:49:34 : [INFO] 模拟向右滑动</span>
+                <span class="reporter-method-output">2016-04-15 16:49:39 : [INFO] [Wait For Text : [新个人中心]] </span>
+                <span class="reporter-method-output">2016-04-15 16:49:49 : [INFO] [点击 -> name: 新个人中心]</span>
+                <span class="reporter-method-output">2016-04-15 16:49:55 : [INFO] [Wait For Text : [密码登录]] </span>
+                <span class="reporter-method-output">2016-04-15 16:50:00 : [INFO] 已弹出登录</span>
+                <span class="reporter-method-output">2016-04-15 16:50:03 : [INFO] [点击 -> xpath: //UIALink[@name='密码登录']]</span>
+                <span class="reporter-method-output">2016-04-15 16:50:09 : [INFO] [Wait For Text : [注册账号]] </span>
+                <span class="reporter-method-output">2016-04-15 16:50:20 : [INFO] [点击 -> xpath: //*[@value='请输入您的账号']]</span>
+                <span class="reporter-method-output">2016-04-15 16:50:31 : [INFO] [输入字符 -> xpath: //*[@value='请输入您的账号']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ipod-jianghongbo720" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">17 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rym.libarary.testsuits.DownloadCenter_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rym.libarary.testsuits.OpenPlugin_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rym.libarary.testsuits.PersonalCenter_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rym.libarary.testsuits.MsgCenter_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">ClearMsg</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rym.libarary.testsuits.Plugin_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">FindH5ByNoYZT</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">FindYZTByH5</span>
+                <br/>
+                <span class="ignored-method-name">clickNeedLoginPlugin</span>
+                <br/>
+                <span class="ignored-method-name">FindYZTByHost</span>
+                <br/>
+                <span class="ignored-method-name">YZTTimeout</span>
+                <br/>
+                <span class="ignored-method-name">clickTable</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ipod-jianghongbo720" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rym.libarary.testsuits.Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeSuite(/Users/rymtest/Desktop/app_package/, PAAnydoorSDK1130-1108.ipa, ios, 9.0, 娱乐 (2), , , 4723, 8f023bbd...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rym.libarary.testsuits.PersonalCenter_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ClickMsgCenter(消息中心)</span>
+                <span class="method-start">72298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">98354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginPersonalCenterByH5(新个人中心, sjtest003, qweqwe123)</span>
+                <span class="method-start">135763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">184347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginPersonalCenterByH5BeforNoYZT(新个人中心, sjtest003, qweqwe123, rymtest001)</span>
+                <span class="method-start">222296 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">348097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPersonalCenterByHost(新个人中心, rymtest001)</span>
+                <span class="method-start">385831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">475457 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPersonalCenterByHostYZT(测试, rymtest001)</span>
+                <span class="method-start">512317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">600634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginTimeout(新个人中心)</span>
+                <span class="method-start">652754 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1742344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginYztTimeout(新个人中心, sjtest003, qweqwe123)</span>
+                <span class="method-start">1802721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1851934 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rym.libarary.testsuits.Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">1889967 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

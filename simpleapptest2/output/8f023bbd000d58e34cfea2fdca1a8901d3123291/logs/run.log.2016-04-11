@@ -1,0 +1,1922 @@
+2016-04-11 10:44:24 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 10:44:28 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 10:44:32 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 10:44:40 dev_log : [INFO] 获取插件列表
+2016-04-11 10:44:43 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 10:44:43 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 10:44:43 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 10:44:43 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 10:44:43 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 10:44:43 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 10:44:43 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 10:44:43 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 10:44:43 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 10:44:43 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 10:44:43 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 10:44:43 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 10:44:43 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 10:44:43 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 10:44:43 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 10:44:43 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 10:44:43 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 10:44:43 dev_log : [INFO] 17
+2016-04-11 10:44:43 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 10:44:43 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 10:44:43 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 10:44:43 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 10:44:43 dev_log : [INFO] 4
+2016-04-11 10:44:46 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 10:44:52 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-11 10:44:53 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:45:16 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:45:21 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:45:28 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:45:39 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 10:45:40 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:46:07 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:46:12 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:46:19 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:46:30 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 10:46:31 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:46:41 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-11 10:46:42 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 10:46:44 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：4
+2016-04-11 10:46:44 dev_log : [INFO] 循环对比完
+2016-04-11 10:46:46 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:46:51 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:46:57 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:47:08 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 10:47:09 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:47:24 dev_log : [INFO] 当前需要登录插件个数为：3
+2016-04-11 10:47:25 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-11 10:47:26 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：3
+2016-04-11 10:47:26 dev_log : [INFO] 循环对比完
+2016-04-11 10:47:28 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:47:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:47:39 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:47:51 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 10:47:52 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:47:57 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-11 10:47:58 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 10:47:59 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：2
+2016-04-11 10:47:59 dev_log : [INFO] 循环对比完
+2016-04-11 10:48:01 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:48:06 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:48:12 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:48:28 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 10:48:34 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-11 10:48:35 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:49:01 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:49:06 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:49:12 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:49:24 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-11 10:49:25 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:49:47 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:49:53 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:49:59 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:50:10 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 10:50:11 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:50:16 dev_log : [INFO] 当前需要登录插件个数为：1
+2016-04-11 10:50:18 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 10:50:19 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：1
+2016-04-11 10:50:19 dev_log : [INFO] 循环对比完
+2016-04-11 10:50:21 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:50:26 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:50:32 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:50:43 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-11 10:50:44 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:51:07 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:51:12 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:51:19 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:51:30 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-11 10:51:31 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:51:56 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:52:01 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:52:07 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:52:18 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-11 10:52:20 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:52:46 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:52:51 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:52:58 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:53:09 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-11 10:53:10 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:53:37 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:53:42 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:53:48 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:53:59 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 10:54:00 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:54:27 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:54:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:54:49 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-11 10:54:50 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:55:14 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:55:19 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:55:25 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:55:37 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-11 10:55:38 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-04-11 10:56:01 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 10:56:06 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 10:56:12 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 10:56:17 dev_log : [INFO] 4.2为登录时强登录插件是否弹出一账通登录页 案例跑完
+2016-04-11 11:02:26 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 11:02:29 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 11:02:34 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 11:02:42 dev_log : [INFO] 获取插件列表
+2016-04-11 11:02:43 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 11:02:43 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 11:02:43 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 11:02:43 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 11:02:43 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 11:02:43 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 11:02:43 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 11:02:43 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 11:02:43 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 11:02:43 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 11:02:43 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 11:02:43 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 11:02:43 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 11:02:43 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 11:02:43 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 11:02:43 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 11:02:43 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 11:02:43 dev_log : [INFO] 17
+2016-04-11 11:02:44 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 11:02:45 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 11:02:45 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 11:02:45 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 11:02:45 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 11:02:45 dev_log : [INFO] 4
+2016-04-11 11:02:49 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 11:02:55 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 11:02:57 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:06:43 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 11:06:47 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 11:06:50 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 11:06:59 dev_log : [INFO] 获取插件列表
+2016-04-11 11:07:00 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 11:07:00 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 11:07:00 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 11:07:00 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 11:07:00 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 11:07:00 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 11:07:00 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 11:07:00 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 11:07:00 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 11:07:00 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 11:07:00 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 11:07:00 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 11:07:00 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 11:07:00 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 11:07:00 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 11:07:00 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 11:07:00 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 11:07:00 dev_log : [INFO] 17
+2016-04-11 11:07:01 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 11:07:03 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 11:07:03 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 11:07:03 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 11:07:03 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 11:07:03 dev_log : [INFO] 4
+2016-04-11 11:07:07 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 11:07:13 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 11:07:14 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:08:59 dev_log : [INFO] 当前页面插件个数为：0
+2016-04-11 11:10:13 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 11:10:17 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 11:10:21 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 11:10:29 dev_log : [INFO] 获取插件列表
+2016-04-11 11:10:39 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 11:10:39 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 11:10:39 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 11:10:39 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 11:10:39 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 11:10:39 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 11:10:39 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 11:10:39 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 11:10:39 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 11:10:39 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 11:10:39 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 11:10:39 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 11:10:39 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 11:10:39 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 11:10:39 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 11:10:39 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 11:10:39 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 11:10:39 dev_log : [INFO] 17
+2016-04-11 11:10:40 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 11:10:41 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 11:10:41 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 11:10:41 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 11:10:41 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 11:10:41 dev_log : [INFO] 4
+2016-04-11 11:10:45 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 11:10:51 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 11:10:52 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:12:23 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 11:12:26 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 11:12:30 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 11:12:39 dev_log : [INFO] 获取插件列表
+2016-04-11 11:12:41 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 11:12:41 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 11:12:41 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 11:12:41 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 11:12:41 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 11:12:41 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 11:12:41 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 11:12:41 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 11:12:41 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 11:12:41 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 11:12:41 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 11:12:41 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 11:12:41 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 11:12:41 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 11:12:41 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 11:12:41 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 11:12:41 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 11:12:41 dev_log : [INFO] 17
+2016-04-11 11:12:42 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 11:12:43 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 11:12:43 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 11:12:43 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 11:12:43 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 11:12:43 dev_log : [INFO] 4
+2016-04-11 11:12:47 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 11:12:53 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 11:12:54 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:15:04 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 11:15:08 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 11:15:12 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 11:15:20 dev_log : [INFO] 获取插件列表
+2016-04-11 11:15:22 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 11:15:22 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 11:15:22 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 11:15:22 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 11:15:22 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 11:15:22 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 11:15:22 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 11:15:22 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 11:15:22 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 11:15:22 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 11:15:22 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 11:15:22 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 11:15:22 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 11:15:22 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 11:15:22 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 11:15:22 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 11:15:22 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 11:15:22 dev_log : [INFO] 17
+2016-04-11 11:15:23 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 11:15:24 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 11:15:24 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 11:15:24 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 11:15:24 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 11:15:24 dev_log : [INFO] 4
+2016-04-11 11:15:28 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 11:15:34 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 11:15:36 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:16:02 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 11:18:58 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 11:19:02 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 11:19:06 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 11:19:15 dev_log : [INFO] 获取插件列表
+2016-04-11 11:19:15 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 11:19:15 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 11:19:15 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 11:19:15 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 11:19:15 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 11:19:15 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 11:19:15 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 11:19:15 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 11:19:15 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 11:19:15 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 11:19:15 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 11:19:15 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 11:19:15 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 11:19:15 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 11:19:15 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 11:19:15 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 11:19:15 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 11:19:15 dev_log : [INFO] 17
+2016-04-11 11:19:17 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 11:19:18 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 11:19:18 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 11:19:18 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 11:19:18 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 11:19:18 dev_log : [INFO] 4
+2016-04-11 11:19:22 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 11:19:28 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 11:19:29 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:19:45 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 11:19:50 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 11:19:56 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 11:20:07 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 11:20:08 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:20:14 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-11 11:20:15 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 11:20:16 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：4
+2016-04-11 11:20:16 dev_log : [INFO] 循环对比完
+2016-04-11 11:20:17 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 11:20:27 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 11:20:28 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:20:33 dev_log : [INFO] 当前需要登录插件个数为：3
+2016-04-11 11:20:34 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-11 11:20:35 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：3
+2016-04-11 11:20:35 dev_log : [INFO] 循环对比完
+2016-04-11 11:20:36 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 11:20:46 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 11:20:47 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:20:53 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-11 11:20:54 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 11:20:54 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：2
+2016-04-11 11:20:54 dev_log : [INFO] 循环对比完
+2016-04-11 11:20:56 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 11:21:05 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-11 11:21:06 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:21:22 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 11:21:27 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 11:21:33 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 11:21:49 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 11:21:55 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-11 11:21:56 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:22:12 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 11:22:17 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 11:22:23 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 11:22:34 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-11 11:22:35 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:22:41 dev_log : [INFO] 当前需要登录插件个数为：1
+2016-04-11 11:22:42 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 11:22:43 dev_log : [INFO] 循环对比完
+2016-04-11 11:25:40 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 11:25:44 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 11:25:48 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 11:25:57 dev_log : [INFO] 获取插件列表
+2016-04-11 11:26:00 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 11:26:00 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 11:26:00 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 11:26:00 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 11:26:00 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 11:26:00 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 11:26:00 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 11:26:00 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 11:26:00 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 11:26:00 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 11:26:00 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 11:26:00 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 11:26:00 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 11:26:00 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 11:26:00 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 11:26:00 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 11:26:00 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 11:26:00 dev_log : [INFO] 17
+2016-04-11 11:26:01 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 11:26:02 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 11:26:02 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 11:26:02 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 11:26:02 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 11:26:02 dev_log : [INFO] 4
+2016-04-11 11:26:06 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 11:26:12 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 11:26:13 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:26:29 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 11:26:34 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 11:26:40 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 11:26:51 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 11:26:52 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:26:58 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-11 11:26:59 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 11:27:00 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：3
+2016-04-11 11:27:00 dev_log : [INFO] 循环对比完
+2016-04-11 11:27:01 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 11:27:11 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 11:27:12 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:27:17 dev_log : [INFO] 当前需要登录插件个数为：3
+2016-04-11 11:27:18 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-11 11:27:19 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：2
+2016-04-11 11:27:19 dev_log : [INFO] 循环对比完
+2016-04-11 11:27:20 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 11:27:30 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 11:27:31 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:27:37 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-11 11:27:37 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 11:27:38 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：1
+2016-04-11 11:27:38 dev_log : [INFO] 循环对比完
+2016-04-11 11:27:40 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 11:27:49 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-11 11:27:50 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:28:06 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 11:28:11 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 11:28:17 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 11:28:33 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 11:28:39 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-11 11:28:40 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:28:55 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 11:29:00 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 11:29:07 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 11:29:18 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-11 11:29:19 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 11:29:24 dev_log : [INFO] 当前需要登录插件个数为：1
+2016-04-11 11:29:25 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 11:29:26 dev_log : [INFO] 循环对比完
+2016-04-11 14:13:20 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 14:13:24 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 14:13:28 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 14:13:36 dev_log : [INFO] 获取插件列表
+2016-04-11 14:13:37 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 14:13:37 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 14:13:37 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 14:13:37 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 14:13:37 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 14:13:37 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 14:13:37 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 14:13:37 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 14:13:37 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 14:13:37 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 14:13:37 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 14:13:37 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 14:13:37 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 14:13:37 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 14:13:37 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 14:13:37 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 14:13:37 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 14:13:37 dev_log : [INFO] 17
+2016-04-11 14:13:39 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 14:13:40 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 14:13:40 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 14:13:40 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 14:13:40 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 14:13:40 dev_log : [INFO] 4
+2016-04-11 14:13:44 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 14:13:49 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 14:13:51 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:14:06 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:14:11 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:14:17 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:14:29 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 14:14:30 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:14:36 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-11 14:14:37 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 14:14:38 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：3
+2016-04-11 14:14:38 dev_log : [INFO] 循环对比完
+2016-04-11 14:14:39 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 14:14:48 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 14:14:49 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:14:55 dev_log : [INFO] 当前需要登录插件个数为：3
+2016-04-11 14:14:56 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-11 14:14:57 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：2
+2016-04-11 14:14:57 dev_log : [INFO] 循环对比完
+2016-04-11 14:14:58 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 14:15:07 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 14:15:08 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:15:14 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-11 14:15:15 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 14:15:16 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：1
+2016-04-11 14:15:16 dev_log : [INFO] 循环对比完
+2016-04-11 14:15:17 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 14:15:27 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-11 14:15:28 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:15:43 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:15:48 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:15:54 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:16:10 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 14:16:16 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-11 14:16:18 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:16:33 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:16:38 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:16:44 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:16:55 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-11 14:16:56 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:17:11 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:17:16 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:17:22 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:17:34 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 14:17:35 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:17:41 dev_log : [INFO] 当前需要登录插件个数为：1
+2016-04-11 14:17:42 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 14:17:43 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：0
+2016-04-11 14:17:43 dev_log : [INFO] 循环对比完
+2016-04-11 14:17:44 dev_log : [INFO] [点击 -> name: 返回]
+2016-04-11 14:17:54 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-11 14:17:55 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:18:11 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:18:16 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:18:22 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:18:34 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-11 14:18:35 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:18:51 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:18:56 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:19:02 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:19:13 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-11 14:19:15 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:19:30 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:19:35 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:19:41 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:19:53 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-11 14:19:54 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:20:09 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:20:14 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:20:21 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:20:32 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-11 14:20:33 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:20:49 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:20:54 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:21:00 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:21:11 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-11 14:21:13 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:21:29 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:21:34 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:21:40 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:21:52 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-11 14:21:53 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:22:08 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:22:14 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:22:20 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:22:25 dev_log : [INFO] 4.3未登录时强登录插件是否弹出宿主登录 案例跑完
+2016-04-11 14:34:41 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 14:34:45 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 14:34:49 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 14:34:57 dev_log : [INFO] 获取插件列表
+2016-04-11 14:34:59 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 14:34:59 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 14:34:59 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 14:34:59 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 14:34:59 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 14:34:59 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 14:34:59 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 14:34:59 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 14:34:59 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 14:34:59 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 14:34:59 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 14:34:59 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 14:34:59 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 14:34:59 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 14:34:59 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 14:34:59 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 14:34:59 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 14:34:59 dev_log : [INFO] 17
+2016-04-11 14:34:59 dev_log : [INFO] [Wait For Text : [非一账通]] 
+2016-04-11 14:35:05 dev_log : [INFO] [点击 -> name: 非一账通]
+2016-04-11 14:35:09 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-04-11 14:35:12 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 14:35:20 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-04-11 14:35:27 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-04-11 14:35:29 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-11 14:35:33 dev_log : [INFO] [点击 -> name: 登陆]
+2016-04-11 14:35:56 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 14:35:56 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 14:35:56 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 14:35:56 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 14:35:56 dev_log : [INFO] 4
+2016-04-11 14:36:00 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 14:36:06 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 14:36:07 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:36:23 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:36:28 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:36:34 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:36:45 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 14:36:47 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:37:02 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:37:07 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:37:13 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:37:24 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 14:37:25 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:37:41 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:37:46 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:37:52 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:38:03 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 14:38:05 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:38:24 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:38:29 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:38:35 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:38:47 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-11 14:38:48 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:39:03 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:39:09 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:39:15 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:39:30 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 14:39:36 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-11 14:39:38 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:39:53 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:39:58 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:40:04 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:40:16 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-11 14:40:17 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:40:32 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:40:37 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:40:43 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:40:55 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 14:40:56 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:41:16 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:41:21 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:41:27 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:41:38 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-11 14:41:40 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:41:55 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:42:00 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:42:07 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:42:18 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-11 14:42:19 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:42:39 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:42:44 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:42:50 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:43:01 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-11 14:43:03 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:43:18 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:43:23 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:43:29 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:43:40 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-11 14:43:42 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:43:57 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:44:02 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:44:08 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:44:20 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-11 14:44:21 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:44:37 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:44:42 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:44:48 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:44:59 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-11 14:45:01 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:45:16 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:45:22 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:45:28 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:45:39 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-11 14:45:41 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:45:56 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:46:01 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:46:08 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:46:23 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 14:46:29 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-11 14:46:30 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:46:46 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:46:51 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:46:57 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:47:08 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-11 14:47:09 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:47:25 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:47:30 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:47:36 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:47:47 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 14:47:49 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:48:04 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:48:09 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:48:15 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:48:26 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-11 14:48:28 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:52:34 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 14:52:38 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 14:52:42 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 14:52:51 dev_log : [INFO] 获取插件列表
+2016-04-11 14:52:53 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 14:52:53 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 14:52:53 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 14:52:53 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 14:52:53 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 14:52:53 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 14:52:53 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 14:52:53 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 14:52:53 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 14:52:53 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 14:52:53 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 14:52:53 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 14:52:53 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 14:52:53 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 14:52:53 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 14:52:53 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 14:52:53 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 14:52:53 dev_log : [INFO] 17
+2016-04-11 14:52:53 dev_log : [INFO] [Wait For Text : [非一账通]] 
+2016-04-11 14:52:58 dev_log : [INFO] [点击 -> name: 非一账通]
+2016-04-11 14:53:03 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-04-11 14:53:05 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 14:53:14 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-04-11 14:53:20 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-04-11 14:53:22 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-11 14:53:27 dev_log : [INFO] [点击 -> name: 登陆]
+2016-04-11 14:53:49 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 14:53:49 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 14:53:49 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 14:53:49 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 14:53:49 dev_log : [INFO] 4
+2016-04-11 14:53:53 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 14:53:59 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-11 14:54:01 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:54:20 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:54:25 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:54:31 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:54:43 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 14:54:44 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:54:59 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:55:05 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:55:11 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:55:22 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 14:55:23 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:55:38 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:55:43 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:55:50 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:56:01 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 14:56:02 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:56:17 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:56:22 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:56:29 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:56:40 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 14:56:41 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:57:01 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:57:06 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:57:12 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:57:27 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 14:57:34 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-11 14:57:35 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:57:50 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:57:55 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:58:02 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:58:13 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-11 14:58:14 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:58:30 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:58:35 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:58:41 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:58:52 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 14:58:54 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:59:13 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 14:59:18 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 14:59:24 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 14:59:36 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-11 14:59:37 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 14:59:56 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:00:01 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:00:07 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:00:19 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-11 15:00:20 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:00:35 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:00:40 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:00:46 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:00:59 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-11 15:01:00 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:01:15 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:01:20 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:01:27 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:01:38 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-11 15:01:39 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:01:55 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:02:00 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:02:06 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:02:17 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 15:02:18 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:02:33 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:02:38 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:02:45 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:02:56 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-11 15:02:57 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:03:13 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:03:18 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:03:24 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:03:36 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-11 15:03:37 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:03:53 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:03:58 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:04:04 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:04:20 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 15:04:26 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-11 15:04:27 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:04:42 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:04:47 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:04:54 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:05:05 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-11 15:05:06 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:05:21 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:05:26 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:05:33 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:05:44 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 15:05:45 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:06:01 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:06:06 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:06:12 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:06:23 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-11 15:06:24 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-04-11 15:06:40 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:47:30 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 15:47:34 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 15:47:38 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 15:47:47 dev_log : [INFO] 获取插件列表
+2016-04-11 15:47:49 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 15:47:49 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 15:47:49 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 15:47:49 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 15:47:49 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 15:47:49 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 15:47:49 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 15:47:49 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 15:47:49 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 15:47:49 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 15:47:49 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 15:47:49 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 15:47:49 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 15:47:49 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 15:47:49 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 15:47:49 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 15:47:49 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 15:47:49 dev_log : [INFO] 17
+2016-04-11 15:47:49 dev_log : [INFO] [Wait For Text : [非一账通]] 
+2016-04-11 15:47:55 dev_log : [INFO] [点击 -> name: 非一账通]
+2016-04-11 15:48:00 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-04-11 15:48:02 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 15:48:11 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-04-11 15:48:17 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-04-11 15:48:19 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-11 15:48:23 dev_log : [INFO] [点击 -> name: 登陆]
+2016-04-11 15:48:46 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 15:48:46 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 15:48:46 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 15:48:46 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 15:48:46 dev_log : [INFO] 4
+2016-04-11 15:48:50 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 15:48:56 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-11 15:48:58 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:49:13 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:49:18 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:49:25 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:49:36 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 15:49:37 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:49:52 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:49:58 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:50:04 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:50:15 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 15:50:16 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:50:21 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-11 15:50:22 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 15:50:23 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：3
+2016-04-11 15:50:23 dev_log : [INFO] 循环对比完
+2016-04-11 15:52:46 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 15:52:50 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 15:52:54 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 15:53:03 dev_log : [INFO] 获取插件列表
+2016-04-11 15:53:03 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 15:53:03 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 15:53:03 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 15:53:03 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 15:53:03 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 15:53:03 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 15:53:03 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 15:53:03 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 15:53:03 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 15:53:03 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 15:53:03 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 15:53:03 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 15:53:03 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 15:53:03 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 15:53:03 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 15:53:03 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 15:53:03 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 15:53:03 dev_log : [INFO] 17
+2016-04-11 15:53:03 dev_log : [INFO] [Wait For Text : [非一账通]] 
+2016-04-11 15:53:10 dev_log : [INFO] [点击 -> name: 非一账通]
+2016-04-11 15:53:14 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-04-11 15:53:17 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 15:53:25 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-04-11 15:53:31 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-04-11 15:53:34 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-11 15:53:38 dev_log : [INFO] [点击 -> name: 登陆]
+2016-04-11 15:54:01 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 15:54:01 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 15:54:01 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 15:54:01 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 15:54:01 dev_log : [INFO] 4
+2016-04-11 15:54:05 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 15:54:11 dev_log : [INFO] [点击 -> name: PA01100000000_02_HHC]
+2016-04-11 15:54:12 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:54:28 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:54:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:54:39 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:54:50 dev_log : [INFO] [点击 -> name: PA01100000001_02_HBJH]
+2016-04-11 15:54:51 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:55:07 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:55:12 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:55:19 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:55:30 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 15:55:31 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:55:41 dev_log : [INFO] 当前需要登录插件个数为：4
+2016-04-11 15:55:42 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 15:55:43 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：3
+2016-04-11 15:55:43 dev_log : [INFO] 循环对比完
+2016-04-11 15:55:43 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:55:48 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:55:54 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:56:06 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 15:56:07 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:56:12 dev_log : [INFO] 当前需要登录插件个数为：3
+2016-04-11 15:56:13 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-11 15:56:14 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：2
+2016-04-11 15:56:14 dev_log : [INFO] 循环对比完
+2016-04-11 15:56:14 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:56:19 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:56:25 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:56:36 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 15:56:37 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:56:42 dev_log : [INFO] 当前需要登录插件个数为：2
+2016-04-11 15:56:44 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 15:56:44 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：1
+2016-04-11 15:56:44 dev_log : [INFO] 循环对比完
+2016-04-11 15:56:44 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:56:50 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:56:56 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:57:11 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 15:57:17 dev_log : [INFO] [点击 -> name: PA01100000000_02_DDC]
+2016-04-11 15:57:18 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:57:34 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:57:39 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:57:45 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:57:58 dev_log : [INFO] [点击 -> name: PA00800000000_02_PACX]
+2016-04-11 15:57:59 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:58:14 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:58:19 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:58:25 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:58:37 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 15:58:38 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:58:43 dev_log : [INFO] 当前需要登录插件个数为：1
+2016-04-11 15:58:44 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 15:58:45 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：0
+2016-04-11 15:58:45 dev_log : [INFO] 循环对比完
+2016-04-11 15:58:45 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:58:50 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:58:56 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:59:07 dev_log : [INFO] [点击 -> name: PA00800000000_02_JTB]
+2016-04-11 15:59:09 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 15:59:24 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 15:59:30 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 15:59:36 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 15:59:47 dev_log : [INFO] [点击 -> name: PA01100000000_02_RYG_001]
+2016-04-11 15:59:49 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:00:04 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:00:09 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:00:15 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:00:28 dev_log : [INFO] [点击 -> name: PA01100000000_02_YYG]
+2016-04-11 16:00:29 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:00:49 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:00:54 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:01:00 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:01:12 dev_log : [INFO] [点击 -> name: PA01100000000_02_YHDD]
+2016-04-11 16:01:13 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:01:28 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:01:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:01:40 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:01:51 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 16:01:52 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:02:02 dev_log : [INFO] 当前需要登录插件个数为：0
+2016-04-11 16:02:02 dev_log : [INFO] 循环对比完
+2016-04-11 16:02:02 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:02:07 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:02:14 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:02:25 dev_log : [INFO] [点击 -> name: PA02100000000_02_PAW]
+2016-04-11 16:02:26 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:02:42 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:02:49 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:02:56 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:03:07 dev_log : [INFO] [点击 -> name: PA01100000000_02_TYKF]
+2016-04-11 16:03:08 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:03:28 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:03:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:03:39 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:03:45 dev_log : [INFO] 4.4非一账通登录时强登录插件是否弹出h5登录 案例跑完
+2016-04-11 16:16:32 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 16:16:36 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 16:16:40 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 16:18:34 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 16:18:38 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 16:18:42 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 16:18:51 dev_log : [INFO] 获取插件列表
+2016-04-11 16:18:52 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 16:18:52 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 16:18:52 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 16:18:52 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 16:18:52 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 16:18:52 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 16:18:52 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 16:18:52 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 16:18:52 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 16:18:52 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 16:18:52 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 16:18:52 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 16:18:52 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 16:18:52 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 16:18:52 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 16:18:52 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 16:18:52 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 16:18:52 dev_log : [INFO] 17
+2016-04-11 16:18:52 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 16:25:57 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 16:26:01 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 16:26:05 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 16:26:14 dev_log : [INFO] 获取插件列表
+2016-04-11 16:26:17 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 16:26:17 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 16:26:17 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 16:26:17 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 16:26:17 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 16:26:17 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 16:26:17 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 16:26:17 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 16:26:17 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 16:26:17 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 16:26:17 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 16:26:17 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 16:26:17 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 16:26:17 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 16:26:17 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 16:26:17 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 16:26:17 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 16:26:17 dev_log : [INFO] 17
+2016-04-11 16:26:17 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 16:44:17 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 16:44:21 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 16:44:24 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 16:44:33 dev_log : [INFO] 获取插件列表
+2016-04-11 16:44:35 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 16:44:35 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 16:44:35 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 16:44:35 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 16:44:35 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 16:44:35 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 16:44:35 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 16:44:35 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 16:44:35 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 16:44:35 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 16:44:35 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 16:44:35 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 16:44:35 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 16:44:35 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 16:44:35 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 16:44:35 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 16:44:35 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 16:44:35 dev_log : [INFO] 17
+2016-04-11 16:44:35 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-04-11 16:44:41 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 16:44:42 dev_log : [INFO] [Wait For Text : [宿主]] 
+2016-04-11 16:44:50 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-04-11 16:44:53 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 16:45:02 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-04-11 16:45:07 dev_log : [INFO] 页面元素如下：<?xml version="1.0" encoding="UTF-8"?>
+<AppiumAUT>
+    <UIAApplication name="stg2-11181400" label="stg2-11181400" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0" x="0" y="0" width="375" height="667">
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0" x="0" y="0" width="375" height="667">
+            <UIATableView name="" label="" value="第 1 航至第 12 航（共 20 航）" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0" x="20" y="50" width="261.25" height="567">
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/0" x="20" y="50" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/0/0" x="35" y="50" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/1" x="20" y="100" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/1/0" x="35" y="100" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/2" x="20" y="150" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/2/0" x="35" y="150" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/3" x="20" y="200" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/3/0" x="35" y="200" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/4" x="20" y="250" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/4/0" x="35" y="250" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/5" x="20" y="300" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/5/0" x="35" y="300" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/6" x="20" y="350" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/6/0" x="35" y="350" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/7" x="20" y="400" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/7/0" x="35" y="400" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/8" x="20" y="450" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/8/0" x="35" y="450" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/9" x="20" y="500" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/9/0" x="35" y="500" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/10" x="20" y="550" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/10/0" x="35" y="550" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/11" x="20" y="600" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/11/0" x="35" y="600" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/12" x="20" y="650" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/12/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/13" x="20" y="700" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/13/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/14" x="20" y="750" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/14/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/15" x="20" y="800" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/15/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/16" x="20" y="850" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/16/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/17" x="20" y="900" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/17/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/18" x="20" y="950" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/18/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/19" x="20" y="1000" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/19/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+            </UIATableView>
+            <UIANavigationBar name="View" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1" x="0" y="20" width="375" height="44">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/0" x="0" y="0" width="375" height="64">
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/0/0" x="0" y="64" width="375" height="0.5">
+                    </UIAImage>
+                </UIAImage>
+                <UIAButton name="返回" label="返回" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/1" x="8" y="31.5" width="21" height="21">
+                </UIAButton>
+            </UIANavigationBar>
+            <UIAScrollView name="mainScro" label="mainScro" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2" x="0" y="0" width="375" height="603">
+                <UIAScrollView name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0" x="31.5" y="332.45000000000005" width="375" height="270.54999999999995">
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/0" x="401" y="335.00000000000006" width="2.5" height="264.99999999999994">
+                    </UIAImage>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/1" x="31.5" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/2" x="31.5" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA01100000000_02_HHC" label="PA01100000000_02_HHC" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/3" x="31.5" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="划横财" label="划横财" value="划横财" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/4" x="39.2" y="530.2" width="84" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/5" x="39.2" y="554" width="84" height="9.100000000000023">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/6" x="116.89999999999998" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/7" x="116.89999999999998" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA01100000001_02_HBJH" label="PA01100000001_02_HBJH" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/8" x="116.89999999999998" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="红包集合" label="红包集合" value="红包集合" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/9" x="124.59999999999998" y="530.2" width="83.99999999999999" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="红包集合" label="红包集合" value="红包集合" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/10" x="124.59999999999998" y="554" width="83.99999999999999" height="9.100000000000023">
+                    </UIAStaticText>
+                    <UIAStaticText name="3.3.0.1-stg2" label="3.3.0.1-stg2" value="3.3.0.1-stg2" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/11" x="122.89999999999998" y="573" width="79" height="15">
+                    </UIAStaticText>
+                    <UIAStaticText name="2015-11-18" label="2015-11-18" value="2015-11-18" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/12" x="122.89999999999998" y="588" width="79" height="15">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/13" x="202.29999999999995" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/14" x="202.29999999999995" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA00300000000_02_MCX" label="PA00300000000_02_MCX" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/15" x="202.29999999999995" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="买车险" label="买车险" value="买车险" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/16" x="209.99999999999994" y="530.2" width="84" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="好车主插件" label="好车主插件" value="好车主插件" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/17" x="209.99999999999994" y="554" width="84" height="9.100000000000023">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/18" x="287.70000000000005" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/19" x="287.70000000000005" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA02100000001_02_JF" label="PA02100000001_02_JF" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/20" x="287.70000000000005" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="新积分" label="新积分" value="新积分" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/21" x="295.40000000000003" y="530.2" width="84" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="万里通积分" label="万里通积分" value="万里通积分" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/22" x="295.40000000000003" y="554" width="84" height="9.100000000000023">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/23" x="373.1" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/24" x="373.1" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA02100000000_02_FGZ" label="PA02100000000_02_FGZ" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/25" x="373.1" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="房估值" label="房估值" value="房估值" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/26" x="380.8" y="530.2" width="84" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="房估值" label="房估值" value="房估值" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/27" x="380.8" y="554" width="84" height="9.100000000000023">
+                    </UIAStaticText>
+                </UIAScrollView>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/1" x="369.5" y="3" width="2.5" height="597">
+                </UIAImage>
+                <UIAStaticText name="7" label="7" value="7" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/2" x="19.975000000000023" y="548.925" width="24.150000000000006" height="24.149999999999977">
+                </UIAStaticText>
+                <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/3" x="19.975000000000023" y="548.925" width="24.150000000000006" height="24.149999999999977">
+                </UIAButton>
+            </UIAScrollView>
+            <UIAButton name="exchangeButton" label="exchangeButton" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/3" x="324.6" y="276.79999999999995" width="50.39999999999998" height="50.39999999999998">
+                <UIAImage name="/var/mobile/Containers/Bundle/Application/6D7C07A8-C5A4-4290-B1EC-5ECA75E85F52/PAAnydoorSDK_New.app/AnyDoorSDKBundle.bundle/rym_switch_singleline.png" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/3/0" x="324.6" y="276.79999999999995" width="50.39999999999998" height="50.39999999999998">
+                </UIAImage>
+            </UIAButton>
+            <UIAScrollView name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/4" x="0" y="0" width="375" height="667">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/4/0" x="365" y="661.5" width="7" height="2.5">
+                </UIAImage>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/4/1" x="369.5" y="657" width="2.5" height="7">
+                </UIAImage>
+            </UIAScrollView>
+            <UIAImage name="background.jpg" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/5" x="0" y="0" width="375" height="667">
+            </UIAImage>
+            <UIAScrollView name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/6" x="0" y="0" width="375" height="667">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/6/0" x="0" y="0" width="375" height="800">
+                </UIAImage>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/6/1" x="369.5" y="3" width="2.5" height="661">
+                </UIAImage>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/6/2" x="3" y="661.5" width="369" height="2.5">
+                </UIAImage>
+            </UIAScrollView>
+            <UIAPicker name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/7" x="0" y="40" width="375" height="160">
+                <UIAPickerWheel name="" label="" value="rymtest001" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/7/0" x="0" y="2.5" width="375" height="235">
+                </UIAPickerWheel>
+            </UIAPicker>
+            <UIAButton name="确认" label="确认" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/8" x="295" y="80" width="80" height="30">
+            </UIAButton>
+            <UIAStaticText name="模拟宿主登陆页" label="模拟宿主登陆页" value="模拟宿主登陆页" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/9" x="112.5" y="20" width="150" height="40">
+            </UIAStaticText>
+            <UIAButton name="返回" label="返回" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/10" x="20" y="70" width="40" height="40">
+            </UIAButton>
+            <UIAButton name="选择登陆用户" label="选择登陆用户" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/11" x="122.5" y="80" width="130" height="40">
+            </UIAButton>
+            <UIAButton name="登陆" label="登陆" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/12" x="147.5" y="150" width="80" height="40">
+            </UIAButton>
+            <UIAButton name="无用户体系" label="无用户体系" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/13" x="10.000000000000007" y="80" width="111.66666666666669" height="40">
+            </UIAButton>
+            <UIAButton name="非一账通" label="非一账通" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/14" x="131.66666666666669" y="80" width="111.66666666666669" height="40">
+            </UIAButton>
+            <UIAButton name="一账通" label="一账通" value="" dom="" enabled="false" valid="true" visible="false" hint="" path="/0/0/15" x="253.33333333333334" y="80" width="111.66666666666666" height="40">
+            </UIAButton>
+            <UIAButton name="宿主登陆" label="宿主登陆" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/16" x="10" y="130" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="宿主退出" label="宿主退出" value="" dom="" enabled="false" valid="true" visible="false" hint="" path="/0/0/17" x="192.5" y="130" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="测试页面" label="测试页面" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/18" x="10" y="180" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="回到主屏" label="回到主屏" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/19" x="192.5" y="180" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="拉取消息接口" label="拉取消息接口" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/20" x="10" y="230" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="清空全部消息数据" label="清空全部消息数据" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/21" x="192.5" y="230" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="切换长登陆状态" label="切换长登陆状态" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/22" x="10" y="280" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="获取宿主显示插件" label="获取宿主显示插件" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/23" x="192.5" y="280" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="查看埋点记录" label="查看埋点记录" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/24" x="10" y="330" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="删除埋点记录" label="删除埋点记录" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/25" x="192.5" y="330" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="清除曝光数据" label="清除曝光数据" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/26" x="10" y="380" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="超时测试" label="超时测试" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/27" x="192.5" y="380" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="测试Loading" label="测试Loading" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/28" x="10" y="430" width="172.5" height="40">
+            </UIAButton>
+            <UIAToolbar name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/29" x="0" y="667" width="375" height="44">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/29/0" x="0" y="666.5" width="375" height="0.5">
+                </UIAImage>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/29/1" x="0" y="667" width="375" height="44">
+                </UIAImage>
+            </UIAToolbar>
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1" x="0" y="0" width="375" height="667">
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2" x="0" y="0" width="375" height="667">
+            <UIAStatusBar name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0" x="0" y="0" width="375" height="20">
+                <UIAElement name="信号强度：4 格（共 5 格）" label="信号强度：4 格（共 5 格）" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/0" x="6" y="0" width="35" height="20">
+                </UIAElement>
+                <UIAElement name="中国联通 网络" label="中国联通 网络" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/1" x="44" y="0" width="48" height="20">
+                </UIAElement>
+                <UIAElement name="3 格无线局域网信号（共 3 格）" label="3 格无线局域网信号（共 3 格）" value="SSID" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/2" x="97" y="0" width="13" height="20">
+                </UIAElement>
+                <UIAElement name="16:48" label="16:48" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/3" x="172" y="0" width="35" height="20">
+                </UIAElement>
+                <UIAElement name="方向已锁定" label="方向已锁定" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/4" x="269" y="0" width="12" height="20">
+                </UIAElement>
+                <UIAElement name="闹钟" label="闹钟" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/5" x="287" y="0" width="10" height="20">
+                </UIAElement>
+                <UIAElement name="电池电量：100%, 使用交流电源" label="电池电量：100%, 使用交流电源" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/6" x="303" y="0" width="67" height="20">
+                </UIAElement>
+            </UIAStatusBar>
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/3" x="0" y="0" width="50" height="50">
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/3/0" x="325" y="200" width="50" height="50">
+            </UIAButton>
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4" x="0" y="0" width="160" height="30">
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/4/0" x="165" y="180" width="60" height="30">
+            </UIAButton>
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/4/1" x="265" y="180" width="60" height="30">
+            </UIAButton>
+            <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/2" x="165" y="190" width="160" height="20">
+            </UIAImage>
+            <UIAButton name="0.0&quot;" label="0.0&quot;" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/3" x="173" y="193.5" width="50" height="15">
+            </UIAButton>
+            <UIAStaticText name="G&amp;W" label="G&amp;W" value="G&amp;W" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/4/4" x="225" y="192" width="75" height="18">
+            </UIAStaticText>
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/5" x="305" y="194" width="15" height="15">
+            </UIAButton>
+            <UIATableView name="" label="" value="已移到第 1 行（共 3 行）" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6" x="165" y="210" width="160" height="0">
+                <UIATableCell name="CPU" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/0" x="165" y="210" width="160" height="21">
+                    <UIAStaticText name="CPU" label="CPU" value="CPU" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/0/0" x="171" y="210" width="42" height="21">
+                    </UIAStaticText>
+                    <UIAStaticText name="5.90%" label="5.90%" value="5.90%" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/0/1" x="217" y="210" width="102" height="21">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="MEM" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/1" x="165" y="231" width="160" height="21">
+                    <UIAStaticText name="MEM" label="MEM" value="MEM" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/1/0" x="0" y="0" width="42" height="21">
+                    </UIAStaticText>
+                    <UIAStaticText name="38.46M" label="38.46M" value="38.46M" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/1/1" x="0" y="0" width="102" height="21">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="NET" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/2" x="165" y="252" width="160" height="21">
+                    <UIAStaticText name="NET" label="NET" value="NET" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/2/0" x="0" y="0" width="42" height="21">
+                    </UIAStaticText>
+                    <UIAStaticText name="Wifi T:28.813KB R:70.030KBWWAN T:0.000KB R:0.000KB" label="Wifi T:28.813KB R:70.030KBWWAN T:0.000KB R:0.000KB" value="Wifi T:28.813KB R:70.030KBWWAN T:0.000KB R:0.000KB" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/2/1" x="0" y="0" width="102" height="21">
+                    </UIAStaticText>
+                </UIATableCell>
+            </UIATableView>
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/5" x="0" y="0" width="55" height="55">
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/5/0" x="328" y="567" width="50" height="50">
+            </UIAButton>
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/5/1" x="328" y="567" width="50" height="50">
+            </UIAButton>
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/5/2" x="328" y="567" width="55" height="55">
+            </UIAButton>
+        </UIAWindow>
+    </UIAApplication>
+</AppiumAUT>
+2016-04-11 16:45:10 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-04-11 16:45:13 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-11 16:45:17 dev_log : [INFO] [点击 -> name: 登陆]
+2016-04-11 16:45:39 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 16:45:39 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 16:45:39 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 16:45:39 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 16:45:39 dev_log : [INFO] 4
+2016-04-11 16:45:43 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 16:45:45 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 16:45:46 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:45:49 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 16:45:51 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 16:45:53 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 16:45:55 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:45:57 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 16:45:59 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 16:46:01 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 16:46:05 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 16:46:07 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:46:22 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：3
+2016-04-11 16:46:22 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:46:27 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:46:33 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:46:37 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:46:42 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 16:46:43 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:47:03 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：2
+2016-04-11 16:47:03 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:47:10 dev_log : [INFO] 进入点击htmlbackhome状态...
+2016-04-11 16:47:11 dev_log : [INFO] [点击 -> name: htmlbackhome]
+2016-04-11 16:47:15 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:47:21 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:47:29 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 16:47:34 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 16:47:35 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:47:50 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：1
+2016-04-11 16:47:50 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:47:55 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:48:01 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:48:15 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 16:48:16 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 16:48:18 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 16:48:20 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 16:48:25 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 16:48:26 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:48:41 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：0
+2016-04-11 16:48:41 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:48:47 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:48:54 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:48:57 dev_log : [INFO] 4.5一账通登录时打开抢登陆插件是否能正常进入 案例已成功跑完
+2016-04-11 16:50:38 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 16:50:42 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 16:50:46 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 16:50:54 dev_log : [INFO] 获取插件列表
+2016-04-11 16:50:56 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 16:50:56 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 16:50:56 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 16:50:56 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 16:50:56 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 16:50:56 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 16:50:56 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 16:50:56 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 16:50:56 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 16:50:56 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 16:50:56 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 16:50:56 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 16:50:56 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 16:50:56 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 16:50:56 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 16:50:56 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 16:50:56 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 16:50:56 dev_log : [INFO] 17
+2016-04-11 16:50:56 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-04-11 16:51:04 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 16:51:05 dev_log : [INFO] [Wait For Text : [宿主]] 
+2016-04-11 16:51:14 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-04-11 16:51:16 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 16:51:25 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-04-11 16:51:30 dev_log : [INFO] 页面元素如下：<?xml version="1.0" encoding="UTF-8"?>
+<AppiumAUT>
+    <UIAApplication name="stg2-11181400" label="stg2-11181400" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0" x="0" y="0" width="375" height="667">
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0" x="0" y="0" width="375" height="667">
+            <UIATableView name="" label="" value="第 1 航至第 12 航（共 20 航）" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0" x="20" y="50" width="261.25" height="567">
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/0" x="20" y="50" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/0/0" x="35" y="50" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/1" x="20" y="100" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/1/0" x="35" y="100" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/2" x="20" y="150" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/2/0" x="35" y="150" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/3" x="20" y="200" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/3/0" x="35" y="200" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/4" x="20" y="250" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/4/0" x="35" y="250" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/5" x="20" y="300" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/5/0" x="35" y="300" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/6" x="20" y="350" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/6/0" x="35" y="350" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/7" x="20" y="400" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/7/0" x="35" y="400" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/8" x="20" y="450" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/8/0" x="35" y="450" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/9" x="20" y="500" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/9/0" x="35" y="500" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/10" x="20" y="550" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/10/0" x="35" y="550" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/11" x="20" y="600" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/11/0" x="35" y="600" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/12" x="20" y="650" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/12/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/13" x="20" y="700" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/13/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/14" x="20" y="750" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/14/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/15" x="20" y="800" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/15/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/16" x="20" y="850" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/16/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/17" x="20" y="900" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/17/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/18" x="20" y="950" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/18/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="slide" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/19" x="20" y="1000" width="261.25" height="50">
+                    <UIAStaticText name="slide" label="slide" value="slide" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/19/0" x="0" y="0" width="231.25" height="49.5">
+                    </UIAStaticText>
+                </UIATableCell>
+            </UIATableView>
+            <UIANavigationBar name="View" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1" x="0" y="20" width="375" height="44">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/0" x="0" y="0" width="375" height="64">
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/0/0" x="0" y="64" width="375" height="0.5">
+                    </UIAImage>
+                </UIAImage>
+                <UIAButton name="返回" label="返回" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/1" x="8" y="31.5" width="21" height="21">
+                </UIAButton>
+            </UIANavigationBar>
+            <UIAScrollView name="mainScro" label="mainScro" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2" x="0" y="0" width="375" height="603">
+                <UIAScrollView name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0" x="31.5" y="332.45000000000005" width="375" height="270.54999999999995">
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/0" x="401" y="335.00000000000006" width="2.5" height="264.99999999999994">
+                    </UIAImage>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/1" x="31.5" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/2" x="31.5" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA01100000000_02_HHC" label="PA01100000000_02_HHC" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/3" x="31.5" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="划横财" label="划横财" value="划横财" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/4" x="39.2" y="530.2" width="84" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/5" x="39.2" y="554" width="84" height="9.100000000000023">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/6" x="116.89999999999998" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/7" x="116.89999999999998" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA01100000001_02_HBJH" label="PA01100000001_02_HBJH" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/8" x="116.89999999999998" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="红包集合" label="红包集合" value="红包集合" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/9" x="124.59999999999998" y="530.2" width="83.99999999999999" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="红包集合" label="红包集合" value="红包集合" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/10" x="124.59999999999998" y="554" width="83.99999999999999" height="9.100000000000023">
+                    </UIAStaticText>
+                    <UIAStaticText name="3.3.0.1-stg2" label="3.3.0.1-stg2" value="3.3.0.1-stg2" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/11" x="122.89999999999998" y="573" width="79" height="15">
+                    </UIAStaticText>
+                    <UIAStaticText name="2015-11-18" label="2015-11-18" value="2015-11-18" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/12" x="122.89999999999998" y="588" width="79" height="15">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/13" x="202.29999999999995" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/14" x="202.29999999999995" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA00300000000_02_MCX" label="PA00300000000_02_MCX" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/15" x="202.29999999999995" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="买车险" label="买车险" value="买车险" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/16" x="209.99999999999994" y="530.2" width="84" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="好车主插件" label="好车主插件" value="好车主插件" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/17" x="209.99999999999994" y="554" width="84" height="9.100000000000023">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/18" x="287.70000000000005" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/19" x="287.70000000000005" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA02100000001_02_JF" label="PA02100000001_02_JF" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/20" x="287.70000000000005" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="新积分" label="新积分" value="新积分" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/21" x="295.40000000000003" y="530.2" width="84" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="万里通积分" label="万里通积分" value="万里通积分" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/22" x="295.40000000000003" y="554" width="84" height="9.100000000000023">
+                    </UIAStaticText>
+                    <UIAStaticText name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/23" x="373.1" y="519" width="0" height="0">
+                    </UIAStaticText>
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/24" x="373.1" y="519" width="84" height="84">
+                    </UIAImage>
+                    <UIAButton name="PA02100000000_02_FGZ" label="PA02100000000_02_FGZ" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/0/25" x="373.1" y="519" width="84" height="84">
+                    </UIAButton>
+                    <UIAStaticText name="房估值" label="房估值" value="房估值" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/26" x="380.8" y="530.2" width="84" height="16.799999999999955">
+                    </UIAStaticText>
+                    <UIAStaticText name="房估值" label="房估值" value="房估值" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0/27" x="380.8" y="554" width="84" height="9.100000000000023">
+                    </UIAStaticText>
+                </UIAScrollView>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/1" x="369.5" y="3" width="2.5" height="597">
+                </UIAImage>
+                <UIAStaticText name="7" label="7" value="7" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/2" x="19.975000000000023" y="548.925" width="24.150000000000006" height="24.149999999999977">
+                </UIAStaticText>
+                <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/2/3" x="19.975000000000023" y="548.925" width="24.150000000000006" height="24.149999999999977">
+                </UIAButton>
+            </UIAScrollView>
+            <UIAButton name="exchangeButton" label="exchangeButton" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/3" x="324.6" y="276.79999999999995" width="50.39999999999998" height="50.39999999999998">
+                <UIAImage name="/var/mobile/Containers/Bundle/Application/6D7C07A8-C5A4-4290-B1EC-5ECA75E85F52/PAAnydoorSDK_New.app/AnyDoorSDKBundle.bundle/rym_switch_singleline.png" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/3/0" x="324.6" y="276.79999999999995" width="50.39999999999998" height="50.39999999999998">
+                </UIAImage>
+            </UIAButton>
+            <UIAScrollView name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/4" x="0" y="0" width="375" height="667">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/4/0" x="365" y="661.5" width="7" height="2.5">
+                </UIAImage>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/4/1" x="369.5" y="657" width="2.5" height="7">
+                </UIAImage>
+            </UIAScrollView>
+            <UIAImage name="background.jpg" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/5" x="0" y="0" width="375" height="667">
+            </UIAImage>
+            <UIAScrollView name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/6" x="0" y="0" width="375" height="667">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/6/0" x="0" y="0" width="375" height="800">
+                </UIAImage>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/6/1" x="369.5" y="3" width="2.5" height="661">
+                </UIAImage>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/6/2" x="3" y="661.5" width="369" height="2.5">
+                </UIAImage>
+            </UIAScrollView>
+            <UIAPicker name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/7" x="0" y="40" width="375" height="160">
+                <UIAPickerWheel name="" label="" value="rymtest001" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/7/0" x="0" y="2.5" width="375" height="235">
+                </UIAPickerWheel>
+            </UIAPicker>
+            <UIAButton name="确认" label="确认" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/8" x="295" y="80" width="80" height="30">
+            </UIAButton>
+            <UIAStaticText name="模拟宿主登陆页" label="模拟宿主登陆页" value="模拟宿主登陆页" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/9" x="112.5" y="20" width="150" height="40">
+            </UIAStaticText>
+            <UIAButton name="返回" label="返回" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/10" x="20" y="70" width="40" height="40">
+            </UIAButton>
+            <UIAButton name="选择登陆用户" label="选择登陆用户" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/11" x="122.5" y="80" width="130" height="40">
+            </UIAButton>
+            <UIAButton name="登陆" label="登陆" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/12" x="147.5" y="150" width="80" height="40">
+            </UIAButton>
+            <UIAButton name="无用户体系" label="无用户体系" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/13" x="10.000000000000007" y="80" width="111.66666666666669" height="40">
+            </UIAButton>
+            <UIAButton name="非一账通" label="非一账通" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/14" x="131.66666666666669" y="80" width="111.66666666666669" height="40">
+            </UIAButton>
+            <UIAButton name="一账通" label="一账通" value="" dom="" enabled="false" valid="true" visible="false" hint="" path="/0/0/15" x="253.33333333333334" y="80" width="111.66666666666666" height="40">
+            </UIAButton>
+            <UIAButton name="宿主登陆" label="宿主登陆" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/16" x="10" y="130" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="宿主退出" label="宿主退出" value="" dom="" enabled="false" valid="true" visible="false" hint="" path="/0/0/17" x="192.5" y="130" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="测试页面" label="测试页面" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/18" x="10" y="180" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="回到主屏" label="回到主屏" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/19" x="192.5" y="180" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="拉取消息接口" label="拉取消息接口" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/20" x="10" y="230" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="清空全部消息数据" label="清空全部消息数据" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/21" x="192.5" y="230" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="切换长登陆状态" label="切换长登陆状态" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/22" x="10" y="280" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="获取宿主显示插件" label="获取宿主显示插件" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/23" x="192.5" y="280" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="查看埋点记录" label="查看埋点记录" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/24" x="10" y="330" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="删除埋点记录" label="删除埋点记录" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/25" x="192.5" y="330" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="清除曝光数据" label="清除曝光数据" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/26" x="10" y="380" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="超时测试" label="超时测试" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/27" x="192.5" y="380" width="172.5" height="40">
+            </UIAButton>
+            <UIAButton name="测试Loading" label="测试Loading" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/28" x="10" y="430" width="172.5" height="40">
+            </UIAButton>
+            <UIAToolbar name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/29" x="0" y="667" width="375" height="44">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/29/0" x="0" y="666.5" width="375" height="0.5">
+                </UIAImage>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/29/1" x="0" y="667" width="375" height="44">
+                </UIAImage>
+            </UIAToolbar>
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1" x="0" y="0" width="375" height="667">
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2" x="0" y="0" width="375" height="667">
+            <UIAStatusBar name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0" x="0" y="0" width="375" height="20">
+                <UIAElement name="信号强度：4 格（共 5 格）" label="信号强度：4 格（共 5 格）" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/0" x="6" y="0" width="35" height="20">
+                </UIAElement>
+                <UIAElement name="中国联通 网络" label="中国联通 网络" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/1" x="44" y="0" width="48" height="20">
+                </UIAElement>
+                <UIAElement name="3 格无线局域网信号（共 3 格）" label="3 格无线局域网信号（共 3 格）" value="SSID" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/2" x="97" y="0" width="13" height="20">
+                </UIAElement>
+                <UIAElement name="16:54" label="16:54" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/3" x="172" y="0" width="34" height="20">
+                </UIAElement>
+                <UIAElement name="方向已锁定" label="方向已锁定" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/4" x="269" y="0" width="12" height="20">
+                </UIAElement>
+                <UIAElement name="闹钟" label="闹钟" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/5" x="287" y="0" width="10" height="20">
+                </UIAElement>
+                <UIAElement name="电池电量：100%, 使用交流电源" label="电池电量：100%, 使用交流电源" value="" dom="" enabled="true" valid="true" visible="true" hint="三指向下轻扫来显现通知中心。, 三指向上轻扫来显示控制中心, 轻点两下来滚动到顶部" path="/0/2/0/6" x="303" y="0" width="67" height="20">
+                </UIAElement>
+            </UIAStatusBar>
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/3" x="0" y="0" width="50" height="50">
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/3/0" x="325" y="200" width="50" height="50">
+            </UIAButton>
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4" x="0" y="0" width="160" height="30">
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/4/0" x="165" y="180" width="60" height="30">
+            </UIAButton>
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/4/1" x="265" y="180" width="60" height="30">
+            </UIAButton>
+            <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/2" x="165" y="190" width="160" height="20">
+            </UIAImage>
+            <UIAButton name="0.0&quot;" label="0.0&quot;" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/3" x="173" y="193.5" width="50" height="15">
+            </UIAButton>
+            <UIAStaticText name="G&amp;W" label="G&amp;W" value="G&amp;W" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/4/4" x="225" y="192" width="75" height="18">
+            </UIAStaticText>
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/5" x="305" y="194" width="15" height="15">
+            </UIAButton>
+            <UIATableView name="" label="" value="已移到第 1 行（共 3 行）" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6" x="165" y="210" width="160" height="0">
+                <UIATableCell name="CPU" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/0" x="165" y="210" width="160" height="21">
+                    <UIAStaticText name="CPU" label="CPU" value="CPU" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/0/0" x="171" y="210" width="42" height="21">
+                    </UIAStaticText>
+                    <UIAStaticText name="24.10%" label="24.10%" value="24.10%" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/0/1" x="217" y="210" width="102" height="21">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="MEM" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/1" x="165" y="231" width="160" height="21">
+                    <UIAStaticText name="MEM" label="MEM" value="MEM" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/1/0" x="0" y="0" width="42" height="21">
+                    </UIAStaticText>
+                    <UIAStaticText name="38.00M" label="38.00M" value="38.00M" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/1/1" x="0" y="0" width="102" height="21">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="NET" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/2" x="165" y="252" width="160" height="21">
+                    <UIAStaticText name="NET" label="NET" value="NET" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/2/0" x="0" y="0" width="42" height="21">
+                    </UIAStaticText>
+                    <UIAStaticText name="Wifi T:35.528KB R:72.332KBWWAN T:0.000KB R:0.000KB" label="Wifi T:35.528KB R:72.332KBWWAN T:0.000KB R:0.000KB" value="Wifi T:35.528KB R:72.332KBWWAN T:0.000KB R:0.000KB" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/4/6/2/1" x="0" y="0" width="102" height="21">
+                    </UIAStaticText>
+                </UIATableCell>
+            </UIATableView>
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/5" x="0" y="0" width="55" height="55">
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/5/0" x="328" y="567" width="50" height="50">
+            </UIAButton>
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/5/1" x="328" y="567" width="50" height="50">
+            </UIAButton>
+            <UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/5/2" x="328" y="567" width="55" height="55">
+            </UIAButton>
+        </UIAWindow>
+    </UIAApplication>
+</AppiumAUT>
+2016-04-11 16:51:34 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-04-11 16:51:36 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-11 16:51:40 dev_log : [INFO] [点击 -> name: 登陆]
+2016-04-11 16:52:03 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 16:52:03 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 16:52:03 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 16:52:03 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 16:52:03 dev_log : [INFO] 4
+2016-04-11 16:52:07 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 16:52:08 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 16:52:10 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 16:52:12 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 16:52:16 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 16:52:17 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:52:34 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：3
+2016-04-11 16:52:34 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:52:39 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:52:46 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:52:50 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 16:52:52 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 16:52:54 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 16:52:56 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 16:52:58 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 16:53:03 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 16:53:04 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:53:20 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：2
+2016-04-11 16:53:20 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:53:25 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:53:31 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:53:45 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 16:53:46 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:53:48 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:53:50 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:53:52 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_JTB  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:53:54 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:53:56 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YYG  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:53:58 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YHDD  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:54:00 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:54:02 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_PAW  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:57:03 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 16:57:07 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 16:57:11 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 16:57:20 dev_log : [INFO] 获取插件列表
+2016-04-11 16:57:21 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 16:57:21 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 16:57:21 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 16:57:21 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 16:57:21 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 16:57:21 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 16:57:21 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 16:57:21 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 16:57:21 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 16:57:21 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 16:57:21 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 16:57:21 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 16:57:21 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 16:57:21 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 16:57:21 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 16:57:21 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 16:57:21 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 16:57:21 dev_log : [INFO] 17
+2016-04-11 16:57:21 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-04-11 16:57:27 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 16:57:29 dev_log : [INFO] [Wait For Text : [宿主]] 
+2016-04-11 16:57:37 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-04-11 16:57:40 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 16:57:48 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-04-11 16:57:54 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-04-11 16:57:57 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-11 16:58:01 dev_log : [INFO] [点击 -> name: 登陆]
+2016-04-11 16:58:24 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 16:58:24 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 16:58:24 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 16:58:24 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 16:58:24 dev_log : [INFO] 4
+2016-04-11 16:58:28 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 16:58:29 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 16:58:31 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:58:33 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 16:58:35 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 16:58:37 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 16:58:41 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 16:58:43 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:59:03 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：3
+2016-04-11 16:59:03 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:59:08 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:59:14 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:59:18 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-11 16:59:23 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 16:59:24 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 16:59:44 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：2
+2016-04-11 16:59:44 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 16:59:49 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 16:59:55 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 16:59:59 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 17:00:03 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 17:00:05 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 17:00:20 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：1
+2016-04-11 17:00:20 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 17:00:25 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 17:00:32 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 17:00:36 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 17:00:47 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 17:00:48 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 17:00:50 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 17:00:52 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 17:00:57 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 17:00:58 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 17:01:14 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：0
+2016-04-11 17:01:14 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 17:01:20 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 17:01:27 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 17:01:30 dev_log : [INFO] 4.5一账通登录时打开抢登陆插件是否能正常进入 案例已成功跑完
+2016-04-11 17:23:52 dev_log : [INFO] [点击 -> name: AppId]
+2016-04-11 17:23:56 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-04-11 17:24:00 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-04-11 17:24:08 dev_log : [INFO] 获取插件列表
+2016-04-11 17:24:10 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-04-11 17:24:10 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-04-11 17:24:10 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-04-11 17:24:10 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-04-11 17:24:10 dev_log : [INFO] 新积分  ----  PA02100000001_02_JF  ----  Y
+2016-04-11 17:24:10 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-04-11 17:24:10 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-04-11 17:24:10 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-04-11 17:24:10 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-04-11 17:24:10 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-04-11 17:24:10 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-04-11 17:24:10 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-04-11 17:24:10 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-04-11 17:24:10 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-04-11 17:24:10 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-04-11 17:24:10 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-04-11 17:24:10 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-04-11 17:24:10 dev_log : [INFO] 17
+2016-04-11 17:24:10 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-04-11 17:24:16 dev_log : [INFO] [点击 -> name: 一账通]
+2016-04-11 17:24:17 dev_log : [INFO] [Wait For Text : [宿主]] 
+2016-04-11 17:24:26 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-04-11 17:24:28 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-04-11 17:24:37 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-04-11 17:24:43 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-04-11 17:24:45 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-11 17:24:50 dev_log : [INFO] [点击 -> name: 登陆]
+2016-04-11 17:25:12 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-04-11 17:25:12 dev_log : [INFO] 需要登录插件id ：PA02100000001_02_JF
+2016-04-11 17:25:12 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-04-11 17:25:12 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-04-11 17:25:12 dev_log : [INFO] 4
+2016-04-11 17:25:16 dev_log : [INFO] 当前页面插件个数为：5
+2016-04-11 17:25:17 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 17:25:19 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000001_02_JF
+2016-04-11 17:25:22 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 17:25:24 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 17:25:26 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-04-11 17:25:30 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-04-11 17:25:31 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 17:25:47 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：3
+2016-04-11 17:25:47 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 17:25:52 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 17:25:58 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 17:26:03 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000001_02_JF  json获取页面id为： PA02100000001_02_JF
+2016-04-11 17:26:07 dev_log : [INFO] [点击 -> name: PA02100000001_02_JF]
+2016-04-11 17:26:08 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 17:26:24 dev_log : [INFO] 已弹出登录,删除强登录插件新积分 剩余需要强登录的插件个数为：2
+2016-04-11 17:26:24 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 17:26:29 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 17:26:35 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 17:26:39 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-04-11 17:26:44 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-04-11 17:26:45 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 17:27:00 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：1
+2016-04-11 17:27:00 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 17:27:05 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 17:27:12 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 17:27:16 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 17:27:27 dev_log : [INFO] 当前页面插件个数为：10
+2016-04-11 17:27:28 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 17:27:30 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 17:27:32 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-04-11 17:27:37 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-04-11 17:27:38 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-04-11 17:27:58 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：0
+2016-04-11 17:27:58 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-04-11 17:28:04 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-04-11 17:28:10 dev_log : [INFO] [点击 -> name: closeButton]
+2016-04-11 17:28:14 dev_log : [INFO] 4.5一账通登录时打开抢登陆插件是否能正常进入 案例已成功跑完
