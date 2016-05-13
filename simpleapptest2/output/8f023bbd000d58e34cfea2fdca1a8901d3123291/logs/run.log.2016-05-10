@@ -1,0 +1,8 @@
+2016-05-10 14:38:58 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-10 14:39:16 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-10 14:39:19 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-10 14:39:23 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-10 14:39:32 dev_log : [STEP] 个人中心用例1-5 插件不配置强登， 例如消息中心 开始跑
+2016-05-10 14:39:32 dev_log : [INFO] 模拟向右滑动
+2016-05-10 14:39:37 dev_log : [INFO] [Wait For Text : [消息中心]] 
+2016-05-10 14:39:46 dev_log : [INFO] [点击 -> name: 消息中心]

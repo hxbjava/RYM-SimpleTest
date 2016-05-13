@@ -1,0 +1,70 @@
+2016-05-11 16:47:50 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-11 16:48:07 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-11 16:48:11 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-11 16:48:15 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-11 16:48:23 dev_log : [STEP] 个人中心用例1-5 插件不配置强登， 例如消息中心 开始跑
+2016-05-11 16:48:23 dev_log : [INFO] 模拟向右滑动
+2016-05-11 16:48:28 dev_log : [INFO] [Wait For Text : [消息中心]] 
+2016-05-11 16:48:37 dev_log : [INFO] [点击 -> name: 消息中心]
+2016-05-11 16:48:44 dev_log : [INFO] [Wait For Text : [重要]] 
+2016-05-11 16:48:49 dev_log : [INFO] 个人中心用例1-5 插件不配置强登， 例如消息中心 测试通过
+2016-05-11 16:48:50 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-11 16:48:55 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-11 16:49:02 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-11 16:49:15 dev_log : [INFO] 当前页面插件个数为：0
+2016-05-11 16:49:15 dev_log : [INFO] 在左屏，屏幕向左滑动回到主屏
+2016-05-11 16:49:15 dev_log : [INFO] 模拟向左滑动
+2016-05-11 16:49:22 dev_log : [INFO] 找到［回到主屏］，点击回到主屏
+2016-05-11 16:49:26 dev_log : [INFO] 点击无用户体系，恢复用户体系状态
+2016-05-11 16:49:29 dev_log : [STEP] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 开始跑
+2016-05-11 16:49:29 dev_log : [INFO] 模拟向右滑动
+2016-05-11 16:49:34 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-11 16:49:43 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-11 16:49:49 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-11 16:49:59 dev_log : [INFO] 已弹出登录
+2016-05-11 16:50:05 dev_log : [INFO] [点击 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-11 16:50:17 dev_log : [INFO] [输入字符 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-11 16:50:23 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-11 16:50:28 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-11 16:50:35 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-11 16:51:55 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-11 16:52:13 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-11 16:52:17 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-11 16:52:20 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-11 17:05:38 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-11 17:05:55 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-11 17:05:58 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-11 17:06:02 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-11 17:06:11 dev_log : [STEP] 个人中心用例1-5 插件不配置强登， 例如消息中心 开始跑
+2016-05-11 17:06:11 dev_log : [INFO] 模拟向右滑动
+2016-05-11 17:06:16 dev_log : [INFO] [Wait For Text : [消息中心]] 
+2016-05-11 17:06:25 dev_log : [INFO] [点击 -> name: 消息中心]
+2016-05-11 17:06:31 dev_log : [INFO] [Wait For Text : [重要]] 
+2016-05-11 17:06:37 dev_log : [INFO] 个人中心用例1-5 插件不配置强登， 例如消息中心 测试通过
+2016-05-11 17:06:37 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-11 17:06:43 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-11 17:06:49 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-11 17:07:02 dev_log : [INFO] 当前页面插件个数为：0
+2016-05-11 17:07:02 dev_log : [INFO] 在左屏，屏幕向左滑动回到主屏
+2016-05-11 17:07:02 dev_log : [INFO] 模拟向左滑动
+2016-05-11 17:07:09 dev_log : [INFO] 找到［回到主屏］，点击回到主屏
+2016-05-11 17:07:13 dev_log : [INFO] 点击无用户体系，恢复用户体系状态
+2016-05-11 17:07:15 dev_log : [STEP] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 开始跑
+2016-05-11 17:07:15 dev_log : [INFO] 模拟向右滑动
+2016-05-11 17:07:20 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-11 17:07:34 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-11 17:07:40 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-11 17:07:46 dev_log : [INFO] 已弹出登录
+2016-05-11 17:07:51 dev_log : [INFO] [点击 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-11 17:08:04 dev_log : [INFO] [输入字符 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-11 17:08:10 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-11 17:08:15 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-11 17:08:22 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-11 17:08:35 dev_log : [INFO] 当前页面插件个数为：0
+2016-05-11 17:08:35 dev_log : [INFO] 在左屏，屏幕向左滑动回到主屏
+2016-05-11 17:08:35 dev_log : [INFO] 模拟向左滑动
+2016-05-11 17:08:42 dev_log : [INFO] 找到［回到主屏］，点击回到主屏
+2016-05-11 17:08:46 dev_log : [INFO] 点击无用户体系，恢复用户体系状态
+2016-05-11 17:08:48 dev_log : [STEP] 个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 开始跑
+2016-05-11 17:08:48 dev_log : [INFO] [Wait For Text : [非一账通]] 
+2016-05-11 17:08:55 dev_log : [INFO] [点击 -> name: 非一账通]

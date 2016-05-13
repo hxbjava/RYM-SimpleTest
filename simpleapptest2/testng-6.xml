@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
-<suite name="ipod-jianghongbo720">
+<suite name="SimpleTest">
   <parameter name="appName" value="PAAnydoorSDK1130-1108.ipa"/> 
     <parameter name="filePath" value="/Users/rymtest/Desktop/app_package/"/>
     <parameter name="platformName" value="ios"/>
@@ -12,7 +12,7 @@
     <parameter name="udid" value="8f023bbd000d58e34cfea2fdca1a8901d3123291"/>
     <parameter name="timeout" value="60"/>
     <parameter name="remote_url" value=""/>
-    <test name="IPHONE-5S" preserve-order="true">
+    <test name="Iphone-Test" preserve-order="true">
        	<groups>
        	    <define name="p1">
        	        <include name="p1"></include>
@@ -32,7 +32,6 @@
             <class name="com.rym.libarary.testsuits.MsgCenter_Test"></class>
               <class name="com.rym.libarary.testsuits.Plugin_Test"></class>
         </classes>
-        
     </test>
     
     
