@@ -20,5 +20,6 @@
 	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/adt/work/GitHxbjava/simpleapptest2/libs/reportng-1.1.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/adt/work/GitHxbjava/simpleapptest2/libs/velocity-1.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/adt/work/GitHxbjava/simpleapptest2/libs/velocity-dep-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/rymtest/Desktop/adt/work/GitHxbjava/simpleapptest2/libs/qdox-1.12.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

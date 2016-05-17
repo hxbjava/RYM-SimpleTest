@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [ipod-jianghongbo720]">
+<suite name="Failed suite [SimpleTest]">
   <parameter name="appPackage" value=""/>
   <parameter name="remote_url" value=""/>
   <parameter name="login_classname" value="UIALink"/>
@@ -22,7 +22,7 @@
   <parameter name="appID" value="养老险E企赢"/>
   <parameter name="platformName" value="ios"/>
   <parameter name="udid" value="8f023bbd000d58e34cfea2fdca1a8901d3123291"/>
-  <test name="IPHONE-5S(failed)">
+  <test name="Iphone-Test(failed)">
     <groups>
       <run>
         <include name="p1"/>
@@ -39,9 +39,9 @@
         <methods>
           <include name="afterTest"/>
           <include name="LoginPersonalCenterByHost"/>
-          <include name="LoginPersonalCenterByH5"/>
+          <include name="LoginPersonalCenterByH5" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.rym.libarary.testsuits.PersonalCenter_Test -->
     </classes>
-  </test> <!-- IPHONE-5S(failed) -->
-</suite> <!-- Failed suite [ipod-jianghongbo720] -->
+  </test> <!-- Iphone-Test(failed) -->
+</suite> <!-- Failed suite [SimpleTest] -->

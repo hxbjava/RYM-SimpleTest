@@ -34,6 +34,11 @@
         </classes>
     </test>
     
+      <listeners>
+        <listener class-name="com.rym.libarary.utils.testng.TestResultListener"/>
+        <listener class-name="com.rym.libarary.utils.testng.RetryListener"/>
+        <!--<listener class-name="com.rym.libarary.utils.testng.PowerEmailableReporter" />-->
+    </listeners>
     
     <parameter name="appID" value="养老险E企赢"/>
     <parameter name="login_name" value="sjtest003"/>

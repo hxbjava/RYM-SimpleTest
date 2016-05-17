@@ -6,11 +6,15 @@ import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
@@ -34,6 +38,8 @@ public class AutoTestBase {
 	public static String platformName;
 	public static String udid;
 	public static AppOperate appOperate;
+	public static String date;
+	public static String time;
 	
 	public WebDriver getDriver()
 	{
@@ -113,22 +119,50 @@ public class AutoTestBase {
 		driver.quit();
 	}
 	
+	/**
+	 * 每个测试案例执行完毕后杀掉app在启动，方便恢复数据
+	 * @param appID
+	 */
 	@AfterMethod(alwaysRun=true)
-	public void afterTest()
+	@Parameters({"appID"})
+	public void afterTest(String appID)
 	{
-	appOperate.backToHomePage();
+		
+//	appOperate.backToHomePage();
 	//	driver.quit();
+		((AppiumDriver)driver).closeApp();
+		Sleep.sleep(3);
+		((AppiumDriver)driver).launchApp();
+		Login.startApp(appID);
+		Sleep.sleep(3);
 	}
 	
-	
+	 /**
+     * Description: Screen Shot.
+     * 实现屏幕截屏功能。
+     *
+     * @param fileName 截屏文件名
+     * @throws IOException IO异常
+     */
+	public static String ScreenShot(String fileName) throws IOException
+	{
+		String filePath_screenShots;
+		String filePath_testngReports="output"+File.separator+date+File.separator+time
+			+File.separator+udid+File.separator+"testngReports"+File.separator;
+		 filePath_screenShots = "output" + File.separator + date + File.separator + time
+				 + File.separator + udid + File.separator + "screenShots" + File.separator;
+		FileUtils.copyFile(((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE), new File
+				(filePath_screenShots+fileName+".png"));
+		 return filePath_testngReports;
+	}
 	
 	 public void sleep(long time)
-	    {
-	   	 try {
-				Thread.sleep(time);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	    }
+	 {
+	   try {
+			Thread.sleep(time);
+	   } catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	  }
 }
