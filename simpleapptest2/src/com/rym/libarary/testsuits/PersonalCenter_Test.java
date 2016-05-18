@@ -55,7 +55,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	/**
 	 *  个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录
 	 */
-//	@Test(groups={"p1"})
+	@Test(groups={"p1"})
 	@Parameters({"LoginPersonalCenterName","login_name","login_password","login_HostName"})
 	public void LoginPersonalCenterByH5BeforNoYZT(String LoginPersonalCenterName,String login_name,String login_password,String login_HostName)
 	{
@@ -87,7 +87,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	/**
 	 *  个人中心用例1-3（插件为强登，用户一账通登陆），模拟宿主一账通登录
 	 */
-//	@Test(groups={"p1"})
+	@Test(groups={"p1"})
 	@Parameters({"LoginPersonalAferName","login_HostName"})
 	public void LoginPersonalCenterByHostYZT(String LoginPersonalAferName,String login_HostName)
 	{
@@ -108,7 +108,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	/**
 	 * 个人中心用例1-4-1（插件为强登，用户已登陆），超时后点击
 	 */
-//	@Test(groups={"p1"})
+	@Test(groups={"p1"})
 	@Parameters({"LoginPersonalCenterName","login_name","login_password"})
 	public void LoginYztTimeout(String LoginPersonalCenterName,String login_name,String login_password)
 	{
@@ -142,7 +142,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	/**
 	 * 个人中心用例1-4-2（插件为强登，用户未登陆），超时后点击
 	 */
-//	@Test(groups={"p1"})
+	@Test(groups={"p1"})
 	@Parameters({"LoginPersonalCenterName"})
 	public void LoginTimeout(String LoginPersonalCenterName)
 	{
@@ -167,7 +167,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	/**
 	 * 个人中心用例1-5 插件不配置强登， 例如消息中心
 	 */
-//	@Test(groups={"p1"})
+	@Test(groups={"p1"})
 	@Parameters({"MsgCenter"})
 	public void ClickMsgCenter(String MsgCenter)
 	{
