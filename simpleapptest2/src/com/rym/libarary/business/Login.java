@@ -49,6 +49,23 @@ public class Login extends AutoTestBase{
 		 	appOperate.click(elements_PersonalPage.Clicklogin, "找到［登 录］按钮，并点击!");
     	 }
 		   Sleep.sleep(20);
+			 //通过死循环去判断是否登录成功
+			 while(true)
+			 {
+				 if(appOperate.waitForText(20, "我的资产"))
+				 {
+					 break;
+					
+				 }else
+				 {
+						appOperate.click(elements_PersonalPage.ClickPassword, "点击 密码 进行输入");
+						appOperate.sendKeys(elements_PersonalPage.ClickPassword, "输入 密码", login_password);
+					 	appOperate.hideKeyboard();
+					 	Sleep.sleep(2);
+					 	appOperate.click(elements_PersonalPage.Clicklogin, "找到［登 录］按钮，并点击!");
+					 	 Sleep.sleep(20);
+				 }
+			 }
 	}
 		
 	/**
@@ -83,7 +100,7 @@ public class Login extends AutoTestBase{
 		  Sleep.sleep(10);
 		 while(true)
 		 {
-			 if(appOperate.waitForText(20, "选择"))
+			 if(appOperate.waitForText(20, login_HostName))
 	    	 {	
 				 appOperate.click(elements_PersonalPage.ClickHostLogin, "点击登陆");
 				 Sleep.sleep(10);
@@ -97,24 +114,39 @@ public class Login extends AutoTestBase{
 	 */
 	public static void loginNoyztByHost(String login_HostName)
 	{
-		 if(appOperate.waitForText(20, "非一账通"))
-    	 {	
-			 appOperate.click(driver.findElement(By.name("非一账通")), "点击 非一账通");
-			 appOperate.click(elements_PersonalPage.ClickByHost, "点击 宿主登陆");
-			 if(appOperate.waitForText(20, "返回"))
+		 while(true)
+		 {
+			 if(appOperate.waitForText(20, "非一账通"))
 	    	 {	
-				 appOperate.click(elements_PersonalPage.ClickHostname, "点击 选择登陆用户");
+				 appOperate.click(driver.findElement(By.name("非一账通")), "点击 非一账通");
+				 appOperate.click(elements_PersonalPage.ClickByHost, "点击 宿主登陆");
+				 if(appOperate.waitForText(20, "返回"))
+		    	 {	
+					 appOperate.click(elements_PersonalPage.ClickHostname, "点击 选择登陆用户");
+					 if(driver instanceof IOSDriver)
+					 {
+						 appOperate.sendKeys(driver.findElement(By.xpath("//UIAPickerWheel")), "输入宿主账号", login_HostName);
+						 appOperate.click(driver.findElement(By.name("确认")), "ios 点击 确认选择用户");
+					 }
+					 appOperate.click(elements_PersonalPage.ClickHostLogin, "点击登陆");
+					 break;
+		    	 }
+		//		 Log.logInfo("页面元素如下："+driver.getPageSource());
+			//	 appOperate.click(driver.findElement(By.xpath("//*[@value='"+login_HostName+"']")), "选择宿主登陆账号");
+				 
 	    	 }
-	//		 Log.logInfo("页面元素如下："+driver.getPageSource());
-		//	 appOperate.click(driver.findElement(By.xpath("//*[@value='"+login_HostName+"']")), "选择宿主登陆账号");
-			 if(driver instanceof IOSDriver)
-			 {
-				 appOperate.sendKeys(driver.findElement(By.xpath("//UIAPickerWheel")), "输入宿主账号", login_HostName);
-				 appOperate.click(driver.findElement(By.name("确认")), "ios 点击 确认选择用户");
-			 }
-			 appOperate.click(elements_PersonalPage.ClickHostLogin, "点击登陆");
-    	 }
+		 }
 		  Sleep.sleep(20);
+			 while(true)
+			 {
+				 if(appOperate.waitForText(20, login_HostName))
+		    	 {	
+					 Log.logInfo("你不应该进来的");
+					 appOperate.click(elements_PersonalPage.ClickHostLogin, "点击登陆");
+					 Sleep.sleep(10);
+		    	 }else
+		    	 {Log.logInfo("你应该进来的");break;}
+			 }
 	}
 	
 	/**

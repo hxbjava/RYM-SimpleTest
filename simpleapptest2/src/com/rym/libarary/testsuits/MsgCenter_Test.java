@@ -24,10 +24,11 @@ public class MsgCenter_Test extends AutoTestBase{
 	 * 1、无用户打开消息中心
 	 * @param MsgCenter
 	 */
-//	@Test(groups={"p2"})
+	@Test(groups={"p2"})
 	@Parameters({"MsgCenter"})
 	public void OpenMsgByleft(String MsgCenter)
 	{
+		Log.logStep(" 消息中心用例1-1 无用户打开消息中心 开始跑");
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(10, MsgCenter))
 		{
@@ -36,6 +37,7 @@ public class MsgCenter_Test extends AutoTestBase{
 			{
 				Log.logInfo("已打开消息中心");
 				appOperate.closeH5();
+				Log.logInfo(" 消息中心用例1-1 无用户打开消息中心 成功跑完");
 			}
 		}
 	}
@@ -45,24 +47,12 @@ public class MsgCenter_Test extends AutoTestBase{
 	 * @param MsgCenter
 	 * @param login_HostName
 	 */
-//	@Test(groups={"p2"})
+	@Test(groups={"p2"})
 	@Parameters({"MsgCenter","login_HostName"})
 	public void OpenMsgByYZT(String MsgCenter,String login_HostName)
 	{
-		 Login.loginyztByHost(login_HostName,false);
-			for(;;)
-			{
-				//通过死循环去判断刚才选择的账号是否还存在去判断是否登录成功
-				if(appOperate.waitForText(5, login_HostName))
-				{
-					Sleep.sleep(10);
-				}else
-				{
-					Log.logInfo("没有返回按钮");
-					Sleep.sleep(1);
-					break;
-				}
-			}	
+		Log.logStep(" 消息中心用例1-2-1一账通登陆后打开消息中心 开始跑");
+		 Login.loginyztByHost(login_HostName,false);	
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(10, MsgCenter))
 		{
@@ -71,6 +61,7 @@ public class MsgCenter_Test extends AutoTestBase{
 			{
 				Log.logInfo("已打开消息中心");
 				appOperate.closeH5();
+				Log.logInfo(" 消息中心用例1-2-1一账通登陆后打开消息中心 成功跑完");
 			}
 		}
 	}
@@ -80,24 +71,12 @@ public class MsgCenter_Test extends AutoTestBase{
 	 * @param MsgCenter
 	 * @param login_HostName
 	 */
-//	@Test(groups={"p2"})
+	@Test(groups={"p2"})
 	@Parameters({"MsgCenter","login_HostName"})
 	public void OpenMsgByBlueList(String MsgCenter,String login_HostName)
 	{
+		Log.logStep(" 消息中心用例1-2-2 一账通登陆后通过左屏消息列表打开消息中心 开始跑");
 		 Login.loginyztByHost(login_HostName,false);
-			for(;;)
-			{
-				//通过死循环去判断刚才选择的账号是否还存在去判断是否登录成功
-				if(appOperate.waitForText(5, login_HostName))
-				{
-					Sleep.sleep(10);
-				}else
-				{
-					Log.logInfo("没有返回按钮");
-					Sleep.sleep(1);
-					break;
-				}
-			}	
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(10, "第 1 页（共 2 页）"))
 		{
@@ -106,6 +85,7 @@ public class MsgCenter_Test extends AutoTestBase{
 			{
 				Log.logInfo("已打开消息中心");
 				appOperate.closeH5();
+				Log.logInfo(" 消息中心用例1-2-2 一账通登陆后通过左屏消息列表打开消息中心 成功跑完");
 			}
 		}
 	}
@@ -114,10 +94,11 @@ public class MsgCenter_Test extends AutoTestBase{
 	 * 6、消息单条删除
 	 * @param MsgCenter
 	 */
-//	@Test(groups={"p2"})
+	@Test(groups={"p2"})
 	@Parameters({"MsgCenter"})
 	public void DeleteMsg(String MsgCenter)
 	{
+		Log.logStep(" 消息中心用例1-6 删除单条消息 开始跑");
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(10, MsgCenter))
 		{
@@ -127,6 +108,7 @@ public class MsgCenter_Test extends AutoTestBase{
 				Log.logInfo("已打开消息中心");
 				DeleteMsg();
 				Sleep.sleep(20);
+				Log.logInfo(" 消息中心用例1-6 删除单条消息 成功跑完");
 			}
 		}
 	}
@@ -149,6 +131,7 @@ public class MsgCenter_Test extends AutoTestBase{
 	@Parameters({"MsgCenter"})
 	public void ClearMsg(String MsgCenter)
 	{
+		Log.logStep(" 消息中心用例1-7 清空消息 开始跑");
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(10, MsgCenter))
 		{
@@ -177,6 +160,7 @@ public class MsgCenter_Test extends AutoTestBase{
 					Log.logInfo("找到清空按钮");
 					appOperate.click(driver.findElement(By.xpath("//UIAStaticText[@name='全部']")), "点击 清空消息");
 					Sleep.sleep(20);
+					Log.logInfo(" 消息中心用例1-7 清空消息 成功跑完");
 				}
 			}
 		}

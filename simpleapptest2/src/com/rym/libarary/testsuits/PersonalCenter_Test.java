@@ -60,20 +60,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	public void LoginPersonalCenterByH5BeforNoYZT(String LoginPersonalCenterName,String login_name,String login_password,String login_HostName)
 	{
 		Log.logStep("个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 开始跑");
-		Login.loginNoyztByHost(login_HostName);
-		for(;;)
-		{
-			//通过死循环去判断刚才选择的账号是否还存在去判断是否登录成功
-			if(appOperate.waitForText(5, login_HostName))
-			{
-				Sleep.sleep(10);
-			}else
-			{
-				Log.logInfo("没有返回按钮");
-				Sleep.sleep(1);
-				break;
-			}
-		}		
+		Login.loginNoyztByHost(login_HostName);	
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(5, LoginPersonalCenterName))
 		{

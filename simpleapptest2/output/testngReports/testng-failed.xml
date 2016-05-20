@@ -4,7 +4,7 @@
   <parameter name="appPackage" value=""/>
   <parameter name="remote_url" value=""/>
   <parameter name="login_classname" value="UIALink"/>
-  <parameter name="LoginPersonalAferName" value="测试"/>
+  <parameter name="LoginPersonalAferName" value="功能"/>
   <parameter name="MsgCenter" value="消息中心"/>
   <parameter name="login_HostName" value="rymtest001"/>
   <parameter name="LoginPersonalCenterName" value="新个人中心"/>
@@ -14,18 +14,22 @@
   <parameter name="deviceName" value="娱乐 (2)"/>
   <parameter name="timeout" value="60"/>
   <parameter name="appActivity" value=""/>
-  <parameter name="login_name" value="sjtest003"/>
-  <parameter name="login_password" value="qweqwe123"/>
+  <parameter name="login_name" value="18688971111"/>
+  <parameter name="login_password" value="hu154235"/>
   <parameter name="port" value="4723"/>
-  <parameter name="LoginH5AferName" value="黑米"/>
+  <parameter name="LoginH5AferName" value="功能"/>
   <parameter name="platformVersion" value="9.0"/>
   <parameter name="appID" value="养老险E企赢"/>
   <parameter name="platformName" value="ios"/>
   <parameter name="udid" value="8f023bbd000d58e34cfea2fdca1a8901d3123291"/>
+  <listeners>
+    <listener class-name="com.rym.libarary.utils.testng.TestResultListener"/>
+    <listener class-name="com.rym.libarary.utils.testng.RetryListener"/>
+  </listeners>
   <test name="Iphone-Test(failed)">
     <groups>
       <run>
-        <include name="p1"/>
+        <include name="p2"/>
       </run>
     </groups>
     <classes>
@@ -35,13 +39,12 @@
           <include name="afterSuite"/>
         </methods>
       </class> <!-- com.rym.libarary.testsuits.OpenPlugin_Test -->
-      <class name="com.rym.libarary.testsuits.PersonalCenter_Test">
+      <class name="com.rym.libarary.testsuits.MsgCenter_Test">
         <methods>
           <include name="afterTest"/>
-          <include name="LoginPersonalCenterByHost"/>
-          <include name="LoginPersonalCenterByH5" invocation-numbers="0"/>
+          <include name="ClearMsg" invocation-numbers="0 0 0 0"/>
         </methods>
-      </class> <!-- com.rym.libarary.testsuits.PersonalCenter_Test -->
+      </class> <!-- com.rym.libarary.testsuits.MsgCenter_Test -->
     </classes>
   </test> <!-- Iphone-Test(failed) -->
 </suite> <!-- Failed suite [SimpleTest] -->

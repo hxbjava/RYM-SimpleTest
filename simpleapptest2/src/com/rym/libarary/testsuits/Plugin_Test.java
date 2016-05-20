@@ -100,7 +100,7 @@ public class Plugin_Test extends AutoTestBase{
 		Log.logInfo(list.size());
 		listneedLogin=GetPluginID.GetNeedLoginPluginList(list);
 		Log.logInfo(listneedLogin.size());
-		ForCompared2("一账通号/手机号/身份证号/邮箱", "4.2未登录时强登录插件是否弹出一账通登录页 案例跑完");
+		ForCompared2("一账通号/手机号/身份证号/邮箱", "4.2未登录时强登录插件是否弹出一账通登录页 案例跑完",false);
 	}
 	
 	/**
@@ -115,7 +115,7 @@ public class Plugin_Test extends AutoTestBase{
 		appOperate.click(driver.findElement(By.name("一账通")), "点击一账通模拟宿主登录");
 		listneedLogin=GetPluginID.GetNeedLoginPluginList(list);
 		Log.logInfo(listneedLogin.size());
-		ForCompared2("选择", "4.3未登录时强登录插件是否弹出宿主登录 案例跑完");
+		ForCompared2("选择", "4.3未登录时强登录插件是否弹出宿主登录 案例跑完",false);
 	}
 	
 	/**
@@ -130,7 +130,7 @@ public class Plugin_Test extends AutoTestBase{
 		Login.loginNoyztByHost(login_HostName);
 		listneedLogin=GetPluginID.GetNeedLoginPluginList(list);
 		Log.logInfo(listneedLogin.size());
-		ForCompared2("一账通登录", "4.4非一账通登录时强登录插件是否弹出h5登录 案例跑完");
+		ForCompared2("一账通登录", "4.4非一账通登录时强登录插件是否弹出h5登录 案例跑完",false);
 	}
 	
 	/**
@@ -146,39 +146,7 @@ public class Plugin_Test extends AutoTestBase{
 		Login.loginyztByHost(login_HostName,false);
 		listneedLogin=GetPluginID.GetNeedLoginPluginList(list);
 		Log.logInfo(listneedLogin.size());
-		while (true) {
-			List<WebElement> listelements = driver.findElements(By.xpath("//UIAButton[contains(@name,'PA')]"));
-			Log.logInfo("当前页面插件个数为："+listelements.size());
-			for(int j = 0; j < listneedLogin.size(); j++)
-			{
-				for (int i = 0; i < listelements.size(); i++)
-				{
-					Log.logInfo("对比插件id：   页面获取id为： "+ listelements.get(i).getText() + "  json获取页面id为： "+ listneedLogin.getJSONObject(j).getString("pluginUid"));
-					if (listelements.get(i).getText().toString().equals(listneedLogin.getJSONObject(j).getString("pluginUid").toString())) 
-					{
-						appOperate.click(driver.findElement(By.name(listelements.get(i).getText())),"点击 " + listelements.get(i).getText()+"当前点击次数："+i);
-						if(!appOperate.waitForText(15, "一账通登录"))
-						{
-						
-							Log.logInfo("未弹出登录,删除强登录插件"+listneedLogin.getJSONObject(j).getString("name")+" 剩余需要强登录的插件个数为："+(listneedLogin.size()-1));
-							listneedLogin.remove(j);
-							appOperate.closeH5();
-							break;
-						}else
-						{
-							Log.logInfo("居然弹出登录页面 逆天");
-						}
-					}
-				}
-			}
-			if (listneedLogin.size() > 0) {appOperate.swipeToLeft();
-			}else
-			{
-				Log.logInfo("4.5一账通登录时打开抢登陆插件是否能正常进入 案例已成功跑完");
-				break;
-			}
-		}
-	
+		ForCompared2("一账通登录", "4.5一账通登录时打开强登陆插件是否能正常进入 案例跑完", true);
 	}
 	
 	/**
@@ -188,6 +156,7 @@ public class Plugin_Test extends AutoTestBase{
 	@Parameters({"PluginList_url","login_HostName"})
 	public void YZTTimeout(String PluginList_url,String login_HostName)
 	{
+		int a=0;
 		//设置一个boolean值 当查询到一个强登陆插件在当前页面点击成功时就退出所有的循环
 		Log.logStep("4.6一账通登录后等待15分钟点击强登录插件  开始跑");
 		Boolean Timeout=false;
@@ -240,7 +209,18 @@ public class Plugin_Test extends AutoTestBase{
 				Log.logInfo("4.6一账通登录后等待15分钟点击强登录插件 案例已成功跑完");
 				break;
 			}
-			if (listneedLogin.size() > 0) {appOperate.swipeToLeft();
+			
+			if (listneedLogin.size() > 0) 
+			{
+				if(a>=1)
+				{
+					appOperate.swipeToRight();
+					a=0;
+				}else
+				{
+				appOperate.swipeToLeft();
+				a=a+1;
+				}
 			}else
 			{
 				break;
@@ -277,6 +257,8 @@ public class Plugin_Test extends AutoTestBase{
 	
 	public void ForCompared(String waitText,String LogText)
 	{
+		//循环次数，如果超过1次就右滑
+				int a=0;
 		while (true) {
 			List<WebElement> listelements = driver.findElements(By.xpath("//UIAButton[contains(@name,'PA')]"));
 			Log.logInfo("当前页面插件个数为："+listelements.size());
@@ -318,7 +300,17 @@ public class Plugin_Test extends AutoTestBase{
 					}
 				}
 			}
-			if (listneedLogin.size() > 0) {appOperate.swipeToLeft();
+			if (listneedLogin.size() > 0) 
+			{
+				if(a>=1)
+				{
+					appOperate.swipeToRight();
+					a=0;
+				}else
+				{
+				appOperate.swipeToLeft();
+				a=a+1;
+				}
 			}else
 			{
 				Log.logInfo(LogText);
@@ -328,9 +320,9 @@ public class Plugin_Test extends AutoTestBase{
 	}
 	
 	//循环对比查找强登陆插件
-	public void ForCompared2(String waitText,String LogText)
+	public void ForCompared2(String waitText,String LogText,boolean isYZT)
 	{
-		//循环次数，如果超过2次就右滑
+		//循环次数，如果超过1次就右滑
 		int a=0;
 		while (true) 
 		{
@@ -347,11 +339,22 @@ public class Plugin_Test extends AutoTestBase{
 						if (listelements.get(i).getText().toString().equals(listneedLogin.getJSONObject(j).getString("pluginUid").toString())) {
 							Log.logInfo(listelements.get(i).getText().toString()+"该强登录插件已找到");
 							appOperate.click(driver.findElement(By.name(listelements.get(i).getText())),"点击 " + listelements.get(i).getText()+"当前点击次数："+i);
-							if (appOperate.waitForText(15,waitText))
+							if(isYZT)
 							{
-								Log.logInfo("已弹出登录,删除强登录插件"+listneedLogin.getJSONObject(j).getString("name")+" 剩余需要强登录的插件个数为："+(listneedLogin.size()-1));
-								listneedLogin.remove(j);
+								if (!appOperate.waitForText(15,waitText))
+								{
+									Log.logInfo("未弹出登录,删除强登录插件"+listneedLogin.getJSONObject(j).getString("name")+" 剩余需要强登录的插件个数为："+(listneedLogin.size()-1));
+									listneedLogin.remove(j);
+								}
+							}else
+							{
+								if (appOperate.waitForText(15,waitText))
+								{
+									Log.logInfo("已弹出登录,删除强登录插件"+listneedLogin.getJSONObject(j).getString("name")+" 剩余需要强登录的插件个数为："+(listneedLogin.size()-1));
+									listneedLogin.remove(j);
+								}
 							}
+							
 							if(waitText.equals("选择"))
 							{
 								appOperate.click(driver.findElement(By.name("返回")), "点击返回按钮");
@@ -364,22 +367,24 @@ public class Plugin_Test extends AutoTestBase{
 					}
 				}
 			}
-			if(a>=2)
-			{
-				appOperate.swipeToRight();
-				a=0;
-			}else
-			{
+
 				if (listneedLogin.size() > 0) 
 				{
+					Log.logInfo(a);
+					if(a>=1)
+					{
+						appOperate.swipeToRight();
+						a=0;
+					}else
+					{
 					appOperate.swipeToLeft();
 					a=a+1;
+					}
 				}else
 				{
 					Log.logInfo(LogText);
 					break;
 				}
-			}
 		}
 	}
 }

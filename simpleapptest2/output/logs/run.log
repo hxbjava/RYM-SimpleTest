@@ -1,55 +1,977 @@
-2016-05-17 10:23:41 dev_log : [INFO] retrycount=3
-2016-05-17 10:23:41 dev_log : [INFO] sourceCodeDir=src
-2016-05-17 10:23:41 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-05-17 10:24:18 dev_log : [INFO] [Wait For Text : [确定]] 
-2016-05-17 10:24:35 dev_log : [INFO] [点击 -> name: AppId]
-2016-05-17 10:24:39 dev_log : [INFO] [点击 -> name: 养老险E企赢]
-2016-05-17 10:24:43 dev_log : [INFO] [点击 -> name: 进入页面]
-2016-05-17 10:24:52 dev_log : [INFO] LoginPersonalCenterByH5 Start
-2016-05-17 10:24:55 dev_log : [STEP] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 开始跑
-2016-05-17 10:24:55 dev_log : [INFO] 模拟向右滑动
-2016-05-17 10:25:00 dev_log : [INFO] [Wait For Text : [新个人中心]] 
-2016-05-17 10:25:07 dev_log : [INFO] [点击 -> name: 新个人中心]
-2016-05-17 10:25:13 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
-2016-05-17 10:25:19 dev_log : [INFO] 已弹出登录
-2016-05-17 10:25:25 dev_log : [INFO] [点击 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
-2016-05-17 10:25:36 dev_log : [INFO] [输入字符 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
-2016-05-17 10:25:49 dev_log : [INFO] [点击 -> xpath: //*[@value='密码']]
-2016-05-17 10:26:00 dev_log : [INFO] [输入字符 -> xpath: //*[@value='密码']]
-2016-05-17 10:26:17 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
-2016-05-17 10:26:41 dev_log : [INFO] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 案例成功跑完
-2016-05-17 10:26:41 dev_log : [INFO] LoginPersonalCenterByH5 Success
-2016-05-17 10:27:11 dev_log : [INFO] [Wait For Text : [确定]] 
-2016-05-17 10:27:28 dev_log : [INFO] [点击 -> name: AppId]
-2016-05-17 10:27:32 dev_log : [INFO] [点击 -> name: 养老险E企赢]
-2016-05-17 10:27:36 dev_log : [INFO] [点击 -> name: 进入页面]
-2016-05-17 10:27:45 dev_log : [INFO] LoginPersonalCenterByHost Start
-2016-05-17 10:27:47 dev_log : [STEP] 个人中心用例1-1-1（插件为强登，用户未登陆），模拟宿主一账通登录 开始跑
-2016-05-17 10:27:47 dev_log : [INFO] [Wait For Text : [一账通]] 
-2016-05-17 10:27:53 dev_log : [INFO] [点击 -> name: 一账通]
-2016-05-17 10:27:55 dev_log : [INFO] 模拟向右滑动
-2016-05-17 10:28:00 dev_log : [INFO] [Wait For Text : [新个人中心]] 
-2016-05-17 10:28:07 dev_log : [INFO] [点击 -> name: 新个人中心]
-2016-05-17 10:28:13 dev_log : [INFO] [Wait For Text : [返回]] 
-2016-05-17 10:28:23 dev_log : [INFO] [点击 -> name: 选择登陆用户]
-2016-05-17 10:28:30 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
-2016-05-17 10:28:33 dev_log : [INFO] [点击 -> name: 确认]
-2016-05-17 10:28:37 dev_log : [INFO] [点击 -> name: 登陆]
-2016-05-17 10:28:50 dev_log : [INFO] [Wait For Text : [选择]] 
-2016-05-17 10:29:11 dev_log : [INFO] 个人中心用例1-1-1（插件为强登，用户未登陆），模拟宿主一账通登录 案例成功跑完
-2016-05-17 10:29:11 dev_log : [INFO] LoginPersonalCenterByHost Success
-2016-05-17 10:29:43 dev_log : [INFO] [Wait For Text : [确定]] 
-2016-05-17 10:30:00 dev_log : [INFO] [点击 -> name: AppId]
-2016-05-17 10:30:04 dev_log : [INFO] [点击 -> name: 养老险E企赢]
-2016-05-17 10:30:08 dev_log : [INFO] [点击 -> name: 进入页面]
-2016-05-17 10:30:17 dev_log : [INFO] PassedTests :LoginPersonalCenterByH5
-2016-05-17 10:30:17 dev_log : [INFO] PassedTests :LoginPersonalCenterByHost
-2016-05-17 10:30:17 dev_log : [INFO] skipTestIds :LoginPersonalCenterByH5
-2016-05-17 10:30:17 dev_log : [INFO] skipTestIds :LoginPersonalCenterByHost
-2016-05-17 14:20:33 dev_log : [INFO] retrycount=3
-2016-05-17 14:20:33 dev_log : [INFO] sourceCodeDir=src
-2016-05-17 14:20:33 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-05-17 14:21:08 dev_log : [INFO] [Wait For Text : [确定]] 
-2016-05-17 14:21:24 dev_log : [INFO] [点击 -> name: AppId]
-2016-05-17 14:21:28 dev_log : [INFO] [点击 -> name: 养老险E企赢]
-2016-05-17 14:21:32 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 09:41:01 dev_log : [INFO] retrycount=3
+2016-05-20 09:41:01 dev_log : [INFO] sourceCodeDir=src
+2016-05-20 09:41:01 dev_log : [INFO] sourceCodeEncoding=UTF-8
+2016-05-20 09:41:37 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 09:41:54 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 09:41:58 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 09:42:01 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 09:42:10 dev_log : [INFO] FindH5ByNoYZT Start
+2016-05-20 09:42:13 dev_log : [STEP] 4.4非一账通登录时强登录插件是否弹出h5登录  开始跑
+2016-05-20 09:42:13 dev_log : [INFO] 获取插件列表
+2016-05-20 09:42:15 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-05-20 09:42:15 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-05-20 09:42:15 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-05-20 09:42:15 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-05-20 09:42:15 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-05-20 09:42:15 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-05-20 09:42:15 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-05-20 09:42:15 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-05-20 09:42:15 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-05-20 09:42:15 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-05-20 09:42:15 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-05-20 09:42:15 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-05-20 09:42:15 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-05-20 09:42:15 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-05-20 09:42:15 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-05-20 09:42:15 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-05-20 09:42:15 dev_log : [INFO] 16
+2016-05-20 09:42:15 dev_log : [INFO] [Wait For Text : [非一账通]] 
+2016-05-20 09:42:21 dev_log : [INFO] [点击 -> name: 非一账通]
+2016-05-20 09:42:25 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-05-20 09:42:28 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-05-20 09:42:36 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-05-20 09:42:42 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-05-20 09:42:45 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-20 09:42:49 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 09:43:12 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 09:43:33 dev_log : [INFO] 你应该进来的
+2016-05-20 09:43:33 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-05-20 09:43:33 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-05-20 09:43:33 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-05-20 09:43:33 dev_log : [INFO] 3
+2016-05-20 09:43:37 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 09:43:38 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 09:43:40 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 09:43:42 dev_log : [INFO] PA00300000000_02_MCX该强登录插件已找到
+2016-05-20 09:43:45 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-05-20 09:43:46 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-05-20 09:43:56 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：2
+2016-05-20 09:43:56 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 09:44:02 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 09:44:08 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-20 09:44:12 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:44:14 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:44:16 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:44:18 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:44:20 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_TYKF  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:44:21 dev_log : [INFO] 0
+2016-05-20 09:44:21 dev_log : [INFO] 模拟向左滑动
+2016-05-20 09:44:31 dev_log : [INFO] 当前页面插件个数为：9
+2016-05-20 09:44:32 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:44:34 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:44:36 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:44:38 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_JTB  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:44:40 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:44:42 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YYG  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:44:44 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YHDD  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:44:47 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_TYKF  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:44:49 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_PAW  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:44:51 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:44:53 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:44:55 dev_log : [INFO] PA01100000000_02_CWZ该强登录插件已找到
+2016-05-20 09:44:58 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-05-20 09:44:59 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-05-20 09:45:04 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：1
+2016-05-20 09:45:04 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 09:45:09 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 09:45:16 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-20 09:45:19 dev_log : [INFO] 1
+2016-05-20 09:45:19 dev_log : [INFO] 模拟向右滑动
+2016-05-20 09:45:28 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 09:45:29 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:45:31 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:45:33 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:45:35 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:45:37 dev_log : [INFO] PA02100000000_02_FGZ该强登录插件已找到
+2016-05-20 09:45:41 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-05-20 09:45:42 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-05-20 09:45:47 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：0
+2016-05-20 09:45:47 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 09:45:52 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 09:45:58 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-20 09:46:01 dev_log : [INFO] 4.4非一账通登录时强登录插件是否弹出h5登录 案例跑完
+2016-05-20 09:46:01 dev_log : [INFO] FindH5ByNoYZT Success
+2016-05-20 09:46:30 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 09:46:47 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 09:46:51 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 09:46:55 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 09:47:04 dev_log : [INFO] FindYZTByH5 Start
+2016-05-20 09:47:06 dev_log : [STEP] 4.2未登录时强登录插件是否弹出一账通登录页  开始跑
+2016-05-20 09:47:06 dev_log : [INFO] 获取插件列表
+2016-05-20 09:47:10 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-05-20 09:47:10 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-05-20 09:47:10 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-05-20 09:47:10 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-05-20 09:47:10 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-05-20 09:47:10 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-05-20 09:47:10 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-05-20 09:47:10 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-05-20 09:47:10 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-05-20 09:47:10 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-05-20 09:47:10 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-05-20 09:47:10 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-05-20 09:47:10 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-05-20 09:47:10 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-05-20 09:47:10 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-05-20 09:47:10 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-05-20 09:47:10 dev_log : [INFO] 16
+2016-05-20 09:47:10 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-05-20 09:47:10 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-05-20 09:47:10 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-05-20 09:47:10 dev_log : [INFO] 3
+2016-05-20 09:47:13 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 09:47:14 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 09:47:16 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 09:47:18 dev_log : [INFO] PA00300000000_02_MCX该强登录插件已找到
+2016-05-20 09:47:22 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-05-20 09:47:23 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-20 09:47:28 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：2
+2016-05-20 09:47:28 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 09:47:33 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 09:47:39 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-20 09:47:43 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:47:45 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:47:47 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:47:49 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:47:51 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_TYKF  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:47:52 dev_log : [INFO] 0
+2016-05-20 09:47:52 dev_log : [INFO] 模拟向左滑动
+2016-05-20 09:48:02 dev_log : [INFO] 当前页面插件个数为：9
+2016-05-20 09:48:03 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:48:05 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:48:07 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:48:09 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_JTB  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:48:11 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:48:13 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YYG  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:48:15 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YHDD  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:48:18 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_TYKF  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:48:20 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_PAW  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:48:22 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:48:24 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:48:26 dev_log : [INFO] PA01100000000_02_CWZ该强登录插件已找到
+2016-05-20 09:48:29 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-05-20 09:48:30 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-20 09:48:35 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：1
+2016-05-20 09:48:35 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 09:48:40 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 09:48:48 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-20 09:48:51 dev_log : [INFO] 1
+2016-05-20 09:48:51 dev_log : [INFO] 模拟向右滑动
+2016-05-20 09:49:00 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 09:49:01 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:49:04 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:49:05 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:49:08 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:49:10 dev_log : [INFO] PA02100000000_02_FGZ该强登录插件已找到
+2016-05-20 09:49:13 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-05-20 09:49:14 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-20 09:49:19 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：0
+2016-05-20 09:49:19 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 09:49:24 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 09:49:31 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-20 09:49:34 dev_log : [INFO] 4.2未登录时强登录插件是否弹出一账通登录页 案例跑完
+2016-05-20 09:49:34 dev_log : [INFO] FindYZTByH5 Success
+2016-05-20 09:50:06 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 09:50:23 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 09:50:27 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 09:50:30 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 09:50:39 dev_log : [INFO] FindYZTByHost Start
+2016-05-20 09:50:42 dev_log : [STEP] 4.3未登录时强登录插件是否弹出宿主登录  开始跑
+2016-05-20 09:50:42 dev_log : [INFO] 获取插件列表
+2016-05-20 09:50:43 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-05-20 09:50:43 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-05-20 09:50:43 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-05-20 09:50:43 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-05-20 09:50:43 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-05-20 09:50:43 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-05-20 09:50:43 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-05-20 09:50:43 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-05-20 09:50:43 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-05-20 09:50:43 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-05-20 09:50:43 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-05-20 09:50:43 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-05-20 09:50:43 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-05-20 09:50:43 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-05-20 09:50:43 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-05-20 09:50:43 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-05-20 09:50:43 dev_log : [INFO] 16
+2016-05-20 09:50:43 dev_log : [INFO] [点击 -> name: 一账通]
+2016-05-20 09:50:45 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-05-20 09:50:45 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-05-20 09:50:45 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-05-20 09:50:45 dev_log : [INFO] 3
+2016-05-20 09:50:48 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 09:50:49 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 09:50:51 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 09:50:53 dev_log : [INFO] PA00300000000_02_MCX该强登录插件已找到
+2016-05-20 09:50:57 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-05-20 09:50:58 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-05-20 09:51:03 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：2
+2016-05-20 09:51:05 dev_log : [INFO] [点击 -> name: 返回]
+2016-05-20 09:51:07 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:51:09 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:51:11 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:51:13 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:51:15 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_TYKF  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:51:16 dev_log : [INFO] 0
+2016-05-20 09:51:16 dev_log : [INFO] 模拟向左滑动
+2016-05-20 09:51:26 dev_log : [INFO] 当前页面插件个数为：9
+2016-05-20 09:51:27 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:51:29 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:51:31 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:51:33 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_JTB  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:51:35 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:51:37 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YYG  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:51:39 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YHDD  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:51:41 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_TYKF  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:51:43 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_PAW  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:51:45 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:51:47 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 09:51:49 dev_log : [INFO] PA01100000000_02_CWZ该强登录插件已找到
+2016-05-20 09:51:53 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-05-20 09:51:54 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-05-20 09:52:00 dev_log : [INFO] 已弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：1
+2016-05-20 09:52:01 dev_log : [INFO] [点击 -> name: 返回]
+2016-05-20 09:52:02 dev_log : [INFO] 1
+2016-05-20 09:52:02 dev_log : [INFO] 模拟向右滑动
+2016-05-20 09:52:11 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 09:52:12 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:52:14 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:52:16 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:52:18 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 09:52:20 dev_log : [INFO] PA02100000000_02_FGZ该强登录插件已找到
+2016-05-20 09:52:24 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-05-20 09:52:25 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-05-20 09:52:31 dev_log : [INFO] 已弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：0
+2016-05-20 09:52:32 dev_log : [INFO] [点击 -> name: 返回]
+2016-05-20 09:52:33 dev_log : [INFO] 4.3未登录时强登录插件是否弹出宿主登录 案例跑完
+2016-05-20 09:52:33 dev_log : [INFO] FindYZTByHost Success
+2016-05-20 09:53:02 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 09:53:19 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 09:53:23 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 09:53:26 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 09:53:35 dev_log : [INFO] YZTTimeout Start
+2016-05-20 09:53:38 dev_log : [STEP] 4.6一账通登录后等待15分钟点击强登录插件  开始跑
+2016-05-20 09:53:38 dev_log : [INFO] 获取插件列表
+2016-05-20 09:53:39 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-05-20 09:53:39 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-05-20 09:53:39 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-05-20 09:53:39 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-05-20 09:53:39 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-05-20 09:53:39 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-05-20 09:53:39 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-05-20 09:53:39 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-05-20 09:53:39 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-05-20 09:53:39 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-05-20 09:53:39 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-05-20 09:53:39 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-05-20 09:53:39 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-05-20 09:53:39 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-05-20 09:53:39 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-05-20 09:53:39 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-05-20 09:53:39 dev_log : [INFO] 16
+2016-05-20 09:53:39 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-05-20 09:53:45 dev_log : [INFO] [点击 -> name: 一账通]
+2016-05-20 09:53:46 dev_log : [INFO] [Wait For Text : [宿主]] 
+2016-05-20 09:53:54 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-05-20 09:53:57 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-05-20 09:54:06 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-05-20 09:54:12 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-05-20 09:54:14 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-20 09:54:18 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 09:54:31 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 09:54:53 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-05-20 09:54:53 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-05-20 09:54:53 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-05-20 09:54:53 dev_log : [INFO] 3
+2016-05-20 09:54:55 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:55:10 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:55:25 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:55:40 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:55:56 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:56:11 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:56:26 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:56:41 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:56:56 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:57:12 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:57:27 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:57:42 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:57:57 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:58:12 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:58:28 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:58:43 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:58:58 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:59:13 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:59:28 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:59:44 dev_log : [INFO] ［向下滑动］
+2016-05-20 09:59:59 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:00:14 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:00:29 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:00:44 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:01:00 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:01:15 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:01:30 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:01:45 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:02:00 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:02:16 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:02:31 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:02:46 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:03:01 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:03:16 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:03:32 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:03:47 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:04:02 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:04:17 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:04:32 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:04:48 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:05:03 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:05:18 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:05:33 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:05:48 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:06:04 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:06:19 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:06:34 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:06:49 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:07:04 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:07:20 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:07:35 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:07:50 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:08:05 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:08:20 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:08:36 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:08:51 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:09:06 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:09:21 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:09:36 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:09:52 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:10:07 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:10:22 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:10:37 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:10:52 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:11:08 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:11:23 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:11:38 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:11:53 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:12:08 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:12:23 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:12:41 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 10:12:42 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 10:12:44 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 10:12:48 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-05-20 10:12:49 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-05-20 10:12:54 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：2
+2016-05-20 10:13:01 dev_log : [INFO] YZTTimeout Failure
+2016-05-20 10:13:41 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 10:13:58 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 10:14:02 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 10:14:06 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 10:14:15 dev_log : [INFO] YZTTimeout Start
+2016-05-20 10:14:17 dev_log : [STEP] 4.6一账通登录后等待15分钟点击强登录插件  开始跑
+2016-05-20 10:14:17 dev_log : [INFO] 获取插件列表
+2016-05-20 10:14:18 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-05-20 10:14:18 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-05-20 10:14:18 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-05-20 10:14:18 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-05-20 10:14:18 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-05-20 10:14:18 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-05-20 10:14:18 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-05-20 10:14:18 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-05-20 10:14:18 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-05-20 10:14:18 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-05-20 10:14:18 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-05-20 10:14:18 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-05-20 10:14:18 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-05-20 10:14:18 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-05-20 10:14:18 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-05-20 10:14:18 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-05-20 10:14:18 dev_log : [INFO] 16
+2016-05-20 10:14:18 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-05-20 10:14:25 dev_log : [INFO] [点击 -> name: 一账通]
+2016-05-20 10:14:26 dev_log : [INFO] [Wait For Text : [宿主]] 
+2016-05-20 10:14:34 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-05-20 10:14:37 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-05-20 10:14:45 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-05-20 10:14:52 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-05-20 10:14:54 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-20 10:14:58 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 10:15:11 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 10:15:32 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-05-20 10:15:32 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-05-20 10:15:32 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-05-20 10:15:32 dev_log : [INFO] 3
+2016-05-20 10:15:34 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:15:49 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:16:04 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:16:20 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:16:35 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:16:50 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:17:05 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:17:20 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:17:36 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:17:51 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:18:06 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:18:21 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:18:36 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:18:52 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:19:07 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:19:22 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:19:37 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:19:52 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:20:08 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:20:23 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:20:38 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:20:53 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:21:08 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:21:24 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:21:39 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:21:54 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:22:09 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:22:24 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:22:40 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:22:55 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:23:10 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:23:25 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:23:40 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:23:56 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:24:11 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:24:26 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:24:41 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:24:56 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:25:12 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:25:27 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:25:42 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:25:57 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:26:12 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:26:28 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:26:43 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:26:58 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:27:13 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:27:28 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:27:44 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:27:59 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:28:14 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:28:29 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:28:44 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:29:00 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:29:15 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:29:30 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:29:45 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:30:00 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:30:16 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:30:31 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:30:46 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:31:01 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:31:16 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:31:32 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:31:47 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:32:02 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:32:17 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:32:32 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:32:47 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:33:03 dev_log : [INFO] ［向下滑动］
+2016-05-20 10:33:20 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 10:33:21 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 10:33:23 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 10:33:27 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-05-20 10:33:28 dev_log : [INFO] [Wait For Text : [选择]] 
+2016-05-20 10:33:34 dev_log : [INFO] 已弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：2
+2016-05-20 10:33:35 dev_log : [INFO] [点击 -> name: 返回]
+2016-05-20 10:33:36 dev_log : [INFO] 4.6一账通登录后等待15分钟点击强登录插件 案例已成功跑完
+2016-05-20 10:33:36 dev_log : [INFO] YZTTimeout Success
+2016-05-20 10:34:08 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 10:34:25 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 10:34:29 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 10:34:33 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 10:34:41 dev_log : [INFO] clickNeedLoginPlugin Start
+2016-05-20 10:34:44 dev_log : [STEP] 4.5一账通登录时打开强登陆插件是否能正常进入  开始跑
+2016-05-20 10:34:44 dev_log : [INFO] 获取插件列表
+2016-05-20 10:34:45 dev_log : [INFO] 新个人中心  ----  PA01100000000_02_RYMGRZX  ----  Y
+2016-05-20 10:34:45 dev_log : [INFO] 红包集合  ----  PA01100000001_02_HBJH  ----  H
+2016-05-20 10:34:45 dev_log : [INFO] 资产查询  ----  PA02100000000_02_ZCCX  ----  Y
+2016-05-20 10:34:45 dev_log : [INFO] 买车险  ----  PA00300000000_02_MCX  ----  Y
+2016-05-20 10:34:45 dev_log : [INFO] 任意购三月  ----  PA01100000000_02_RYG_001  ----  H
+2016-05-20 10:34:45 dev_log : [INFO] 房估值  ----  PA02100000000_02_FGZ  ----  Y
+2016-05-20 10:34:45 dev_log : [INFO] 统一客服  ----  PA01100000000_02_TYKF  ----  N
+2016-05-20 10:34:45 dev_log : [INFO] 划横财  ----  PA01100000000_02_HHC  ----  H
+2016-05-20 10:34:45 dev_log : [INFO] 优惠多多  ----  PA01100000000_02_YHDD  ----  N
+2016-05-20 10:34:45 dev_log : [INFO] 新查违章  ----  PA01100000000_02_CWZ  ----  Y
+2016-05-20 10:34:45 dev_log : [INFO] 家庭保  ----  PA00800000000_02_JTB  ----  H
+2016-05-20 10:34:45 dev_log : [INFO] 平安玩  ----  PA02100000000_02_PAW  ----  H
+2016-05-20 10:34:45 dev_log : [INFO] 新一元go  ----  PA01100000000_02_YYG  ----  N
+2016-05-20 10:34:45 dev_log : [INFO] 消息中心  ----  PA01100000000_02_XXZX  ----  H
+2016-05-20 10:34:45 dev_log : [INFO] 点大钞  ----  PA01100000000_02_DDC  ----  H
+2016-05-20 10:34:45 dev_log : [INFO] 平安出行  ----  PA00800000000_02_PACX  ----  H
+2016-05-20 10:34:45 dev_log : [INFO] 16
+2016-05-20 10:34:45 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-05-20 10:34:51 dev_log : [INFO] [点击 -> name: 一账通]
+2016-05-20 10:34:52 dev_log : [INFO] [Wait For Text : [宿主]] 
+2016-05-20 10:35:01 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-05-20 10:35:03 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-05-20 10:35:12 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-05-20 10:35:18 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-05-20 10:35:21 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-20 10:35:25 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 10:35:37 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 10:35:46 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 10:35:59 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 10:36:20 dev_log : [INFO] 需要登录插件id ：PA00300000000_02_MCX
+2016-05-20 10:36:20 dev_log : [INFO] 需要登录插件id ：PA02100000000_02_FGZ
+2016-05-20 10:36:20 dev_log : [INFO] 需要登录插件id ：PA01100000000_02_CWZ
+2016-05-20 10:36:20 dev_log : [INFO] 3
+2016-05-20 10:36:24 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 10:36:25 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 10:36:27 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA00300000000_02_MCX
+2016-05-20 10:36:29 dev_log : [INFO] PA00300000000_02_MCX该强登录插件已找到
+2016-05-20 10:36:33 dev_log : [INFO] [点击 -> name: PA00300000000_02_MCX]
+2016-05-20 10:36:34 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-05-20 10:36:52 dev_log : [INFO] 未弹出登录,删除强登录插件买车险 剩余需要强登录的插件个数为：2
+2016-05-20 10:36:52 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 10:36:58 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 10:37:04 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-20 10:37:08 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 10:37:10 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 10:37:12 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 10:37:14 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 10:37:16 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_TYKF  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 10:37:17 dev_log : [INFO] 0
+2016-05-20 10:37:17 dev_log : [INFO] 模拟向左滑动
+2016-05-20 10:37:27 dev_log : [INFO] 当前页面插件个数为：9
+2016-05-20 10:37:28 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:37:30 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:37:32 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_PACX  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:37:34 dev_log : [INFO] 对比插件id：   页面获取id为： PA00800000000_02_JTB  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:37:36 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_HHC  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:37:38 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YYG  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:37:40 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_YHDD  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:37:42 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_TYKF  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:37:44 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_PAW  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:37:46 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_DDC  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 10:37:48 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_CWZ  json获取页面id为： PA01100000000_02_CWZ
+2016-05-20 10:37:51 dev_log : [INFO] PA01100000000_02_CWZ该强登录插件已找到
+2016-05-20 10:37:54 dev_log : [INFO] [点击 -> name: PA01100000000_02_CWZ]
+2016-05-20 10:37:55 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-05-20 10:38:15 dev_log : [INFO] 未弹出登录,删除强登录插件新查违章 剩余需要强登录的插件个数为：1
+2016-05-20 10:38:15 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 10:38:22 dev_log : [INFO] 进入点击htmlbackhome状态...
+2016-05-20 10:38:23 dev_log : [INFO] [点击 -> name: htmlbackhome]
+2016-05-20 10:38:27 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 10:38:33 dev_log : [INFO] [点击 -> name: htmlbackhome]
+2016-05-20 10:38:35 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 10:38:42 dev_log : [INFO] 1
+2016-05-20 10:38:42 dev_log : [INFO] 模拟向右滑动
+2016-05-20 10:38:51 dev_log : [INFO] 当前页面插件个数为：5
+2016-05-20 10:38:52 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000001_02_HBJH  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:38:55 dev_log : [INFO] 对比插件id：   页面获取id为： PA00300000000_02_MCX  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:38:57 dev_log : [INFO] 对比插件id：   页面获取id为： PA01100000000_02_RYG_001  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:38:59 dev_log : [INFO] 对比插件id：   页面获取id为： PA02100000000_02_FGZ  json获取页面id为： PA02100000000_02_FGZ
+2016-05-20 10:39:01 dev_log : [INFO] PA02100000000_02_FGZ该强登录插件已找到
+2016-05-20 10:39:04 dev_log : [INFO] [点击 -> name: PA02100000000_02_FGZ]
+2016-05-20 10:39:05 dev_log : [INFO] [Wait For Text : [一账通登录]] 
+2016-05-20 10:39:25 dev_log : [INFO] 未弹出登录,删除强登录插件房估值 剩余需要强登录的插件个数为：0
+2016-05-20 10:39:25 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 10:39:32 dev_log : [INFO] 进入点击htmlbackhome状态...
+2016-05-20 10:39:33 dev_log : [INFO] [点击 -> name: htmlbackhome]
+2016-05-20 10:39:37 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 10:39:43 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 10:39:50 dev_log : [INFO] 4.5一账通登录时打开强登陆插件是否能正常进入 案例跑完
+2016-05-20 10:39:50 dev_log : [INFO] clickNeedLoginPlugin Success
+2016-05-20 10:40:23 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 10:40:40 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 10:40:44 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 10:40:48 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 10:40:57 dev_log : [INFO] clickTable Start
+2016-05-20 10:40:59 dev_log : [STEP] 4.7单行和盖楼模式切换  开始跑
+2016-05-20 10:40:59 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-05-20 10:41:04 dev_log : [INFO] 模拟向左滑动
+2016-05-20 10:41:15 dev_log : [INFO] 276
+2016-05-20 10:41:15 dev_log : [INFO] [点击 -> name: exchangeButton]
+2016-05-20 10:41:21 dev_log : [INFO] 463
+2016-05-20 10:41:21 dev_log : [INFO] 4.7单行和盖楼模式切换 案例已成功跑完
+2016-05-20 10:41:21 dev_log : [INFO] clickTable Success
+2016-05-20 10:41:44 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 10:42:01 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 10:42:05 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 10:42:09 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 10:42:18 dev_log : [INFO] PassedTests :FindYZTByH5
+2016-05-20 10:42:18 dev_log : [INFO] PassedTests :FindYZTByHost
+2016-05-20 10:42:18 dev_log : [INFO] PassedTests :clickNeedLoginPlugin
+2016-05-20 10:42:18 dev_log : [INFO] PassedTests :clickTable
+2016-05-20 10:42:18 dev_log : [INFO] PassedTests :YZTTimeout
+2016-05-20 10:42:18 dev_log : [INFO] PassedTests :FindH5ByNoYZT
+2016-05-20 10:42:18 dev_log : [INFO] skipTestIds :FindYZTByH5
+2016-05-20 10:42:18 dev_log : [INFO] skipTestIds :FindYZTByHost
+2016-05-20 10:42:18 dev_log : [INFO] skipTestIds :clickNeedLoginPlugin
+2016-05-20 10:42:18 dev_log : [INFO] skipTestIds :clickTable
+2016-05-20 10:42:18 dev_log : [INFO] skipTestIds :YZTTimeout
+2016-05-20 10:42:18 dev_log : [INFO] skipTestIds :FindH5ByNoYZT
+2016-05-20 10:42:18 dev_log : [INFO] FailedTest : YZTTimeout
+2016-05-20 10:42:18 dev_log : [INFO] Remove repeat Fail Test : YZTTimeout
+2016-05-20 10:44:46 dev_log : [INFO] retrycount=3
+2016-05-20 10:44:46 dev_log : [INFO] sourceCodeDir=src
+2016-05-20 10:44:46 dev_log : [INFO] sourceCodeEncoding=UTF-8
+2016-05-20 10:45:11 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 10:45:27 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 10:45:31 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 10:45:35 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 10:45:44 dev_log : [INFO] ClickMsgCenter Start
+2016-05-20 10:45:47 dev_log : [STEP] 个人中心用例1-5 插件不配置强登， 例如消息中心 开始跑
+2016-05-20 10:45:47 dev_log : [INFO] 模拟向右滑动
+2016-05-20 10:45:52 dev_log : [INFO] [Wait For Text : [消息中心]] 
+2016-05-20 10:46:01 dev_log : [INFO] [点击 -> name: 消息中心]
+2016-05-20 10:46:08 dev_log : [INFO] [Wait For Text : [重要]] 
+2016-05-20 10:46:13 dev_log : [INFO] 个人中心用例1-5 插件不配置强登， 例如消息中心 测试通过
+2016-05-20 10:46:14 dev_log : [INFO] ClickMsgCenter Success
+2016-05-20 10:46:44 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 10:47:01 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 10:47:05 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 10:47:09 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 10:47:18 dev_log : [INFO] LoginPersonalCenterByH5 Start
+2016-05-20 10:47:20 dev_log : [STEP] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 开始跑
+2016-05-20 10:47:20 dev_log : [INFO] 模拟向右滑动
+2016-05-20 10:47:25 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-20 10:47:34 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-20 10:47:40 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-20 10:47:45 dev_log : [INFO] 已弹出登录
+2016-05-20 10:47:51 dev_log : [INFO] [点击 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-20 10:48:03 dev_log : [INFO] [输入字符 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-20 10:48:16 dev_log : [INFO] [点击 -> xpath: //*[@value='密码']]
+2016-05-20 10:48:27 dev_log : [INFO] [输入字符 -> xpath: //*[@value='密码']]
+2016-05-20 10:48:44 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 10:49:08 dev_log : [INFO] [Wait For Text : [我的资产]] 
+2016-05-20 10:49:14 dev_log : [INFO] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 案例成功跑完
+2016-05-20 10:49:14 dev_log : [INFO] LoginPersonalCenterByH5 Success
+2016-05-20 10:49:51 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 10:50:08 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 10:50:12 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 10:50:16 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 10:50:25 dev_log : [INFO] LoginPersonalCenterByH5BeforNoYZT Start
+2016-05-20 10:50:28 dev_log : [STEP] 个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 开始跑
+2016-05-20 10:50:28 dev_log : [INFO] [Wait For Text : [非一账通]] 
+2016-05-20 10:50:35 dev_log : [INFO] [点击 -> name: 非一账通]
+2016-05-20 10:50:39 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-05-20 10:50:42 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-05-20 10:50:51 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-05-20 10:50:58 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-05-20 10:51:00 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-20 10:51:05 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 10:51:28 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 10:51:51 dev_log : [INFO] 你应该进来的
+2016-05-20 10:51:51 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 10:51:56 dev_log : [INFO] 没有返回按钮
+2016-05-20 10:51:57 dev_log : [INFO] 模拟向右滑动
+2016-05-20 10:52:03 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-20 10:52:12 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-20 10:52:18 dev_log : [INFO] [Wait For Text : [密码登录]] 
+2016-05-20 10:52:23 dev_log : [INFO] 已弹出登录
+2016-05-20 10:52:26 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='密码登录']]
+2016-05-20 10:52:32 dev_log : [INFO] [Wait For Text : [注册账号]] 
+2016-05-20 10:53:12 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 10:53:24 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 10:53:33 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 10:53:44 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 10:53:53 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 10:54:04 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 10:54:13 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 10:54:24 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 10:54:34 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 10:54:45 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 10:54:54 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 10:55:05 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 10:55:14 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 10:55:21 dev_log : [INFO] 个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 案例成功跑完
+2016-05-20 10:55:21 dev_log : [INFO] LoginPersonalCenterByH5BeforNoYZT Success
+2016-05-20 10:56:09 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 10:56:27 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 10:56:31 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 10:56:34 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 10:56:43 dev_log : [INFO] LoginPersonalCenterByHost Start
+2016-05-20 10:57:06 dev_log : [INFO] LoginPersonalCenterByHost Failure
+2016-05-20 10:57:06 dev_log : [INFO] LoginPersonalCenterByHost Failure
+2016-05-20 10:57:06 dev_log : [INFO] PassedTests :LoginPersonalCenterByH5
+2016-05-20 10:57:06 dev_log : [INFO] PassedTests :LoginPersonalCenterByH5BeforNoYZT
+2016-05-20 10:57:06 dev_log : [INFO] PassedTests :ClickMsgCenter
+2016-05-20 10:57:06 dev_log : [INFO] skipTestIds :LoginPersonalCenterByH5
+2016-05-20 10:57:06 dev_log : [INFO] skipTestIds :LoginPersonalCenterByH5BeforNoYZT
+2016-05-20 10:57:06 dev_log : [INFO] skipTestIds :ClickMsgCenter
+2016-05-20 11:02:50 dev_log : [INFO] retrycount=3
+2016-05-20 11:02:50 dev_log : [INFO] sourceCodeDir=src
+2016-05-20 11:02:50 dev_log : [INFO] sourceCodeEncoding=UTF-8
+2016-05-20 11:03:24 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 11:03:40 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 11:03:44 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 11:03:48 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 11:03:57 dev_log : [INFO] ClickMsgCenter Start
+2016-05-20 11:04:01 dev_log : [STEP] 个人中心用例1-5 插件不配置强登， 例如消息中心 开始跑
+2016-05-20 11:04:01 dev_log : [INFO] 模拟向右滑动
+2016-05-20 11:04:06 dev_log : [INFO] [Wait For Text : [消息中心]] 
+2016-05-20 11:04:15 dev_log : [INFO] [点击 -> name: 消息中心]
+2016-05-20 11:04:21 dev_log : [INFO] [Wait For Text : [重要]] 
+2016-05-20 11:04:27 dev_log : [INFO] 个人中心用例1-5 插件不配置强登， 例如消息中心 测试通过
+2016-05-20 11:04:27 dev_log : [INFO] ClickMsgCenter Success
+2016-05-20 11:04:56 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 11:05:13 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 11:05:17 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 11:05:21 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 11:05:29 dev_log : [INFO] LoginPersonalCenterByH5 Start
+2016-05-20 11:05:44 dev_log : [STEP] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 开始跑
+2016-05-20 11:05:44 dev_log : [INFO] 模拟向右滑动
+2016-05-20 11:05:49 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-20 11:05:58 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-20 11:06:04 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-20 11:06:10 dev_log : [INFO] 已弹出登录
+2016-05-20 11:06:16 dev_log : [INFO] [点击 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-20 11:06:28 dev_log : [INFO] [输入字符 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-20 11:06:41 dev_log : [INFO] [点击 -> xpath: //*[@value='密码']]
+2016-05-20 11:06:52 dev_log : [INFO] [输入字符 -> xpath: //*[@value='密码']]
+2016-05-20 11:07:10 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 11:07:34 dev_log : [INFO] [Wait For Text : [我的资产]] 
+2016-05-20 11:07:40 dev_log : [INFO] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 案例成功跑完
+2016-05-20 11:07:40 dev_log : [INFO] LoginPersonalCenterByH5 Success
+2016-05-20 11:08:10 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 11:08:28 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 11:08:31 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 11:08:35 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 11:08:44 dev_log : [INFO] LoginPersonalCenterByH5BeforNoYZT Start
+2016-05-20 11:08:47 dev_log : [STEP] 个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 开始跑
+2016-05-20 11:08:47 dev_log : [INFO] [Wait For Text : [非一账通]] 
+2016-05-20 11:08:53 dev_log : [INFO] [点击 -> name: 非一账通]
+2016-05-20 11:08:57 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-05-20 11:09:00 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-05-20 11:09:09 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-05-20 11:09:16 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-05-20 11:09:18 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-20 11:09:23 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 11:09:46 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 11:10:09 dev_log : [INFO] 你应该进来的
+2016-05-20 11:10:09 dev_log : [INFO] 模拟向右滑动
+2016-05-20 11:10:14 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-20 11:10:23 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-20 11:10:29 dev_log : [INFO] [Wait For Text : [密码登录]] 
+2016-05-20 11:10:34 dev_log : [INFO] 已弹出登录
+2016-05-20 11:10:37 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='密码登录']]
+2016-05-20 11:10:43 dev_log : [INFO] [Wait For Text : [注册账号]] 
+2016-05-20 11:10:54 dev_log : [INFO] [点击 -> xpath: //*[@value='请输入您的账号']]
+2016-05-20 11:11:05 dev_log : [INFO] [输入字符 -> xpath: //*[@value='请输入您的账号']]
+2016-05-20 11:11:18 dev_log : [INFO] [点击 -> xpath: //*[@value='请输入您的密码']]
+2016-05-20 11:11:29 dev_log : [INFO] [输入字符 -> xpath: //*[@value='请输入您的密码']]
+2016-05-20 11:11:46 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 11:12:10 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 11:12:21 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 11:12:30 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 11:12:36 dev_log : [INFO] 个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 案例成功跑完
+2016-05-20 11:12:36 dev_log : [INFO] LoginPersonalCenterByH5BeforNoYZT Success
+2016-05-20 11:13:09 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 11:13:26 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 11:13:30 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 11:13:34 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 11:13:43 dev_log : [INFO] LoginPersonalCenterByHost Start
+2016-05-20 11:13:46 dev_log : [STEP] 个人中心用例1-1-1（插件为强登，用户未登陆），模拟宿主一账通登录 开始跑
+2016-05-20 11:13:46 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-05-20 11:13:53 dev_log : [INFO] [点击 -> name: 一账通]
+2016-05-20 11:13:54 dev_log : [INFO] 模拟向右滑动
+2016-05-20 11:13:59 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-20 11:14:08 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-20 11:14:14 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-05-20 11:14:26 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-05-20 11:14:35 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-05-20 11:14:37 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-20 11:14:42 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 11:14:55 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 11:15:15 dev_log : [INFO] 个人中心用例1-1-1（插件为强登，用户未登陆），模拟宿主一账通登录 案例成功跑完
+2016-05-20 11:15:15 dev_log : [INFO] LoginPersonalCenterByHost Success
+2016-05-20 11:15:41 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 11:15:58 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 11:16:02 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 11:16:06 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 11:16:15 dev_log : [INFO] LoginPersonalCenterByHostYZT Start
+2016-05-20 11:16:17 dev_log : [STEP]  个人中心用例1-3（插件为强登，用户一账通登陆），模拟宿主一账通登录 开始跑
+2016-05-20 11:16:17 dev_log : [INFO] [Wait For Text : [一账通]] 
+2016-05-20 11:16:24 dev_log : [INFO] [点击 -> name: 一账通]
+2016-05-20 11:16:28 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-05-20 11:16:31 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-05-20 11:16:40 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-05-20 11:16:47 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-05-20 11:16:49 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-20 11:16:54 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 11:17:17 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 11:17:22 dev_log : [INFO] 模拟向右滑动
+2016-05-20 11:17:28 dev_log : [INFO] [Wait For Text : [功能]] 
+2016-05-20 11:17:36 dev_log : [INFO] LoginPersonalCenterByHostYZT Success
+2016-05-20 11:17:57 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 11:18:14 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 11:18:18 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 11:18:22 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 11:18:30 dev_log : [INFO] LoginTimeout Start
+2016-05-20 11:18:33 dev_log : [STEP]  个人中心用例1-4-2（插件为强登，用户未登陆），超时后点击 开始跑
+2016-05-20 11:18:34 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:18:50 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:19:05 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:19:20 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:19:35 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:19:50 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:20:05 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:20:21 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:20:36 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:20:51 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:21:06 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:21:21 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:21:37 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:21:52 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:22:07 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:22:22 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:22:37 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:22:53 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:23:08 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:23:23 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:23:38 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:23:53 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:24:09 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:24:24 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:24:39 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:24:54 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:25:10 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:25:25 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:25:40 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:25:55 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:26:10 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:26:25 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:26:41 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:26:56 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:27:11 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:27:26 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:27:41 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:27:57 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:28:12 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:28:27 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:28:42 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:28:57 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:29:13 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:29:28 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:29:43 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:29:58 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:30:13 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:30:29 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:30:44 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:30:59 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:31:14 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:31:29 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:31:45 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:32:00 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:32:15 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:32:30 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:32:45 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:33:01 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:33:16 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:33:31 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:33:46 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:34:01 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:34:17 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:34:32 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:34:47 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:35:02 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:35:17 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:35:33 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:35:48 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:36:03 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:36:16 dev_log : [INFO] 模拟向右滑动
+2016-05-20 11:36:21 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-20 11:36:30 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-20 11:36:37 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-20 11:36:42 dev_log : [INFO] 个人中心用例1-4-2（插件为强登，用户未登陆），超时后点击 测试通过
+2016-05-20 11:36:42 dev_log : [INFO] LoginTimeout Success
+2016-05-20 11:37:15 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 11:37:32 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 11:37:36 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 11:37:40 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 11:37:48 dev_log : [INFO] LoginYztTimeout Start
+2016-05-20 11:37:51 dev_log : [STEP]  个人中心用例1-4-1（插件为强登，用户已登陆），超时后点击 开始跑
+2016-05-20 11:37:51 dev_log : [INFO] 模拟向右滑动
+2016-05-20 11:37:56 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-20 11:38:05 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-20 11:38:11 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-20 11:38:16 dev_log : [INFO] 已弹出登录
+2016-05-20 11:38:22 dev_log : [INFO] [点击 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-20 11:38:33 dev_log : [INFO] [输入字符 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-20 11:38:46 dev_log : [INFO] [点击 -> xpath: //*[@value='密码']]
+2016-05-20 11:38:57 dev_log : [INFO] [输入字符 -> xpath: //*[@value='密码']]
+2016-05-20 11:39:14 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 11:39:38 dev_log : [INFO] [Wait For Text : [我的资产]] 
+2016-05-20 11:39:43 dev_log : [INFO] [Wait For Text : [htmlbackhome]] 
+2016-05-20 11:39:48 dev_log : [INFO] [Wait For Text : [closeButton]] 
+2016-05-20 11:39:56 dev_log : [INFO] [点击 -> name: closeButton]
+2016-05-20 11:39:59 dev_log : [INFO] 模拟向左滑动
+2016-05-20 11:40:06 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:40:21 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:40:36 dev_log : [INFO] ［向下滑动］
+2016-05-20 11:40:51 dev_log : [INFO] ［向下滑动］
+2016-05-20 13:38:58 dev_log : [INFO] retrycount=3
+2016-05-20 13:38:58 dev_log : [INFO] sourceCodeDir=src
+2016-05-20 13:38:58 dev_log : [INFO] sourceCodeEncoding=UTF-8
+2016-05-20 13:39:36 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 13:39:53 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 13:39:57 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 13:40:01 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 13:40:09 dev_log : [INFO] ClickMsgCenter Start
+2016-05-20 13:40:13 dev_log : [STEP] 个人中心用例1-5 插件不配置强登， 例如消息中心 开始跑
+2016-05-20 13:40:13 dev_log : [INFO] 模拟向右滑动
+2016-05-20 13:40:18 dev_log : [INFO] [Wait For Text : [消息中心]] 
+2016-05-20 13:40:27 dev_log : [INFO] [点击 -> name: 消息中心]
+2016-05-20 13:40:33 dev_log : [INFO] [Wait For Text : [重要]] 
+2016-05-20 13:40:39 dev_log : [INFO] 个人中心用例1-5 插件不配置强登， 例如消息中心 测试通过
+2016-05-20 13:40:39 dev_log : [INFO] ClickMsgCenter Success
+2016-05-20 13:41:13 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 13:41:30 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 13:41:34 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 13:41:38 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 13:41:46 dev_log : [INFO] LoginPersonalCenterByH5 Start
+2016-05-20 13:41:49 dev_log : [STEP] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 开始跑
+2016-05-20 13:41:49 dev_log : [INFO] 模拟向右滑动
+2016-05-20 13:41:54 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-20 13:42:03 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-20 13:42:10 dev_log : [INFO] [Wait For Text : [一账通号/手机号/身份证号/邮箱]] 
+2016-05-20 13:42:15 dev_log : [INFO] 已弹出登录
+2016-05-20 13:42:21 dev_log : [INFO] [点击 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-20 13:42:33 dev_log : [INFO] [输入字符 -> xpath: //*[@value='一账通号/手机号/身份证号/邮箱']]
+2016-05-20 13:42:47 dev_log : [INFO] [点击 -> xpath: //*[@value='密码']]
+2016-05-20 13:42:58 dev_log : [INFO] [输入字符 -> xpath: //*[@value='密码']]
+2016-05-20 13:43:15 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 13:43:39 dev_log : [INFO] [Wait For Text : [我的资产]] 
+2016-05-20 13:43:44 dev_log : [INFO] 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 案例成功跑完
+2016-05-20 13:43:44 dev_log : [INFO] LoginPersonalCenterByH5 Success
+2016-05-20 13:44:17 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 13:44:34 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 13:44:39 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 13:44:42 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 13:44:51 dev_log : [INFO] LoginPersonalCenterByH5BeforNoYZT Start
+2016-05-20 13:44:54 dev_log : [STEP] 个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 开始跑
+2016-05-20 13:44:54 dev_log : [INFO] [Wait For Text : [非一账通]] 
+2016-05-20 13:45:00 dev_log : [INFO] [点击 -> name: 非一账通]
+2016-05-20 13:45:05 dev_log : [INFO] [点击 -> name: 宿主登陆]
+2016-05-20 13:45:07 dev_log : [INFO] [Wait For Text : [返回]] 
+2016-05-20 13:45:16 dev_log : [INFO] [点击 -> name: 选择登陆用户]
+2016-05-20 13:45:23 dev_log : [INFO] [输入字符 -> xpath: //UIAPickerWheel]
+2016-05-20 13:45:26 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-20 13:45:30 dev_log : [INFO] [点击 -> name: 登陆]
+2016-05-20 13:45:53 dev_log : [INFO] [Wait For Text : [rymtest001]] 
+2016-05-20 13:46:16 dev_log : [INFO] 你应该进来的
+2016-05-20 13:46:16 dev_log : [INFO] 模拟向右滑动
+2016-05-20 13:46:21 dev_log : [INFO] [Wait For Text : [新个人中心]] 
+2016-05-20 13:46:30 dev_log : [INFO] [点击 -> name: 新个人中心]
+2016-05-20 13:46:36 dev_log : [INFO] [Wait For Text : [密码登录]] 
+2016-05-20 13:46:41 dev_log : [INFO] 已弹出登录
+2016-05-20 13:46:44 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='密码登录']]
+2016-05-20 13:46:50 dev_log : [INFO] [Wait For Text : [注册账号]] 
+2016-05-20 13:47:02 dev_log : [INFO] [点击 -> xpath: //*[@value='请输入您的账号']]
+2016-05-20 13:47:12 dev_log : [INFO] [输入字符 -> xpath: //*[@value='请输入您的账号']]
+2016-05-20 13:47:26 dev_log : [INFO] [点击 -> xpath: //*[@value='请输入您的密码']]
+2016-05-20 13:47:37 dev_log : [INFO] [输入字符 -> xpath: //*[@value='请输入您的密码']]
+2016-05-20 13:47:54 dev_log : [INFO] [点击 -> xpath: //UIALink[@name='登 录']]
+2016-05-20 13:48:18 dev_log : [INFO] [Wait For Text : [登 录]] 
+2016-05-20 13:48:23 dev_log : [INFO] 个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 案例成功跑完
+2016-05-20 13:48:23 dev_log : [INFO] LoginPersonalCenterByH5BeforNoYZT Success
+2016-05-20 13:48:52 dev_log : [INFO] [Wait For Text : [确定]] 
+2016-05-20 13:49:09 dev_log : [INFO] [点击 -> name: AppId]
+2016-05-20 13:49:13 dev_log : [INFO] [点击 -> name: 养老险E企赢]
+2016-05-20 13:49:17 dev_log : [INFO] [点击 -> name: 进入页面]
+2016-05-20 13:49:25 dev_log : [INFO] LoginPersonalCenterByHost Start
+2016-05-20 13:49:29 dev_log : [INFO] LoginPersonalCenterByHost Failure
