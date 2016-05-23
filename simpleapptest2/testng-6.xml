@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
 <suite name="SimpleTest">
   <parameter name="appName" value="PAAnydoorSDK1130-1108.ipa"/> 
-    <parameter name="filePath" value="/Library/Documentation/User Information.localized/app_package/"/>
+    <parameter name="filePath" value="/Users/rymtest/Desktop/app_package/"/>
     <parameter name="platformName" value="ios"/>
     <parameter name="platformVersion" value="9.0"/>
     <parameter name="deviceName" value="娱乐 (2)"/> 
