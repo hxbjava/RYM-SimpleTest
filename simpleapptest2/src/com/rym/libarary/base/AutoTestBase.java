@@ -63,9 +63,9 @@ public class AutoTestBase {
 	 */
 	@BeforeTest(alwaysRun=true)
 	@Parameters({"filePath","appName","platformName","platformVersion","deviceName","appPackage","appActivity",
-		"port","udid","timeout","remote_url","appID"})
+		"port","udid","timeout","remote_url"})
 	public void beforeSuite(String filePath,String appName,String platformName,String platformVersion,String deviceName,
-			String appPackage,String appActivity,String port,String udid,int timeout,String remote_url,String appID) throws MalformedURLException
+			String appPackage,String appActivity,String port,String udid,int timeout,String remote_url) throws MalformedURLException
 	{
 		this.port=port;
 		this.timeout=timeout;
@@ -94,7 +94,7 @@ public class AutoTestBase {
             if(platformName.toLowerCase().contains("android"))
             {
             	driver=new AndroidDriver(new URL("http://0.0.0.0:"+port+"/wd/hub"), capabilities);
-            	
+            	appOperate=new AndroidOperate((AndroidDriver)driver);
             }else
             {
             	driver = new IOSDriver(new URL("http://0.0.0.0:"+port+"/wd/hub"), capabilities);
@@ -102,7 +102,7 @@ public class AutoTestBase {
             }
             driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 		}
-		Login.startApp(appID);
+		Login.startApp();
 		Sleep.sleep(3);
 	}
 
@@ -124,8 +124,7 @@ public class AutoTestBase {
 	 * @param appID
 	 */
 	@AfterMethod(alwaysRun=true)
-	@Parameters({"appID"})
-	public void afterTest(String appID)
+	public void afterTest()
 	{
 		
 //	appOperate.backToHomePage();
@@ -133,7 +132,7 @@ public class AutoTestBase {
 		((AppiumDriver)driver).closeApp();
 		Sleep.sleep(3);
 		((AppiumDriver)driver).launchApp();
-		Login.startApp(appID);
+		Login.startApp();
 		Sleep.sleep(3);
 	}
 	

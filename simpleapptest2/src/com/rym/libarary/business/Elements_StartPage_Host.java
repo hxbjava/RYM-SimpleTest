@@ -20,14 +20,21 @@ public class Elements_StartPage_Host extends PageObjectBase{
 	/**
 	 * 选择appid
 	 */
-	@AndroidFindBy(name="AppId")
+	@AndroidFindBy(name="SDK")
 	@iOSFindBy(name="AppId")
 	public WebElement HostAppIDSelect;
 	
 	/**
+	 * 选定appid
+	 */
+	@AndroidFindBy(name="E企赢")
+	@iOSFindBy(name="养老险E企赢")
+	public WebElement HostAppIDclick;
+	
+	/**
 	 * 进入页面
 	 */
-	@AndroidFindBy(name="进入页面")
+	@AndroidFindBy(name="loading")
 	@iOSFindBy(name="进入页面")
 	public WebElement HostStartClick;
 	
