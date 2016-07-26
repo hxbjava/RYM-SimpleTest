@@ -95,7 +95,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	/**
 	 * 个人中心用例1-4-1（插件为强登，用户已登陆），超时后点击
 	 */
-	@Test(groups={"p1"})
+//	@Test(groups={"p1"})
 	@Parameters({"LoginPersonalCenterName","login_name","login_password"})
 	public void LoginYztTimeout(String LoginPersonalCenterName,String login_name,String login_password)
 	{
@@ -165,12 +165,17 @@ public class PersonalCenter_Test extends AutoTestBase{
 			appOperate.click(driver.findElement(By.name(MsgCenter)), "点击 消息中心");
 			Sleep.sleep(5);
 		}
+		int ii=0;
 		while(true)
 		{
+			if (ii>5) {Log.logInfo("个人中心用例1-5 插件不配置强登， 例如消息中心 测试失败");break;}
 			 if(appOperate.waitForText(20, "重要"))
 			 {
 					Log.logInfo("个人中心用例1-5 插件不配置强登， 例如消息中心 测试通过");
 					break;
+			 }else
+			 {
+				 ii=ii+1;
 			 }
 			 Sleep.sleep(5);
 		}
