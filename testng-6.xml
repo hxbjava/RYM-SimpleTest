@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="SimpleTest">
+  <parameter name="appName" value="PAAnydoorSDK1130-1108.ipa"/> 
+    <parameter name="filePath" value="/Users/rymtest/Desktop/"/>
+    <parameter name="platformName" value="ios"/>
+    <parameter name="platformVersion" value="9.0"/>
+    <parameter name="deviceName" value="娱乐 (2)"/> 
+    <parameter name="appPackage" value=""/>
+    <parameter name="appActivity" value=""/>
+    <parameter name="port" value="4723"/>
+    <parameter name="udid" value="8f023bbd000d58e34cfea2fdca1a8901d3123291"/>
+    <parameter name="timeout" value="60"/>
+    <parameter name="remote_url" value=""/>
+    <test name="Iphone-Test" preserve-order="true">
+       	<groups>
+       	    <define name="p1">
+       	        <include name="p1"></include>
+       	    </define>
+       	    <define name="p2">
+       	        <include name="p2"></include>
+       	    </define>
+       	     <define name="p3">
+       	        <include name="p3"></include>
+       	    </define>
+       	    <run>
+       	        <include name="p2"></include>
+       	         <include name="p1"></include>
+       	          <include name="p3"></include>
+       	    </run>
+       	</groups>
+        <classes>
+            <class name="com.rym.libarary.testsuits.Login_Test"></class>
+            <class name="com.rym.libarary.testsuits.OpenPlugin_Test"></class>
+            <class name="com.rym.libarary.testsuits.PersonalCenter_Test"></class>
+            <class name="com.rym.libarary.testsuits.DownloadCenter_Test"></class>
+            <class name="com.rym.libarary.testsuits.MsgCenter_Test"></class>
+              <class name="com.rym.libarary.testsuits.Plugin_Test"></class>
+        </classes>
+    </test>
+    
+      <listeners>
+        <listener class-name="com.rym.libarary.utils.testng.TestResultListener"/>
+        <listener class-name="com.rym.libarary.utils.testng.RetryListener"/>
+        <!--<listener class-name="com.rym.libarary.utils.testng.PowerEmailableReporter" />-->
+    </listeners>
+    
+    <parameter name="appID" value="养老险E企赢"/>
+    <parameter name="login_name" value="18688971111"/>
+    <parameter name="login_password" value="hu154235"/>
+    <parameter name="login_classname" value="UIALink"/>
+    <parameter name="login_HostName" value="rymtest001"/>
+     <parameter name="LoginPersonalCenterName" value="新个人中心"/>
+      <parameter name="LoginPersonalAferName" value="功能"/>
+      <parameter name="LoginH5AferName" value="功能"/>
+       <parameter name="MsgCenter" value="消息中心"/>
+ <parameter name="PluginList_url" value="https://maam-dmzstg2.pingan.com.cn:9041/maam/getPluginList.do?sdkVersion=3.3.0.1&amp;osVersion=9.0&amp;deviceId=8f023bbd000d58e34cfea2fdca1a8901d3123291&amp;appId=PA00800000000_01_EQY&amp;appVersion=1.0&amp;deviceType=ios"></parameter>
+</suite>
