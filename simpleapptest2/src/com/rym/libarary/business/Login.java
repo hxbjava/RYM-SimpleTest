@@ -46,6 +46,10 @@ public class Login extends AutoTestBase{
 		appOperate.click(elements_StartPage_Host.HostStartClick, "点击  进入页面 ");
 
 		Sleep.sleep(5);
+		if(platformName.toLowerCase().contains("ios"))
+        {
+			checkHtml();
+        }
 	}
 	
 	/**
@@ -261,5 +265,19 @@ public class Login extends AutoTestBase{
 				 break;
 			 }
 		 }
+	}
+	
+	public static void checkHtml()
+	{
+		List<WebElement> listelements = driver.findElements(By.xpath("//UIAButton[contains(@name,'PA')]"));
+		Log.logInfo("当前页面插件个数为："+listelements.size());
+		if(listelements.size()==0)
+		{
+			((AppiumDriver)driver).closeApp();
+			Sleep.sleep(3);
+			((AppiumDriver)driver).launchApp();
+			Login.startApp();
+			Sleep.sleep(3);
+		}
 	}
 }
