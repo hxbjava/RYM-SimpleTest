@@ -182,10 +182,10 @@ public class Plugin_Test extends AutoTestBase{
 					if (listelements.get(i).getText().toString().equals(listneedLogin.getJSONObject(j).getString("pluginUid").toString())) 
 					{
 						appOperate.click(driver.findElement(By.name(listelements.get(i).getText())),"点击 " + listelements.get(i).getText()+"当前点击次数："+i);
-						if(appOperate.waitForText(15, "选择"))
+						if(appOperate.waitForText(15, "一账通登录"))
 						{
 							Log.logInfo("已弹出登录,删除强登录插件"+listneedLogin.getJSONObject(j).getString("name")+" 剩余需要强登录的插件个数为："+(listneedLogin.size()-1));
-							appOperate.click(driver.findElement(By.name("返回")), "点击返回按钮");
+					//		appOperate.click(driver.findElement(By.name("返回")), "点击返回按钮");
 							//超时后查询到强登陆插件已打开并弹出登录页
 							Timeout=true;
 							break;
