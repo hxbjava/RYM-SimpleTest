@@ -24,10 +24,10 @@ public class Login_Test extends AutoTestBase{
 	
 	
 //	@BeforeTest(alwaysRun=true)
-	@Parameters({"appID"})
-	public void strat(String appID)
+
+	public void strat()
 	{
-		Login.startApp(appID);
+		Login.startApp();
 		Sleep.sleep(3);
 	}
 
