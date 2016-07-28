@@ -24,6 +24,7 @@ public class TestngRetry implements IRetryAnalyzer{
 	
 	public boolean retry(ITestResult result) {
 		// TODO Auto-generated method stub
+		Log.logInfo("检测失败重跑案例中");
 		if(retryCount<=maxRetryCount)
 		{
 			String message="Retry for [" + result.getName() + "] on class [" + result.getTestClass().getName() + "] Retry "
