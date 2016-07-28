@@ -24,8 +24,8 @@
        	        <include name="p3"></include>
        	    </define>
        	    <run>
-       	        <include name="p2"></include>
-       	         <include name="p1"></include>
+       	      <include name="p2"></include>
+       	      <include name="p1"></include>
        	          <include name="p3"></include>
        	    </run>
        	</groups>
@@ -49,7 +49,7 @@
     <parameter name="login_name" value="18688971111"/>
     <parameter name="login_password" value="hu154235"/>
     <parameter name="login_classname" value="UIALink"/>
-    <parameter name="login_HostName" value="rymtest001"/>
+    <parameter name="login_HostName" value="15006180030"/>
      <parameter name="LoginPersonalCenterName" value="个人中心"/>
       <parameter name="LoginPersonalAferName" value="功能"/>
       <parameter name="LoginH5AferName" value="功能"/>
