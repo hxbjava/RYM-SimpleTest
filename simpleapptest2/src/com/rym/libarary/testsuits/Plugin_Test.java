@@ -126,6 +126,8 @@ public class Plugin_Test extends AutoTestBase{
 							break;
 						}else
 						{
+							appOperate.closeH5();
+							Sleep.sleep(3);
 							appOperate.swipeToRight();
 						}
 				}
@@ -184,7 +186,8 @@ public class Plugin_Test extends AutoTestBase{
 							Log.logInfo("未弹出登录,删除强登录插件"+listneedLogin.getJSONObject(j).getString("name")+" 剩余需要强登录的插件个数为："+(listneedLogin.size()-1));
 							listneedLogin.remove(j);
 							break;
-						}
+						}else
+						{appOperate.closeH5();}
 					}else
 					{
 						if (appOperate.waitForText(15,waitText))
@@ -192,7 +195,8 @@ public class Plugin_Test extends AutoTestBase{
 							Log.logInfo("已弹出登录,删除强登录插件"+listneedLogin.getJSONObject(j).getString("name")+" 剩余需要强登录的插件个数为："+(listneedLogin.size()-1));
 							listneedLogin.remove(j);
 							break;
-						}
+						}else
+						{appOperate.closeH5();}
 					}
 					
 					if(waitText.equals("选择"))
