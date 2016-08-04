@@ -91,8 +91,12 @@ public class AutoTestBase {
             capabilities.setCapability("resetKeyboard", "True");
             capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, appActivity);
             capabilities.setCapability("autoAcceptAlerts", "True");
+ //           capabilities.setCapability("autoLaunch", "False");
+           
             if(platformName.toLowerCase().contains("android"))
             {
+            	 capabilities.setCapability("noReset", "True");
+                 capabilities.setCapability("autoWebview", "True");
             	driver=new AndroidDriver(new URL("http://0.0.0.0:"+port+"/wd/hub"), capabilities);
             	appOperate=new AndroidOperate((AndroidDriver)driver);
             }else
@@ -102,8 +106,9 @@ public class AutoTestBase {
             }
             driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 		}
+//		((AppiumDriver)driver).launchApp();
 		Login.startApp();
-		Sleep.sleep(3);
+		Sleep.sleep(10);
 	}
 
 	 
@@ -116,6 +121,16 @@ public class AutoTestBase {
 //		if (platformName.toLowerCase().contains("android") || platformName.toLowerCase().contains("ios")) {
 //            ((AppiumDriver) driver).removeApp("com.pingan.rympush");
 //		}
+		Sleep.sleep(3);
+			if (platformName.toLowerCase().contains("android"))
+			{
+				((AppiumDriver) driver).removeApp("com.paic.example.simpleapp");
+			}else
+			{
+				((AppiumDriver) driver).removeApp("com.pingan.rympush");
+			}
+
+		Sleep.sleep(3);
 		driver.quit();
 	}
 	

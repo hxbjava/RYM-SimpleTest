@@ -163,27 +163,13 @@ public class AndroidOperate extends AppOperate{
 	@Override
 	public void closeH5() {
 		// TODO Auto-generated method stub
-		if (waitForText(2, "返回")) {
-			Sleep.sleep(2);
-			Log.logInfo("进入点击返回按钮状态...");
-			try {
-				click(driver.findElement(By.name("返回")), "点击关闭");
-			} catch (Exception e) {
-				// TODO: handle exception
-				Log.logError(e.getMessage());
-			}
-			Sleep.sleep(1);
-			if (waitForText(2, "关闭")) {
-				click(driver.findElement(By.name("关闭")), "点击关闭");
-			}
-		}
-		if (waitForText(2, "返回")) {
-			click(driver.findElement(By.name("返回")), "点击关闭");
-//			Sleep.sleep(1);
-//			if (appOperate.waitForText(2, "closeButton")) {
-//				appOperate.click(driver.findElement(By.name("closeButton")), "点击关闭");
-//				}
-		}
+
+			if (waitForText(2, "closeButton")) {
+				click(driver.findElement(By.name("closeButton")), "点击关闭");
+				}
+			if (waitForText(2, "closeButton")) {
+				click(driver.findElement(By.name("closeButton")), "点击关闭");
+				}
 		Sleep.sleep(2);
 	}
 

@@ -23,15 +23,19 @@ public class Elements_PersonalPage extends PageObjectBase{
 	 */
 //	@AndroidFindBy(xpath ="//*[@value='一账通号/手机号/身份证号/邮箱']")
 //	@iOSFindBy(xpath ="//*[@value='一账通号/手机号/身份证号/邮箱']")
-	@FindBy(xpath ="//*[@value='一账通号/手机号/身份证号/邮箱']")
+	@AndroidFindBy(id="com.paic.example.simpleapp:id/user-id-input")
+//	@AndroidFindBy(accessibilityId="")
+	@iOSFindBy(xpath ="//*[@value='一账通号/手机号/身份证号/邮箱']")
 	public WebElement ClickAccount;
 	
 	/**
-	 * 点击账号准备输入
+	 * 点击密码准备输入
 	 */
-	@AndroidFindBy(xpath ="//*[@value='密码']")
+	@AndroidFindBy(id="com.paic.example.simpleapp:id/user-psd-input")
 	@iOSFindBy(xpath ="//*[@value='密码']")
 	public WebElement ClickPassword;
+	
+	@AndroidFindBy(name="登 录 Link")
 	@iOSFindBy(xpath = "//UIALink[@name='登 录']")
 	public WebElement Clicklogin;
 	
@@ -57,20 +61,30 @@ public class Elements_PersonalPage extends PageObjectBase{
 	public WebElement ClickByHost;
 	
 	/**
+	 * 密码登录按钮
+	 */
+	@AndroidFindBy(name="密码登录 Link")
+	@iOSFindBy(xpath = "//UIALink[@name='密码登录']")
+	public WebElement ClickPwdLogin;
+	
+	
+	/**
 	 * 点击账号准备输入
 	 */
 //	@AndroidFindBy(xpath ="//*[@value='一账通号/手机号/身份证号/邮箱']")
 //	@iOSFindBy(xpath ="//*[@value='一账通号/手机号/身份证号/邮箱']")
-	@FindBy(xpath ="//*[@value='请输入您的账号']")
+	@AndroidFindBy(id="user-id-input")
+	@iOSFindBy(xpath ="//*[@value='请输入您的账号']")
 	public WebElement ClickAccountLow;
 	
 	/**
 	 * 点击账号准备输入
 	 */
-	@AndroidFindBy(xpath ="//*[@value='请输入您的密码']")
+	@AndroidFindBy(id="user-psd-input")
 	@iOSFindBy(xpath ="//*[@value='请输入您的密码']")
 	public WebElement ClickPasswordLow;
 	
+	@AndroidFindBy(name="登 录 Link")
 	@iOSFindBy(xpath = "//UIALink[@name='登 录']")
 	public WebElement ClickloginLow;
 }

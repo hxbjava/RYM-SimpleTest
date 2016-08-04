@@ -24,7 +24,7 @@ public class Login_Test extends AutoTestBase{
 	
 	
 //	@BeforeTest(alwaysRun=true)
-
+  
 	public void strat()
 	{
 		Login.startApp();

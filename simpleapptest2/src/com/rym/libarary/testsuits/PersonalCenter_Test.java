@@ -79,7 +79,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	public void LoginPersonalCenterByHostYZT(String LoginPersonalAferName,String login_HostName)
 	{
 		Log.logStep(" 个人中心用例1-3（插件为强登，用户一账通登陆），模拟宿主一账通登录 开始跑");
-		Login.loginyztByHostgo(login_HostName);	
+		Login.loginyztByHost(login_HostName,false);	
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(5, LoginPersonalAferName))
 		{
@@ -99,6 +99,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	@Parameters({"LoginPersonalCenterName","login_name","login_password"})
 	public void LoginYztTimeout(String LoginPersonalCenterName,String login_name,String login_password)
 	{
+		int ss;
 		Log.logStep(" 个人中心用例1-4-1（插件为强登，用户已登陆），超时后点击 开始跑");
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(5, LoginPersonalCenterName))
@@ -109,7 +110,15 @@ public class PersonalCenter_Test extends AutoTestBase{
 		Login.loginyztByH5(login_name, login_password);
 		appOperate.closeH5();
 		appOperate.swipeToLeft();
-		for (int i = 0; i < 70; i++) {
+		if (platformName.toLowerCase().contains("android")) {
+			ss=100;
+		}else{ss=70;}
+		for (int i = 0; i < ss; i++) {
+			
+			appOperate.swipeToDown(1000);
+			Sleep.sleep(10);
+		}
+		for (int i = 0; i < ss; i++) {
 			
 			appOperate.swipeToDown(1000);
 			Sleep.sleep(10);
@@ -129,7 +138,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	/**
 	 * 个人中心用例1-4-2（插件为强登，用户未登陆），超时后点击
 	 */
-	@Test(groups={"p1"})
+//	@Test(groups={"p1"})
 	@Parameters({"LoginPersonalCenterName"})
 	public void LoginTimeout(String LoginPersonalCenterName)
 	{
