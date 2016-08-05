@@ -33,7 +33,7 @@ public class MsgCenter_Test extends AutoTestBase{
 		if(appOperate.waitForText(10, MsgCenter))
 		{
 			appOperate.click(driver.findElement(By.name(MsgCenter)), "点击 打开消息中心");
-			if(appOperate.waitForText(20, "重要"))
+			if(appOperate.waitForText(20, "重要")||appOperate.waitForText(20, "重要-未读"))
 			{
 				Log.logInfo("已打开消息中心");
 				appOperate.closeH5();
@@ -57,7 +57,7 @@ public class MsgCenter_Test extends AutoTestBase{
 		if(appOperate.waitForText(10, MsgCenter))
 		{
 			appOperate.click(driver.findElement(By.name(MsgCenter)), "点击 打开消息中心");
-			if(appOperate.waitForText(20, "重要"))
+			if(appOperate.waitForText(20, "重要")||appOperate.waitForText(20, "重要-未读"))
 			{
 				Log.logInfo("已打开消息中心");
 				appOperate.closeH5();
@@ -81,7 +81,7 @@ public class MsgCenter_Test extends AutoTestBase{
 		if(appOperate.waitForText(10, "第 1 页（共 2 页）"))
 		{
 			appOperate.click(driver.findElement(By.xpath("//UIALink[@value='第 1 页（共 2 页）']")), "点击 打开消息中心");
-			if(appOperate.waitForText(20, "重要"))
+			if(appOperate.waitForText(20, "重要")||appOperate.waitForText(20, "重要-未读"))
 			{
 				Log.logInfo("已打开消息中心");
 				appOperate.closeH5();
@@ -161,7 +161,7 @@ public class MsgCenter_Test extends AutoTestBase{
 		if(appOperate.waitForText(10, MsgCenter))
 		{
 			appOperate.click(driver.findElement(By.name(MsgCenter)), "点击 打开消息中心");
-			if(appOperate.waitForText(20, "重要"))
+			if(appOperate.waitForText(20, "重要")||appOperate.waitForText(20, "重要-未读"))
 			{
 				Log.logInfo("已打开消息中心");
 			
