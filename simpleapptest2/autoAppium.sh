@@ -1,1 +1,1 @@
-node /Applications/Appium.app/Contents/Resources/node_modules/appium/bin/appium.js &
+appium
