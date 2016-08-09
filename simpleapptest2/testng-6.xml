@@ -4,12 +4,12 @@
   <parameter name="appName" value="PAAnydoorSDK_New.ipa"/> 
     <parameter name="filePath" value="/Users/rymtest/Desktop/app_package/"/>
     <parameter name="platformName" value="ios"/>
-    <parameter name="platformVersion" value="9.0"/>
-    <parameter name="deviceName" value="娱乐 (2)"/> 
+    <parameter name="platformVersion" value="7.1.1"/>
+    <parameter name="deviceName" value="iPod touch dev"/> 
     <parameter name="appPackage" value=""/>
     <parameter name="appActivity" value=""/>
     <parameter name="port" value="4723"/>
-    <parameter name="udid" value="8f023bbd000d58e34cfea2fdca1a8901d3123291"/>
+    <parameter name="udid" value="6b96079792bf70b9b435062a8da3fbe0054a11be"/>
     <parameter name="timeout" value="60"/>
     <parameter name="remote_url" value=""/>
     <test name="Iphone-Test" preserve-order="true">
@@ -25,8 +25,7 @@
        	    </define>
        	    <run>
        	      <include name="p2"></include>
-       	      <include name="p1"></include>
-       	          <include name="p3"></include>
+       	     
        	    </run>
        	</groups>
         <classes>
@@ -42,6 +41,8 @@
       <listeners>
         <listener class-name="com.rym.libarary.utils.testng.TestResultListener"/>
         <listener class-name="com.rym.libarary.utils.testng.RetryListener"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
         <!--<listener class-name="com.rym.libarary.utils.testng.PowerEmailableReporter" />-->
     </listeners>
     

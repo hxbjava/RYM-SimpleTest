@@ -26,8 +26,7 @@
         </javac>
     </target>
     <target name="run_tests" depends="compile">
-        <testng classpathref="run.classpath" outputDir="output/testngReports"  useDefaultListeners="false"   
-        listeners="org.uncommons.reportng.HTMLReporter,org.testng.reporters.FailedReporter">
+        <testng classpathref="run.classpath" outputDir="output/testngReports"  useDefaultListeners="false"  > 
             <xmlfileset dir="${basedir}" includes="testng-6.xml" />
             <jvmarg value="-Dfile.encoding=UTF-8" />
         </testng>
