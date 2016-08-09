@@ -25,7 +25,8 @@
        	    </define>
        	    <run>
        	      <include name="p2"></include>
-       	     
+       	     <include name="p1"></include>
+       	     <include name="p3"></include>
        	    </run>
        	</groups>
         <classes>
