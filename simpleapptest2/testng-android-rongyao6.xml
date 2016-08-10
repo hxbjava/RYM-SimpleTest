@@ -42,6 +42,8 @@
       <listeners>
         <listener class-name="com.rym.libarary.utils.testng.TestResultListener"/>
         <listener class-name="com.rym.libarary.utils.testng.RetryListener"/>
+         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
         <!--<listener class-name="com.rym.libarary.utils.testng.PowerEmailableReporter" />-->
     </listeners>
     
