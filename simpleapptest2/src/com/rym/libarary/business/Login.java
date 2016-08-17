@@ -80,32 +80,33 @@ public class Login extends AutoTestBase {
 			Sleep.sleep(2);
 			appOperate.click(elements_PersonalPage.Clicklogin,
 					"找到［登 录］按钮，并点击!");
-		}
-		Sleep.sleep(20);
-		// 通过死循环去判断是否登录成功
-		while (true) {
-			if (appOperate.waitForText(20, "我的资产")) {
-				break;
-
-			} else {
-				if (platformName.toLowerCase().contains("android")) {
-					List<WebElement> list = driver.findElements(By
-							.className("android.widget.EditText"));
-					appOperate.click(list.get(1), "点击 密码 进行输入");
-					appOperate.sendKeys(list.get(1), "输入 密码", login_password);
-				} else {
-					appOperate.click(elements_PersonalPage.ClickPassword,
-							"点击 密码 进行输入");
-					appOperate.sendKeys(elements_PersonalPage.ClickPassword,
-							"输入 密码", login_password);
-					appOperate.hideKeyboard();
-				}
-				Sleep.sleep(2);
-				appOperate.click(elements_PersonalPage.Clicklogin,
-						"找到［登 录］按钮，并点击!");
-			}
 			Sleep.sleep(20);
+			// 通过死循环去判断是否登录成功
+			while (true) {
+				if (appOperate.waitForText(20, "我的资产")) {
+					break;
+
+				} else {
+					if (platformName.toLowerCase().contains("android")) {
+						List<WebElement> list = driver.findElements(By
+								.className("android.widget.EditText"));
+						appOperate.click(list.get(1), "点击 密码 进行输入");
+						appOperate.sendKeys(list.get(1), "输入 密码", login_password);
+					} else {
+						appOperate.click(elements_PersonalPage.ClickPassword,
+								"点击 密码 进行输入");
+						appOperate.sendKeys(elements_PersonalPage.ClickPassword,
+								"输入 密码", login_password);
+						appOperate.hideKeyboard();
+					}
+					Sleep.sleep(2);
+					appOperate.click(elements_PersonalPage.Clicklogin,
+							"找到［登 录］按钮，并点击!");
+				}
+				Sleep.sleep(20);
+			}
 		}
+		
 	}
 
 	/**
