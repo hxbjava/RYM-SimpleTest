@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-    <project basedir="." default="run_tests" name="simpleapptest">
-    <property environment="env"/>
-    <property name="src" value="src" />
-    <property name="dest" value="test-class" />
-    <path id="run.classpath">
-          <fileset dir="${basedir}/libs/">
-            <include name="*.jar"/>
-        </fileset>
-        <pathelement location="${src}"/>
-        <pathelement location="${dest}"/>
-        
-    </path>
-    <taskdef name="testng" classname="org.testng.TestNGAntTask">
-    <classpath>
-      <pathelement location="libs/testng.jar"/>
-    </classpath>
-  </taskdef>
-    <target name="clean">
-        <delete dir="${dest}"/>
-    </target>
-	 <target name="compile" depends="clean">
-        <mkdir dir="${dest}" />
-        <javac target="1.8" srcdir="${src}" destdir="${dest}" classpathref="run.classpath" encoding="UTF-8" debug="on" includeAntRuntime="false" >
-              <compilerarg line="-encoding UTF-8"/>
-        </javac>
-    </target>
-    <target name="run_tests" depends="compile">
-        <testng classpathref="run.classpath" outputDir="output/testngReports"  useDefaultListeners="false"  > 
-            <xmlfileset dir="${basedir}" includes="testng-6.xml" />
-            <jvmarg value="-Dfile.encoding=UTF-8" />
-        </testng>
-    </target>
-</project>
+    <project basedir="." default="run_tests" name="simpleapptest">  
+        <property name="base.dir" value="."/>  
+        <property name="testng.output.dir" value="${base.dir}/output"/>  
+        <property name="3rd.lib.dir" value="${base.dir}/libs"/>  
+       
+        <taskdef resource="testngtasks" classpath="${3rd.lib.dir}/testng.jar"/>  
+       
+           
+        <target name="clean">  
+             <delete dir="${base.dir}/output"/>  
+             <delete dir="${base.dir}/bin"/>  
+        </target>  
+        <target name="compile" depends="clean">  
+            <mkdir dir="${base.dir}/output"/>  
+            <mkdir dir="${base.dir}/bin"/>  
+            <javac srcdir="${base.dir}/src" destdir="${base.dir}/bin" classpathref="classes" includeantruntime="off" debug="on" debuglevel="lines,vars,source"/>  
+        </target>  
+       
+        <path id="classes">  
+            <fileset dir="${3rd.lib.dir}" includes="*jar"/>  
+            <fileset dir="${3rd.lib.dir}" includes="*zip"/>  
+            <pathelement location="${base.dir}/bin"/>  
+        </path>  
+       
+        <target name="run_tests" depends="compile">  
+            <testng outputdir="${testng.output.dir}" classpathref="classes" delegateCommandSystemProperties="true">  
+                <xmlfileset dir="${base.dir}" includes="testng-6.xml"/>  
+            </testng>  
+        </target>  
+    </project>
