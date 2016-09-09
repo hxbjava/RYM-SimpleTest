@@ -1,15 +1,24 @@
 package com.rym.libarary.testsuits;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.rym.libarary.base.AutoTestBase;
+import com.rym.libarary.business.Elements_MainPage;
 import com.rym.libarary.business.Login;
 import com.rym.libarary.utils.Log;
 import com.rym.libarary.utils.Sleep;
 
 public class PersonalCenter_Test extends AutoTestBase{
+	
+	private  Elements_MainPage elements_MainPage ;
+
+	 @BeforeClass(alwaysRun = true)
+	    public void beforeClass() {
+		 elements_MainPage=new Elements_MainPage(driver);
+	 }
 	
 	/**
 	 * 个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录
@@ -19,12 +28,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	public void LoginPersonalCenterByH5(String LoginPersonalCenterName,String login_name,String login_password)
 	{
 		Log.logStep("个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 开始跑");
-		appOperate.swipeToRight();
-		if(appOperate.waitForText(5, LoginPersonalCenterName))
-		{
-			appOperate.click(driver.findElement(By.name(LoginPersonalCenterName)), "点击个人中心准备登录");
-			Sleep.sleep(5);
-		}
+		Login.SwipeToClickPersonalCenter(LoginPersonalCenterName);
 		Login.loginyztByH5(login_name, login_password);
 		Log.logInfo("个人中心用例1-1-2（插件为强登，用户未登陆），模拟h5一账通登录 案例成功跑完");
 	}
@@ -39,15 +43,10 @@ public class PersonalCenter_Test extends AutoTestBase{
 		Log.logStep("个人中心用例1-1-1（插件为强登，用户未登陆），模拟宿主一账通登录 开始跑");
 		 if(appOperate.waitForText(20, "一账通"))
     	 {	
-			 appOperate.click(driver.findElement(By.name("一账通")), "点击 一账通");
+			 appOperate.click(elements_MainPage.ClickYzt, "点击 一账通");
 			 
     	 }
-		appOperate.swipeToRight();
-		if(appOperate.waitForText(5, LoginPersonalCenterName))
-		{
-			appOperate.click(driver.findElement(By.name(LoginPersonalCenterName)), "点击个人中心准备登录");
-			Sleep.sleep(5);
-		}
+		 Login.SwipeToClickPersonalCenter(LoginPersonalCenterName);
 		Login.loginyztByHost(login_HostName,true);
 		Log.logInfo("个人中心用例1-1-1（插件为强登，用户未登陆），模拟宿主一账通登录 案例成功跑完");
 	}
@@ -61,13 +60,8 @@ public class PersonalCenter_Test extends AutoTestBase{
 	{
 		Log.logStep("个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 开始跑");
 		Login.loginNoyztByHost(login_HostName);	
-		appOperate.swipeToRight();
-		if(appOperate.waitForText(5, LoginPersonalCenterName))
-		{
-			appOperate.click(driver.findElement(By.name(LoginPersonalCenterName)), "点击个人中心准备登录");
-			Sleep.sleep(5);
-			Login.loginyztByLow(login_name, login_password);
-		}
+		Login.SwipeToClickPersonalCenter(LoginPersonalCenterName);
+		Login.loginyztByLow(login_name, login_password);
 		Log.logInfo("个人中心用例1-2（插件为强登，用户非一账通登陆），模拟H5低门槛一账通登录 案例成功跑完");
 	
 	}
@@ -80,16 +74,11 @@ public class PersonalCenter_Test extends AutoTestBase{
 	{
 		Log.logStep(" 个人中心用例1-3（插件为强登，用户一账通登陆），模拟宿主一账通登录 开始跑");
 		Login.loginyztByHost(login_HostName,false);	
-		appOperate.swipeToRight();
-		if(appOperate.waitForText(5, LoginPersonalAferName))
-		{
-			appOperate.click(driver.findElement(By.name(LoginPersonalAferName)), "点击个人中心");
-			Sleep.sleep(5);
+		Login.SwipeToClickPersonalCenter(LoginPersonalAferName);
 			if(appOperate.waitForText(20, "我的订单"))
 			{
 				Log.logInfo("个人中心用例1-3（插件为强登，用户一账通登陆），模拟宿主一账通登录 测试通过");
 			}
-		}
 	}
 	
 	/**
@@ -101,12 +90,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 	{
 		int ss;
 		Log.logStep(" 个人中心用例1-4-1（插件为强登，用户已登陆），超时后点击 开始跑");
-		appOperate.swipeToRight();
-		if(appOperate.waitForText(5, LoginPersonalCenterName))
-		{
-			appOperate.click(driver.findElement(By.name(LoginPersonalCenterName)), "点击个人中心准备登录");
-			Sleep.sleep(5);
-		}
+		Login.SwipeToClickPersonalCenter(LoginPersonalCenterName);
 		Login.loginyztByH5(login_name, login_password);
 		appOperate.closeH5();
 		appOperate.swipeToLeft();
@@ -126,7 +110,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(5, LoginPersonalCenterName))
 		{
-			appOperate.click(driver.findElement(By.name(LoginPersonalCenterName)), "点击个人中心准备登录");
+			appOperate.click(driver.findElement(By.id(LoginPersonalCenterName)), "点击个人中心准备登录");
 			Sleep.sleep(5);
 			if(appOperate.waitForText(20, "一账通号/手机号/身份证号/邮箱"))
 			 {
@@ -151,7 +135,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(5, LoginPersonalCenterName))
 		{
-			appOperate.click(driver.findElement(By.name(LoginPersonalCenterName)), "点击个人中心准备登录");
+			appOperate.click(driver.findElement(By.id(LoginPersonalCenterName)), "点击个人中心准备登录");
 			Sleep.sleep(5);
 			 if(appOperate.waitForText(20, "一账通号/手机号/身份证号/邮箱"))
 			 {
@@ -171,7 +155,7 @@ public class PersonalCenter_Test extends AutoTestBase{
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(5, MsgCenter))
 		{
-			appOperate.click(driver.findElement(By.name(MsgCenter)), "点击 消息中心");
+			appOperate.click(elements_MainPage.MsgCenter, "点击 消息中心");
 			Sleep.sleep(5);
 		}
 		int ii=0;

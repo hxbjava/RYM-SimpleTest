@@ -6,10 +6,12 @@ import io.appium.java_client.AppiumDriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.rym.libarary.base.AutoTestBase;
+import com.rym.libarary.business.Elements_MainPage;
 import com.rym.libarary.business.Login;
 import com.rym.libarary.utils.Log;
 import com.rym.libarary.utils.Sleep;
@@ -20,6 +22,14 @@ public class MsgCenter_Test extends AutoTestBase{
 	 * By huxuebing on 2016.4.5
 	 * @param MsgCenter
 	 */
+	
+	private  Elements_MainPage elements_MainPage ;
+
+	 @BeforeClass(alwaysRun = true)
+	    public void beforeClass() {
+		 elements_MainPage=new Elements_MainPage(driver);
+	 }
+	 
 	/**
 	 * 1、无用户打开消息中心
 	 * @param MsgCenter
@@ -32,7 +42,7 @@ public class MsgCenter_Test extends AutoTestBase{
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(10, MsgCenter))
 		{
-			appOperate.click(driver.findElement(By.name(MsgCenter)), "点击 打开消息中心");
+			appOperate.click(elements_MainPage.MsgCenter, "点击 打开消息中心");
 			if(appOperate.waitForText(20, "重要")||appOperate.waitForText(20, "重要-未读"))
 			{
 				Log.logInfo("已打开消息中心");
@@ -56,7 +66,7 @@ public class MsgCenter_Test extends AutoTestBase{
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(10, MsgCenter))
 		{
-			appOperate.click(driver.findElement(By.name(MsgCenter)), "点击 打开消息中心");
+			appOperate.click(elements_MainPage.MsgCenter, "点击 打开消息中心");
 			if(appOperate.waitForText(20, "重要")||appOperate.waitForText(20, "重要-未读"))
 			{
 				Log.logInfo("已打开消息中心");
@@ -71,7 +81,7 @@ public class MsgCenter_Test extends AutoTestBase{
 	 * @param MsgCenter
 	 * @param login_HostName
 	 */
-	@Test(groups={"p2"})
+//	@Test(groups={"p2"})
 	@Parameters({"MsgCenter","login_HostName"})
 	public void OpenMsgByBlueList(String MsgCenter,String login_HostName)
 	{
@@ -94,7 +104,7 @@ public class MsgCenter_Test extends AutoTestBase{
 	 * 6、消息单条删除
 	 * @param MsgCenter
 	 */
-	@Test(groups={"p2"})
+//	@Test(groups={"p2"})
 	@Parameters({"MsgCenter","login_HostName"})
 	public void DeleteMsg(String MsgCenter,String login_HostName)
 	{
@@ -105,7 +115,7 @@ public class MsgCenter_Test extends AutoTestBase{
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(10, MsgCenter))
 		{
-			appOperate.click(driver.findElement(By.name(MsgCenter)), "点击 打开消息中心");
+			appOperate.click(elements_MainPage.MsgCenter, "点击 打开消息中心");
 			if(appOperate.waitForText(20, "重要")||appOperate.waitForText(20, "重要-未读"))
 			{
 				Log.logInfo("已打开消息中心");
@@ -116,7 +126,7 @@ public class MsgCenter_Test extends AutoTestBase{
 					break;
 					}else
 					{
-						appOperate.click(driver.findElement(By.name("其他")), "点击 打开消息中心");
+						appOperate.click(driver.findElement(By.id("其他")), "点击 打开消息中心");
 						Sleep.sleep(3);
 						}
 					}
@@ -133,7 +143,8 @@ public class MsgCenter_Test extends AutoTestBase{
 		Log.logInfo("进入删除");
 		Sleep.sleep(2);
 		int width=((AppiumDriver)driver).manage().window().getSize().width;
-		int height=((AppiumDriver)driver).manage().window().getSize().height;	
+		int height=((AppiumDriver)driver).manage().window().getSize().height;
+		Log.logInfo(width+"----"+height);
 		Sleep.sleep(5);
 		if (platformName.toLowerCase().contains("android")) {
 			((AppiumDriver)driver).swipe(width*8/10, height*3/10, width*2/10, height*3/10, 1000);		
@@ -141,7 +152,7 @@ public class MsgCenter_Test extends AutoTestBase{
 			((AppiumDriver)driver).tap(1,width*8/10 , height*35/100, 1000);
 			Sleep.sleep(2);
 		}else{
-			((AppiumDriver)driver).swipe(width*8/10, height*26/100, width*2/10, height*26/100, 1000);		
+			((AppiumDriver)driver).swipe(width*8/10, height*35/100, width*2/10, height*35/100, 1000);		
 			Sleep.sleep(5);
 		appOperate.click(driver.findElement(By.xpath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIAStaticText[6]")), "点击 删除消息");
 	
@@ -160,7 +171,7 @@ public class MsgCenter_Test extends AutoTestBase{
 		appOperate.swipeToRight();
 		if(appOperate.waitForText(10, MsgCenter))
 		{
-			appOperate.click(driver.findElement(By.name(MsgCenter)), "点击 打开消息中心");
+			appOperate.click(elements_MainPage.MsgCenter, "点击 打开消息中心");
 			if(appOperate.waitForText(20, "重要")||appOperate.waitForText(20, "重要-未读"))
 			{
 				Log.logInfo("已打开消息中心");
@@ -169,7 +180,7 @@ public class MsgCenter_Test extends AutoTestBase{
 				{
 					Log.logInfo("找到 －未读-点击未读");
 					
-				 driver.findElement(By.name("-未读")).click();
+				 driver.findElement(By.id("-未读")).click();
 					driver.findElement(By.xpath("//UIAStaticText[@name='全部']")).click();
 				}
 				Sleep.sleep(5);

@@ -156,7 +156,7 @@ public class AndroidOperate extends AppOperate{
 	@Override
 	public void hideKeyboard()
 	{
-		((AppiumDriver) driver).findElementByName("完成").click();
+		((AppiumDriver) driver).findElementById("完成").click();
 	}
 
 
@@ -165,10 +165,16 @@ public class AndroidOperate extends AppOperate{
 		// TODO Auto-generated method stub
 
 			if (waitForText(2, "closeButton")) {
-				click(driver.findElement(By.name("closeButton")), "点击关闭");
-				}
-			if (waitForText(2, "closeButton")) {
-				click(driver.findElement(By.name("closeButton")), "点击关闭");
+				Log.logInfo("有closebutton按钮");
+				click(driver.findElement(By.id("closeButton")), "点击关闭");
+				}else
+				{
+					Log.logInfo("有返回按钮");
+					click(driver.findElement(By.xpath("//android.widget.TextView[@text='返回']")), "点击关闭");
+					Sleep.sleep(2);
+					if (waitForText(2, "关闭")) {
+						click(driver.findElement(By.xpath("//android.widget.Button[@text='关闭']")), "点击关闭");
+					}
 				}
 		Sleep.sleep(2);
 	}
@@ -182,7 +188,7 @@ public class AndroidOperate extends AppOperate{
 			if (waitForText(3, "loading")) {
 				Sleep.sleep(10);
 				if (waitForText(3, "网络无法")) {
-					click(driver.findElement(By.name("网络无法")), "点击网络重试按钮");
+					click(driver.findElement(By.xpath("//*[@text='网络无法']")), "点击网络重试按钮");
 					Sleep.sleep(10);
 				}else
 				{

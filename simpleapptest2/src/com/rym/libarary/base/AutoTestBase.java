@@ -2,6 +2,7 @@ package com.rym.libarary.base;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
@@ -86,18 +87,19 @@ public class AutoTestBase {
 			capabilities.setCapability(MobileCapabilityType.APP,app.getAbsolutePath());
 			capabilities.setCapability(MobileCapabilityType.UDID,udid);
 			capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);
-			capabilities.setCapability(MobileCapabilityType.APP_PACKAGE,appPackage);
+			capabilities.setCapability("appPackage",appPackage);
 			capabilities.setCapability("unicodeKeyboard", "True");
             capabilities.setCapability("resetKeyboard", "True");
-            capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, appActivity);
+            capabilities.setCapability("appActivity", appActivity);
             capabilities.setCapability("autoAcceptAlerts", "True");
- //           capabilities.setCapability("autoLaunch", "False");
+//            capabilities.setCapability("autoLaunch", "False");
            
             if(platformName.toLowerCase().contains("android"))
             {
             	 capabilities.setCapability("noReset", "True");
-                 capabilities.setCapability("autoWebview", "True");
+ //                capabilities.setCapability("autoWebview", "True");
             	driver=new AndroidDriver(new URL("http://0.0.0.0:"+port+"/wd/hub"), capabilities);
+       
             	appOperate=new AndroidOperate((AndroidDriver)driver);
             }else
             {
@@ -115,7 +117,7 @@ public class AutoTestBase {
 	 /**
 	  * 测试套件执行后关闭driver
 	  */
-	@AfterSuite(alwaysRun=true)
+//	@AfterSuite(alwaysRun=true)
 	public void afterSuite()
 	{
 //		if (platformName.toLowerCase().contains("android") || platformName.toLowerCase().contains("ios")) {

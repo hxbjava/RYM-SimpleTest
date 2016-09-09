@@ -105,13 +105,13 @@ public class IosOperate extends AppOperate{
 //						Log.logInfo("找到［切换模式图标］，屏幕向右滑动回到主屏");
 //						swipeToRight();
 //					}
-					if(elementExists(3, By.name("回到主屏")))
+					if(elementExists(3, By.id("回到主屏")))
 					{
 						Log.logInfo("找到［回到主屏］，点击回到主屏");
 						driver.findElementByName("回到主屏").click();
 						
 					}	
-					if(elementExists(5, By.name("无用户体系")))
+					if(elementExists(5, By.id("无用户体系")))
 					{
 							Log.logInfo("点击无用户体系，恢复用户体系状态");
 							driver.findElementByName("无用户体系").click();
@@ -157,33 +157,40 @@ public class IosOperate extends AppOperate{
 	@Override
 	public void hideKeyboard()
 	{
-		((AppiumDriver) driver).findElementByName("完成").click();
+		((AppiumDriver) driver).findElementById("完成").click();
 	}
 
 
 	@Override
 	public void closeH5() {
 		// TODO Auto-generated method stub
-		if (waitForText(2, "htmlbackhome")) {
-			Sleep.sleep(2);
-			Log.logInfo("进入点击htmlbackhome状态...");
-			try {
-				click(driver.findElement(By.name("htmlbackhome")), "点击关闭");
-			} catch (Exception e) {
-				// TODO: handle exception
-				Log.logError(e.getMessage());
-			}
-			Sleep.sleep(1);
-			if (waitForText(2, "htmlbackhome")) {
-				click(driver.findElement(By.name("htmlbackhome")), "点击关闭");
-			}
-		}
+//		if (waitForText(2, "htmlbackhome")) {
+//			Sleep.sleep(2);
+//			Log.logInfo("进入点击htmlbackhome状态...");
+//			try {
+//				click(driver.findElement(By.id("htmlbackhome")), "点击关闭");
+//			} catch (Exception e) {
+//				// TODO: handle exception
+//				Log.logError(e.getMessage());
+//			}
+//			Sleep.sleep(1);
+//			if (waitForText(2, "htmlbackhome")) {
+//				click(driver.findElement(By.id("htmlbackhome")), "点击关闭");
+//			}
+//		}
 		if (waitForText(2, "closeButton")) {
-			click(driver.findElement(By.name("closeButton")), "点击关闭");
+			click(driver.findElement(By.id("closeButton")), "点击关闭");
 //			Sleep.sleep(1);
 //			if (appOperate.waitForText(2, "closeButton")) {
 //				appOperate.click(driver.findElement(By.name("closeButton")), "点击关闭");
 //				}
+		}else
+		{
+			click(driver.findElement(By.id("返回")), "点击关闭");
+			Sleep.sleep(2);
+			if (waitForText(2, "关闭")) {
+				click(driver.findElement(By.id("关闭")), "点击关闭");
+			}
 		}
 		Sleep.sleep(2);
 	}
@@ -197,7 +204,7 @@ public class IosOperate extends AppOperate{
 			if (waitForText(3, "loading")) {
 				Sleep.sleep(10);
 				if (waitForText(3, "网络无法")) {
-					click(driver.findElement(By.name("网络无法")), "点击网络重试按钮");
+					click(driver.findElement(By.id("网络无法")), "点击网络重试按钮");
 					Sleep.sleep(10);
 				}else
 				{

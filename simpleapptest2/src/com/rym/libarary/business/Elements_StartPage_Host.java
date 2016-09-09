@@ -20,22 +20,22 @@ public class Elements_StartPage_Host extends PageObjectBase{
 	/**
 	 * 选择appid
 	 */
-	@AndroidFindBy(name="SDK")
-	@iOSFindBy(name="AppId")
+	@AndroidFindBy(xpath="//android.widget.TextView[@text='SDK']")
+	@iOSFindBy(id="AppId:默认SDK")
 	public WebElement HostAppIDSelect;
 	
 	/**
 	 * 选定appid
 	 */
-	@AndroidFindBy(name="E企赢")
-	@iOSFindBy(name="养老险E企赢")
+	@AndroidFindBy(xpath="//android.widget.CheckedTextView[@text='E企赢']")
+	@iOSFindBy(id="养老险E企赢")
 	public WebElement HostAppIDclick;
 	
 	/**
 	 * 进入页面
 	 */
-	@AndroidFindBy(name="loading")
-	@iOSFindBy(name="进入页面")
+	@AndroidFindBy(xpath="//android.widget.Button[@text='loading']")
+	@iOSFindBy(id="进入页面")
 	public WebElement HostStartClick;
 	
 }

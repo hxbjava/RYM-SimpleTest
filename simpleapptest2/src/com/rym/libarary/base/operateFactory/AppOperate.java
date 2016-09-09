@@ -207,7 +207,8 @@ public abstract class AppOperate {
 	{
 		//	Log.logStep("[滑动页面以发现 '"+TargetText+"'] ");
 		Log.logInfo("[滑动页面以发现 '"+TargetText+"'] ");
-		((AppiumDriver)driver).scrollTo(TargetText);
+	//	((AppiumDriver)driver).scrollTo(TargetText);
+	
 	}
 	
 	/**

@@ -24,8 +24,8 @@
        	        <include name="p3"></include>
        	    </define>
        	    <run>
-       	        <include name="p2"></include>
-       	         <include name="p1"></include>
+       	    <include name="p2"></include>
+       	      <include name="p1"></include>
        	          <include name="p3"></include>
        	    </run>
        	</groups>
@@ -36,6 +36,7 @@
             <class name="com.rym.libarary.testsuits.DownloadCenter_Test"></class>
             <class name="com.rym.libarary.testsuits.MsgCenter_Test"></class>
               <class name="com.rym.libarary.testsuits.Plugin_Test"></class>
+               <class name="com.rym.libarary.testsuits.Plugin"></class>
         </classes>
     </test>
     
@@ -56,5 +57,5 @@
       <parameter name="LoginPersonalAferName" value="功能"/>
       <parameter name="LoginH5AferName" value="功能"/>
        <parameter name="MsgCenter" value="消息中心"/>
- <parameter name="PluginList_url" value="https://maam-dmzstg2.pingan.com.cn:9041/maam/getPluginList.do?sdkVersion=3.3.0.1&amp;osVersion=9.0&amp;deviceId=8f023bbd000d58e34cfea2fdca1a8901d3123291&amp;appId=PA00800000000_01_EQY&amp;appVersion=1.0&amp;deviceType=ios"></parameter>
+ <parameter name="PluginList_url" value="https://maam-dmzstg2.pingan.com.cn:9041/maam/getPluginList.do?sdkVersion=3.7.0.1&amp;osVersion=9.0&amp;deviceId=8f023bbd000d58e34cfea2fdca1a8901d3123291&amp;appId=PA00800000000_01_EQY&amp;appVersion=1.0&amp;deviceType=ios"></parameter>
 </suite>

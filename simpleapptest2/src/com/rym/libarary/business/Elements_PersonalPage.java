@@ -35,35 +35,36 @@ public class Elements_PersonalPage extends PageObjectBase{
 	@iOSFindBy(xpath ="//*[@value='密码']")
 	public WebElement ClickPassword;
 	
-	@AndroidFindBy(name="登 录 Link")
+	@AndroidFindBy(id="登 录 Link")
 	@iOSFindBy(xpath = "//UIALink[@name='登 录']")
 	public WebElement Clicklogin;
 	
 	/**
 	 * 模拟宿主登录是选择账号
 	 */
-	@AndroidFindBy(name="rymtest001")
-	@iOSFindBy(name="选择登陆用户")
+	
+	@AndroidFindBy(id="rymtest001")
+	@iOSFindBy(id="选择登陆用户")
 	public WebElement ClickHostname;
 	
 	/**
 	 * 模拟宿主登陆时点击登陆按钮
 	 */
-	@AndroidFindBy(name="登录")
-	@iOSFindBy(name="登陆")
+	@AndroidFindBy(id="登录")
+	@iOSFindBy(id="登陆")
 	public WebElement ClickHostLogin;
 	
 	/**
 	 * 模拟宿主登陆
 	 */
-	@AndroidFindBy(name="宿主登录")
-	@iOSFindBy(name="宿主登陆")
+	@AndroidFindBy(id="宿主登录")
+	@iOSFindBy(id="宿主登陆")
 	public WebElement ClickByHost;
 	
 	/**
 	 * 密码登录按钮
 	 */
-	@AndroidFindBy(name="密码登录 Link")
+	@AndroidFindBy(id="密码登录 Link")
 	@iOSFindBy(xpath = "//UIALink[@name='密码登录']")
 	public WebElement ClickPwdLogin;
 	
@@ -84,7 +85,7 @@ public class Elements_PersonalPage extends PageObjectBase{
 	@iOSFindBy(xpath ="//*[@value='请输入您的密码']")
 	public WebElement ClickPasswordLow;
 	
-	@AndroidFindBy(name="登 录 Link")
+	@AndroidFindBy(id="登 录 Link")
 	@iOSFindBy(xpath = "//UIALink[@name='登 录']")
 	public WebElement ClickloginLow;
 }

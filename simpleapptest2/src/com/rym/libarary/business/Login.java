@@ -21,6 +21,8 @@ public class Login extends AutoTestBase {
 			driver);
 	private static Elements_PersonalPage elements_PersonalPage = new Elements_PersonalPage(
 			driver);
+	private static Elements_MainPage elements_MainPage = new Elements_MainPage(
+			driver);
 
 	/**
 	 * 选择appid 进入simple
@@ -28,30 +30,50 @@ public class Login extends AutoTestBase {
 	public static void startApp() {
 		// 腾讯gt的确定按钮
 		Log.logInfo("启动app，选择任意门进入simple");
-		if (platformName.toLowerCase().contains("ios")) {
-			if (appOperate.waitForText(10, "确定")) {
-				appOperate.click(driver.findElement(By.name("确定")),
-						"点击 腾讯gt确认按钮");
-
-			}
-		}
+//		if (platformName.toLowerCase().contains("ios")) {
+//			if (appOperate.waitForText(10, "确定")) {
+//				appOperate.click(driver.findElement(By.name("确定")),
+//						"点击 腾讯gt确认按钮");
+//
+//			}
+//		}
 		appOperate.click(elements_StartPage_Host.HostAppIDSelect,
 				"点击 appid  进行选择");
 		if (platformName.toLowerCase().contains("android")) {
 			appOperate.swipeToUp(1000);
-			Sleep.sleep(5);
+			Sleep.sleep(3);
 		}
 		appOperate
 				.click(elements_StartPage_Host.HostAppIDclick, " 选定 appid   ");
-
+//		Log.logInfo(((AppiumDriver) driver).getContext());
+		if (platformName.toLowerCase().contains("android")) {
+			Sleep.sleep(1);
+			appOperate.swipeToUp(1000);
+			Sleep.sleep(1);
+		}
+//		driver.findElement(By.xpath("//android.widget.Button[@text='loading']")).click();
 		appOperate.click(elements_StartPage_Host.HostStartClick, "点击  进入页面 ");
-
+	//	 driver.findElement(By.name("AppId:默认SDK")).click();
 		Sleep.sleep(5);
+		Log.logInfo("启动app，执行中");
 		if (platformName.toLowerCase().contains("ios")) {
 			checkHtml();
 		}
+		
 	}
 
+	/**
+	 * 滑动点击个人中心
+	 */
+	public static void SwipeToClickPersonalCenter(String LoginPersonalAferName) {
+		appOperate.swipeToRight();
+		if(appOperate.waitForText(5, LoginPersonalAferName))
+		{
+			appOperate.click(elements_MainPage.LoginPersonalCenterName, "点击个人中心");
+			Sleep.sleep(5);
+		}
+	}
+	
 	/**
 	 * 登陆H5高门槛一帐通，帐密输入
 	 */
@@ -116,31 +138,28 @@ public class Login extends AutoTestBase {
 			Boolean IfPersonalCenter) {
 		if (!IfPersonalCenter) {
 			if (appOperate.waitForText(20, "一账通")) {
-				appOperate.click(driver.findElement(By.name("一账通")), "点击 一账通");
-				if (appOperate.waitForText(20, "宿主")) {
-					appOperate.click(elements_PersonalPage.ClickByHost,
+				appOperate.click(elements_MainPage.ClickYzt, "点击 一账通");
+					appOperate.click(elements_MainPage.ClickSZLogin,
 							"点击 宿主登录");
-				}
 			}
 		}
 		if (appOperate.waitForText(20, "返回")) {
-			appOperate.click(elements_PersonalPage.ClickHostname, "点击 选择登陆用户");
+			appOperate.click(elements_MainPage.ClickLoginMRZH, "点击 选择登陆用户");
 			if (driver instanceof IOSDriver) {
 				appOperate.sendKeys(
 						driver.findElement(By.xpath("//UIAPickerWheel")),
 						"输入宿主账号", login_HostName);
-				appOperate.click(driver.findElement(By.name("确认")),
+				appOperate.click(driver.findElement(By.id("确认")),
 						"ios 点击 确认选择用户");
 			} else {
-				appOperate.click(driver.findElement(By.name(login_HostName)),
-						"点击 输入宿主账号");
+				appOperate.click(elements_MainPage.ClickLoginZH,"点击 输入宿主账号");
 			}
-			appOperate.click(elements_PersonalPage.ClickHostLogin, "点击登陆");
+			appOperate.click(elements_MainPage.ClickLoginByhost, "点击登陆");
 		}
 		Sleep.sleep(10);
 		while (true) {
 			if (appOperate.waitForText(10, login_HostName)) {
-				appOperate.click(elements_PersonalPage.ClickHostLogin, "点击登陆");
+				appOperate.click(elements_MainPage.ClickLoginByhost, "点击登陆");
 				Sleep.sleep(10);
 			} else {
 				break;
@@ -160,27 +179,27 @@ public class Login extends AutoTestBase {
 			}
 			if (appOperate.waitForText(20, "非一账通")) {
 				appOperate
-						.click(driver.findElement(By.name("非一账通")), "点击 非一账通");
-				if (appOperate.waitForText(5, "烦死我了")) {
-					appOperate.click(driver.findElement(By.name("烦死我了")),
-							"点击 烦死我了");
-				}
-				appOperate.click(elements_PersonalPage.ClickByHost, "点击 宿主登陆");
+						.click(elements_MainPage.ClickNoYzt, "点击 非一账通");
+//				if (appOperate.waitForText(5, "烦死我了")) {
+//					appOperate.click(driver.findElement(By.id("烦死我了")),
+//							"点击 烦死我了");
+//				}
+				appOperate.click(elements_MainPage.ClickSZLogin, "点击 宿主登陆");
 				if (appOperate.waitForText(20, "返回")) {
-					appOperate.click(elements_PersonalPage.ClickHostname,
+					appOperate.click(elements_MainPage.ClickLoginMRZH,
 							"点击 选择登陆用户");
 					if (driver instanceof IOSDriver) {
 						appOperate.sendKeys(driver.findElement(By
 								.xpath("//UIAPickerWheel")), "输入宿主账号",
 								login_HostName);
-						appOperate.click(driver.findElement(By.name("确认")),
+						appOperate.click(driver.findElement(By.id("确认")),
 								"ios 点击 确认选择用户");
 					} else {
 						appOperate.click(
-								driver.findElement(By.name(login_HostName)),
+								elements_MainPage.ClickLoginZH,
 								"点击 输入宿主账号");
 					}
-					appOperate.click(elements_PersonalPage.ClickHostLogin,
+					appOperate.click(elements_MainPage.ClickLoginByhost,
 							"点击登陆");
 					break;
 				}
@@ -192,7 +211,7 @@ public class Login extends AutoTestBase {
 		while (true) {
 			if (appOperate.waitForText(10, login_HostName)) {
 				Log.logInfo("你不应该进来的");
-				appOperate.click(elements_PersonalPage.ClickHostLogin, "点击登陆");
+				appOperate.click(elements_MainPage.ClickLoginByhost, "点击登陆");
 				Sleep.sleep(10);
 			} else {
 				Log.logInfo("你应该进来的");
@@ -207,6 +226,11 @@ public class Login extends AutoTestBase {
 	public static void loginyztByLow(String login_name, String login_password) {
 		if (appOperate.waitForText(50, "密码登录")) {
 			Log.logInfo("已弹出登录");
+			if (platformName.toLowerCase().contains("android")) {
+				Sleep.sleep(3);
+				appOperate.swipeToUp(1000);
+				Sleep.sleep(1);
+			}
 			appOperate.click(elements_PersonalPage.ClickPwdLogin,"点击 密码登录");
 			Sleep.sleep(5);
 
@@ -266,19 +290,19 @@ public class Login extends AutoTestBase {
 	 */
 	public static void loginyztByHostgo(String login_HostName) {
 		if (appOperate.waitForText(20, "一账通")) {
-			appOperate.click(driver.findElement(By.name("一账通")), "点击 一账通");
-			appOperate.click(elements_PersonalPage.ClickByHost, "点击 宿主登陆");
+			appOperate.click(elements_MainPage.ClickYzt, "点击 一账通");
+			appOperate.click(elements_MainPage.ClickSZLogin, "点击 宿主登陆");
 			if (appOperate.waitForText(20, "返回")) {
-				appOperate.click(elements_PersonalPage.ClickHostname,
+				appOperate.click(elements_MainPage.ClickLoginMRZH,
 						"点击 选择登陆用户");
 				if (driver instanceof IOSDriver) {
 					appOperate.sendKeys(
 							driver.findElement(By.xpath("//UIAPickerWheel")),
 							"输入宿主账号", login_HostName);
-					appOperate.click(driver.findElement(By.name("确认")),
+					appOperate.click(driver.findElement(By.id("确认")),
 							"ios 点击 确认选择用户");
 				}
-				appOperate.click(elements_PersonalPage.ClickHostLogin, "点击登陆");
+				appOperate.click(elements_MainPage.ClickLoginByhost, "点击登陆");
 			}
 			Sleep.sleep(20);
 		}
