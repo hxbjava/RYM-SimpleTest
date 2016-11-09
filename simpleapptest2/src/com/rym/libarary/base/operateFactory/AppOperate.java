@@ -230,9 +230,7 @@ public abstract class AppOperate {
 		int width=((AppiumDriver)driver).manage().window().getSize().width;
 		int height=((AppiumDriver)driver).manage().window().getSize().height;
 		Log.logInfo("［滑动］");
-		startWidth=8/10;
-		Log.logInfo(startWidth+"-"+height*startHeight);
-		((AppiumDriver)driver).swipe(width*startWidth, height*startHeight, width*endWidth, height*endHeight, during);
+		((AppiumDriver)driver).swipe(width*startWidth/100, height*startHeight/100, width*endWidth/100, height*endHeight/100, during);
 	}
 	
 	/**

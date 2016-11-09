@@ -37,28 +37,25 @@ public class Login extends AutoTestBase {
 //
 //			}
 //		}
-		appOperate.click(elements_StartPage_Host.HostAppIDSelect,
-				"点击 appid  进行选择");
-		if (platformName.toLowerCase().contains("android")) {
-			appOperate.swipeToUp(1000);
-			Sleep.sleep(3);
-		}
-		appOperate
-				.click(elements_StartPage_Host.HostAppIDclick, " 选定 appid   ");
-//		Log.logInfo(((AppiumDriver) driver).getContext());
-		if (platformName.toLowerCase().contains("android")) {
-			Sleep.sleep(1);
-			appOperate.swipeToUp(1000);
-			Sleep.sleep(1);
-		}
-//		driver.findElement(By.xpath("//android.widget.Button[@text='loading']")).click();
+//		appOperate.click(elements_StartPage_Host.HostAppIDSelect,
+//				"点击 appid  进行选择");
+//		if (platformName.toLowerCase().contains("android")) {
+//			appOperate.swipeToUp(1000);
+//			Sleep.sleep(3);
+//		}
+//		appOperate
+//				.click(elements_StartPage_Host.HostAppIDclick, " 选定 appid   ");
+//		if (platformName.toLowerCase().contains("android")) {
+//			Sleep.sleep(1);
+//			appOperate.swipeToUp(1000);
+//			Sleep.sleep(1);
+//		}
 		appOperate.click(elements_StartPage_Host.HostStartClick, "点击  进入页面 ");
-	//	 driver.findElement(By.name("AppId:默认SDK")).click();
-		Sleep.sleep(5);
-		Log.logInfo("启动app，执行中");
-		if (platformName.toLowerCase().contains("ios")) {
-			checkHtml();
-		}
+		Sleep.sleep(7);
+		Log.logInfo("启动app，测试中");
+//		if (platformName.toLowerCase().contains("ios")) {
+//			checkHtml();
+//		}
 		
 	}
 

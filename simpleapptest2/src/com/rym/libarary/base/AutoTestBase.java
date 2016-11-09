@@ -7,9 +7,12 @@ import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -27,6 +30,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.rym.libarary.KeywordFrame.TestResuit;
 import com.rym.libarary.base.operateFactory.*;
 import com.rym.libarary.business.Login;
 import com.rym.libarary.utils.Log;
@@ -41,6 +45,10 @@ public class AutoTestBase {
 	public static AppOperate appOperate;
 	public static String date;
 	public static String time;
+	public static int FailType=0;
+	public static List<String> listResult=new ArrayList<String>();
+	//excel表格位置
+	public static String excelPath="/Users/rymtest/Desktop/关键字驱动2.xls";
 	
 	public WebDriver getDriver()
 	{
@@ -117,23 +125,29 @@ public class AutoTestBase {
 	 /**
 	  * 测试套件执行后关闭driver
 	  */
-//	@AfterSuite(alwaysRun=true)
+	@AfterSuite(alwaysRun=true)
 	public void afterSuite()
 	{
 //		if (platformName.toLowerCase().contains("android") || platformName.toLowerCase().contains("ios")) {
 //            ((AppiumDriver) driver).removeApp("com.pingan.rympush");
 //		}
-		Sleep.sleep(3);
-			if (platformName.toLowerCase().contains("android"))
-			{
-				((AppiumDriver) driver).removeApp("com.paic.example.simpleapp");
-			}else
-			{
-				((AppiumDriver) driver).removeApp("com.pingan.rympush");
-			}
-
-		Sleep.sleep(3);
-		driver.quit();
+//		Sleep.sleep(3);
+//			if (platformName.toLowerCase().contains("android"))
+//			{
+//				((AppiumDriver) driver).removeApp("com.paic.example.simpleapp");
+//			}else
+//			{
+//				((AppiumDriver) driver).removeApp("com.pingan.rympush");
+//			}
+//
+//		Sleep.sleep(3);
+//		driver.quit();
+		try {
+			TestResuit.WriteTestResuit();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	/**
@@ -146,6 +160,7 @@ public class AutoTestBase {
 		
 //	appOperate.backToHomePage();
 	//	driver.quit();
+		FailType=FailType+1;
 		((AppiumDriver)driver).closeApp();
 		Sleep.sleep(3);
 		((AppiumDriver)driver).launchApp();
